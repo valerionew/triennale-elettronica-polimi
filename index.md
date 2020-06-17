@@ -3,7 +3,7 @@ Raccolta di materiali privi di copyright o ridistribuibili
 ## Primo anno
 
 ### Analisi 1
-- Formulario di [Giuseppe Chierchia](https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B4W4yLtAkKPZYjc3ZDdmN2MtMTk0OC00ZTkyLTk1ZDgtOGFhZDg3N2JjYTM5&hl=it) - <a href="1/AM1/formularioAM1chierchia.pdf" download="download"> Mirror </a>
+- Formulario di [Giuseppe Chierchia](https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B4W4yLtAkKPZYjc3ZDdmN2MtMTk0OC00ZTkyLTk1ZDgtOGFhZDg3N2JjYTM5&hl=it) - <a href="1/AM1/formularioAM1chierchia.pdf" download="formularioAM1chierchia"> Mirror </a>
 
 ### Chimica
 - Tabella riassuntiva  <a href="1/chimica/OMPBenzene.pdf" download="download"> Orto-Meta-Para orientanti </a>
