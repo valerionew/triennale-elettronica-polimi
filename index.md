@@ -21,3 +21,38 @@ Quando l'ho fatto era open book, si potevano portare degli appunti, così ho fat
 ### Fisica 1
 - Formulario di [Giuseppe Chierchia](https://sites.google.com/view/giuseppechierchia/materiale-tecnico?authuser=0) - <a href="1/FIS1/formularioFIS1chierchia.pdf" download> Mirror </a>
 
+## Secondo anno
+
+
+### Analisi 2
+-  [Domande tipiche degli orali](http://www1.mate.polimi.it/~bramanti/corsi/temidesame_analisi2/domande_orali_2019.pdf) - <a href="2/AM2/domande_orali_2019.pdf" download> Mirror </a>
+
+### Elettromagnetismo ed ottica
+- Rifrazione e riflessione dal principio di fermat [da batmath.it](http://www.batmath.it/fisica/fondamenti/rifl_rifr/rifl_rifr.htm)
+
+### Fondamenti di automatica
+- Risposte ad alcune tipiche domande di teoria - <a href="2/FDA/teoria_automatica.pdf" download> Download </a>
+
+
+### Dispositivi elettronici
+- Risposte alle domande comuni per la discussione orale - <a href="2/DE/DomandeOrale.pdf" download> Download </a> 
+
+## Terzo anno
+
+### Elettronica digitale
+- VHDL Cheatsheet di [Lorenzo Rossi](https://github.com/lorossi/appunti-vhdl) - <a href="3/Digitale/vhdl.pdf" download> Download </a>
+- Esercizi in VHDL https://github.com/5N44P/elettronica-digitale-notes
+
+### Elettronica Analogica
+- Materiale del Prof. Sampietro: https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html - [Mirror](https://github.com/5N44P/triennale-elettronica-polimi/tree/master/3/Analogica)
+
+### Fondamenti di segnali
+- Formulario di Lorenzo Rossi - <a href="3/Segnali/20191128_1130_FORMULARIO.pdf" download> Download </a>
+
+### Calcolo Numerico
+- https://github.com/5N44P/calcolo_numerico
+
+### Microcontrollori
+- Note sui pic, appunti del corso: https://github.com/Squareroot7/pic-notes - [Mirror](https://github.com/5N44P/pic-notes)
+
+
