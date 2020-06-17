@@ -36,6 +36,7 @@ Quando l'ho fatto era open book, si potevano portare degli appunti, così ho fat
 
 ### Dispositivi elettronici
 - Risposte alle domande comuni per la discussione orale - <a href="2/DE/DomandeOrale.pdf" download> Download </a> 
+- Collezione di esercizi svolti (alcuni sbagliati)- <a href="2/DE/HomeworkS.zip" download> Download </a> 
 
 ## Terzo anno
 
