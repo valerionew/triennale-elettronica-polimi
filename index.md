@@ -1,41 +1,23 @@
-## Welcome to GitHub Pages
+Raccolta di materiali privi di copyright o ridistribuibili
 
-You can use the [editor on GitHub](https://github.com/5N44P/triennale-elettronica-polimi/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Primo anno
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Analisi 1
+- Formulario di [Giuseppe Chierchia](https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B4W4yLtAkKPZYjc3ZDdmN2MtMTk0OC00ZTkyLTk1ZDgtOGFhZDg3N2JjYTM5&hl=it) - <a href="1/AM1/formularioAM1chierchia.pdf" download="download"> Mirror </a>
 
+### Chimica
+- Tabella riassuntiva  <a href="1/chimica/OMPBenzene.pdf" download="download"> Orto-Meta-Para orientanti </a>
 
-<a href="index.md" download="download">Download</a>
+### Informatica
+Quando l'ho fatto era open book, si potevano portare degli appunti, così ho fatto
+- <a href="1/Informatica/noteVelociFDInformatica.pdf" download="download">Appunti generali</a>
+- <a href="1/Informatica/stdio.pdf" download="download"> Appunti stdio </a>
+- <a href="1/Informatica/stdlib.pdf" download="download"> Appunti stdlib </a>
 
+### Geometria e algebra lineare
+- L'arcinoto [Eserciziario di geometria di Claretta Carrara](http://science.unitn.it/~carrara/ESERCIZIARIO) - <a href="1/GAL/carrara.pdf" download="download"> Mirror </a>
+- Estratto dei suggerimenti dell'eserciziario di Claretta Carrara <a href="1/GAL/carraraSuggerimenti.pdf" download="download"> Download </a>
 
-### Markdown
+### Fisica 1
+- Formulario di [Giuseppe Chierchia](https://sites.google.com/view/giuseppechierchia/materiale-tecnico?authuser=0) - <a href="1/FIS1/formularioFIS1chierchia.pdf" download="download"> Mirror </a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/5N44P/triennale-elettronica-polimi/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
