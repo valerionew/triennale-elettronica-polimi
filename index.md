@@ -48,6 +48,8 @@ Quando l'ho fatto era open book, si potevano portare degli appunti, così ho fat
 
 ### Fondamenti di segnali
 - Formulario di Lorenzo Rossi - <a href="3/Segnali/20191128_1130_FORMULARIO.pdf" download> Download </a>
+- Formulario prof. Prati - http://home.deib.polimi.it/prati/PwPoint/formularioSegnali.pdf - <a href="3/Segnali/formularioProfPrati.pdf" download> Mirror </a>
+- Fomrulario di Massimo Barbagallo - https://www.unirc.it/documentazione/materiale_didattico/599_2009_200_5021.pdf - <a href="3/Segnali/formularioBarbagallo.pdf" download> Mirror </a>
 
 ### Calcolo Numerico
 - https://github.com/5N44P/calcolo_numerico
