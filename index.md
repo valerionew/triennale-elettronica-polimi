@@ -39,7 +39,10 @@ Raccolta di materiali privi di copyright o ridistribuibili
 
 ### Fondamenti di automatica
 - Risposte ad alcune tipiche domande di teoria - <a href="2/FDA/teoria_automatica.pdf" download> Download </a>
+- Appunti di Giacomo Tombolan del corso - <a href="2/FDA/TOMBOLAN_AUTOMATICA_CORNO_2018.pdf" download> Download </a>
 
+### Fondamenti di elettronica
+- Appunti di Giacomo Tombolan del corso -<a href="2/FDE/TOMBOLAN_FDE_CORNO_2018.pdf" download> Download </a>
 ### Dispositivi elettronici
 - Risposte alle domande comuni per la discussione orale - <a href="2/DE/DomandeOrale.pdf" download> Download </a>
 - Collezione di esercizi svolti (alcuni sbagliati o incompleti, la maggior parte giusti)- <a href="2/DE/HomeworkS.zip" download> Download </a>
