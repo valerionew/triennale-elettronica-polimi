@@ -55,7 +55,7 @@ Raccolta di materiali privi di copyright o ridistribuibili
 - Materiale del Prof. Sampietro: [https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html](https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html) - [Mirror](https://github.com/5N44P/triennale-elettronica-polimi/tree/master/3/Analogica)
 
 ### Fondamenti di segnali
-- Appunti di Andrea Bertazzoni - <a href="3/Segnali/probabilitaBertazzoni.pdf" download> Probabilità </a> - <a href="3/Segnali/segnaliaBertazzoni.pdf" download> Segnali </a> - <a href="3/Segnali/trasmissioniBertazzoni.pdf" download> Trasmissioni </a> - <a href="3/Segnali/processiBertazzoni.pdf" download> Processi </a> (non completo)
+- Appunti di Andrea Bertazzoni - <a href="3/Segnali/probabilitaBertazzoni.pdf" download>Probabilità</a> - <a href="3/Segnali/segnaliBertazzoni.pdf" download> Segnali</a> - <a href="3/Segnali/trasmissioniBertazzoni.pdf" download>Trasmissioni</a> - <a href="3/Segnali/processiBertazzoni.pdf" download>Processi</a> (non completo)
 - Formulario di Lorenzo Rossi - <a href="3/Segnali/20191128_1130_FORMULARIO.pdf" download> Download </a>
 - Formulario prof. Prati - [http://home.deib.polimi.it/prati/PwPoint/formularioSegnali.pdf](http://home.deib.polimi.it/prati/PwPoint/formularioSegnali.pdf) - <a href="3/Segnali/formularioProfPrati.pdf" download> Mirror </a>
 - Fomrulario di Massimo Barbagallo - [https://www.unirc.it/documentazione/materiale_didattico/599_2009_200_5021.pdf](https://www.unirc.it/documentazione/materiale_didattico/599_2009_200_5021.pdf) - <a href="3/Segnali/formularioBarbagallo.pdf" download> Mirror </a>
