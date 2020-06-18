@@ -19,7 +19,7 @@ Quando l'ho fatto era open book, si potevano portare degli appunti, così ho fat
 - Estratto dei suggerimenti dell'eserciziario di Claretta Carrara <a href="1/GAL/carraraSuggerimenti.pdf" download> Download </a>
 
 ### Fisica 1
-- Formulario di [Giuseppe Chierchia](https://sites.google.com/view/giuseppechierchia/materiale-tecnico?authuser=0) - <a href="1/FIS1/formularioFIS1chierchia.pdf" download> Mirror </a>
+- Formulario di [Giuseppe Chierchia](https://sites.google.com/view/giuseppechierchia/materiale-tecnico?authuser=0) - <a href="1/FIS1/formularioFIS1Cchierchia.pdf" download> Mirror </a>
 
 ## Secondo anno
 
