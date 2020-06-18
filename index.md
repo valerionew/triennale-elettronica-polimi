@@ -49,7 +49,7 @@ Raccolta di materiali privi di copyright o ridistribuibili
 
 ### Elettronica digitale
 - VHDL Cheatsheet di [Lorenzo Rossi](https://github.com/lorossi/appunti-vhdl) - <a href="3/Digitale/vhdl.pdf" download> Download </a>
-- Appunti rapidi di elettronica digitale di Lorenzo Rossi  - <a href="3/Digitale/appunti_digitale.pdf" download> Download </a>
+- Appunti rapidi di elettronica digitale di Lorenzo Rossi  - <a href="3/Digitale/appunti_digitale.tex"> Sorgente LaTeX </a> - <a href="3/Digitale/appunti_digitale.pdf" download> Download PDF </a>
 - Esercizi in VHDL [https://github.com/5N44P/elettronica-digitale-notes](https://github.com/5N44P/elettronica-digitale-notes)
 
 ### Elettronica Analogica
