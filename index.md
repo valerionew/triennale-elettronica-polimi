@@ -44,7 +44,7 @@ Raccolta di materiali privi di copyright o ridistribuibili
 - Risposte alle domande comuni per la discussione orale - <a href="2/DE/DomandeOrale.pdf" download> Download </a>
 - Collezione di esercizi svolti (alcuni sbagliati o incompleti, la maggior parte giusti)- <a href="2/DE/HomeworkS.zip" download> Download </a>
 ### fondamenti di elettronica
-- Appunti di lezioni ed esercitazioni <a href="2/Lezioni elettronica"> Cartella </a>
+- Appunti di lezioni ed esercitazioni <a href="2/Lezioni%20elettronica"> Cartella </a>
 # Terzo anno
 
 ### Elettronica digitale
