@@ -58,6 +58,7 @@ Raccolta di materiali privi di copyright o ridistribuibili
 
 ### Microcontrollori
 - Note sui pic, appunti del corso: [pic-notes di Lara Devoti](https://github.com/Squareroot7/pic-notes) - [Mirror](https://github.com/5N44P/pic-notes)
+- Codici dei laboratori [https://github.com/5N44P/microcontrollori-polimi](https://github.com/5N44P/microcontrollori-polimi)
 
 ### Campi Elettromagnetici
 - Formulario di Lorenzo Rossi - [Repository](https://github.com/lorossi/formulario-campi-elettromagnetici) - <a href="https://github.com/lorossi/formulario-campi-elettromagnetici/raw/master/formulario_campi.pdf" download> Link diretto </a> - <a href="3/CEM/formulario_campi.pdf" download> Mirror </a>
