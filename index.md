@@ -18,7 +18,7 @@ Raccolta di materiali privi di copyright o ridistribuibili
 - Estratto dei suggerimenti dell'eserciziario di Claretta Carrara <a href="1/GAL/carraraSuggerimenti.pdf" download> Download </a>
 
 ### Fisica 1
-- Formulario di [Giuseppe Chierchia](https://sites.google.com/view/giuseppechierchia/materiale-tecnico?authuser=0) - <a href="1/FIS1/formularioFIS1Cchierchia.pdf" download> Mirror </a>
+- Formulario di [Giuseppe Chierchia](https://sites.google.com/view/giuseppechierchia/materiale-tecnico?authuser=0) - <a href="1/FIS1/formularioFIS1chierchia.pdf" download> Mirror </a>
 
 ## Secondo anno
 
@@ -34,8 +34,8 @@ Raccolta di materiali privi di copyright o ridistribuibili
 
 
 ### Dispositivi elettronici
-- Risposte alle domande comuni per la discussione orale - <a href="2/DE/DomandeOrale.pdf" download> Download </a> 
-- Collezione di esercizi svolti (alcuni sbagliati)- <a href="2/DE/HomeworkS.zip" download> Download </a> 
+- Risposte alle domande comuni per la discussione orale - <a href="2/DE/DomandeOrale.pdf" download> Download </a>
+- Collezione di esercizi svolti (alcuni sbagliati)- <a href="2/DE/HomeworkS.zip" download> Download </a>
 
 ## Terzo anno
 
@@ -59,4 +59,3 @@ Raccolta di materiali privi di copyright o ridistribuibili
 
 ### Campi Elettromagnetici
 - Formulario di Lorenzo Rossi - [Repository](https://github.com/lorossi/formulario-campi-elettromagnetici) - <a href="https://github.com/lorossi/formulario-campi-elettromagnetici/raw/master/formulario_campi.pdf" download> Link diretto </a> - <a href="3/CEM/formulario_campi.pdf" download> Mirror </a>
-
