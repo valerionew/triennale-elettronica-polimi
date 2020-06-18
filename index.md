@@ -1,5 +1,7 @@
 Raccolta di materiali privi di copyright o ridistribuibili
 
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/5N44P/triennale-elettronica-polimi)
+
 # Primo anno
 
 ### Analisi 1
