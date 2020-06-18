@@ -5,4 +5,6 @@ https://5n44p.github.io/triennale-elettronica-polimi/
 =============
 
 # Segnala una violazione del copyright:
+[![Copyright violation](https://img.shields.io/badge/copyright-violation-red?style=flat)](https://github.com/5N44P/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
+
 https://github.com/5N44P/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md
