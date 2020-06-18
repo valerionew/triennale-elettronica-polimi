@@ -1,6 +1,10 @@
 Raccolta di materiali privi di copyright o ridistribuibili
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/5N44P/triennale-elettronica-polimi)
+## [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/5N44P/triennale-elettronica-polimi)
+
+#### [Segnala una violazione del copyright](https://github.com/5N44P/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
+
+[![Copyright violation](https://img.shields.io/badge/copyright-violation-red?style=flat)](https://github.com/5N44P/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
 
 # Primo anno
 
