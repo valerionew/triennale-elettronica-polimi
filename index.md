@@ -45,7 +45,7 @@ Raccolta di materiali privi di copyright o ridistribuibili
 - Collezione di esercizi svolti (alcuni sbagliati o incompleti, la maggior parte giusti)- <a href="2/DE/HomeworkS.zip" download> Download </a>
 
 ### Fondamenti di elettronica
-- Appunti di lezioni ed esercitazioni di Francesco Bossio <a href="2/FDE/appuntiBossio"> Cartella </a>
+- Appunti di lezioni ed esercitazioni di Francesco Bossio <a href="https://github.com/5N44P/triennale-elettronica-polimi/tree/master/2/FDE/appuntiBossio"> Cartella </a>
 
 # Terzo anno
 
