@@ -39,16 +39,15 @@ Raccolta di materiali privi di copyright o ridistribuibili
 
 ### Fondamenti di automatica
 - Risposte ad alcune tipiche domande di teoria - <a href="2/FDA/teoria_automatica.pdf" download> Download </a>
-- Appunti di Giacomo Tombolan del corso (divisi in più punti) - <a href="2/FDA/TOMBOLAN_AUTOMATICA_CORNO_2018.pdf" download> Download </a>
+- Appunti di Giacomo Tombolan del corso - Download: <a href="2/FDA/appuntiTombolan/1_TOMBOLAN_AUTOMATICA_CORNO_2018.pdf" download> Parte 1 </a> - <a href="2/FDA/appuntiTombolan/33_TOMBOLAN_AUTOMATICA_CORNO_2018.pdf" download> Parte 2 </a> - <a href="2/FDA/appuntiTombolan/61_TOMBOLAN_AUTOMATICA_CORNO_2018.pdf" download> Parte 3 </a>  
 
-### Fondamenti di elettronica
-- Appunti di Giacomo Tombolan del corso (divisi in più punti) -<a href="2/FDE/TOMBOLAN_FDE_CORNO_2018.pdf" download> Download </a>
 ### Dispositivi elettronici
 - Risposte alle domande comuni per la discussione orale - <a href="2/DE/DomandeOrale.pdf" download> Download </a>
 - Collezione di esercizi svolti (alcuni sbagliati o incompleti, la maggior parte giusti)- <a href="2/DE/HomeworkS.zip" download> Download </a>
 
 ### Fondamenti di elettronica
 - Appunti di lezioni ed esercitazioni di Francesco Bossio <a href="https://github.com/5N44P/triennale-elettronica-polimi/tree/master/2/FDE/appuntiBossio"> Cartella </a>
+- Appunti di Giacomo Tombolan del corso - Download <a href="2/FDE/appuntiTombolan/1_TOMBOLAN_FDE_2018_APPUNTI.pdf" download> Parte 1 </a> - <a href="2/FDE/appuntiTombolan/22_TOMBOLAN_FDE_2018_APPUNTI.pdf" download> Parte 2 </a> - <a href="2/FDE/appuntiTombolan/38_TOMBOLAN_FDE_2018_APPUNTI.pdf" download> Parte 3 </a> - <a href="2/FDE/appuntiTombolan/53_TOMBOLAN_FDE_2018_APPUNTI.pdf" download> Parte 4 </a> - <a href="2/FDE/appuntiTombolan/73_TOMBOLAN_FDE_2018_APPUNTI.pdf" download> Parte 5 </a>
 
 # Terzo anno
 
