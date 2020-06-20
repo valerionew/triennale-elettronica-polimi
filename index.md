@@ -1,10 +1,10 @@
 Raccolta di materiali privi di copyright o ridistribuibili
 
-## [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/5N44P/triennale-elettronica-polimi)
+## [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/valerionew/triennale-elettronica-polimi)
 
-#### [Segnala una violazione del copyright](https://github.com/5N44P/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
+#### [Segnala una violazione del copyright](https://github.com/valerionew/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
 
-[![Copyright violation](https://img.shields.io/badge/copyright-violation-red?style=flat)](https://github.com/5N44P/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
+[![Copyright violation](https://img.shields.io/badge/copyright-violation-red?style=flat)](https://github.com/valerionew/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
 
 # Primo anno
 
@@ -46,18 +46,18 @@ Raccolta di materiali privi di copyright o ridistribuibili
 - Collezione di esercizi svolti (alcuni sbagliati o incompleti, la maggior parte giusti)- <a href="2/DE/HomeworkS.zip" download> Download </a>
 
 ### Fondamenti di elettronica
-- Appunti di lezioni ed esercitazioni di Francesco Bossio <a href="https://github.com/5N44P/triennale-elettronica-polimi/tree/master/2/FDE/appuntiBossio"> Cartella </a>
+- Appunti di lezioni ed esercitazioni di Francesco Bossio <a href="https://github.com/valerionew/triennale-elettronica-polimi/tree/master/2/FDE/appuntiBossio"> Cartella </a>
 - Appunti di Giacomo Tombolan del corso - Download <a href="2/FDE/appuntiTombolan/1_TOMBOLAN_FDE_2018_APPUNTI.pdf" download> Parte 1 </a> - <a href="2/FDE/appuntiTombolan/22_TOMBOLAN_FDE_2018_APPUNTI.pdf" download> Parte 2 </a> - <a href="2/FDE/appuntiTombolan/38_TOMBOLAN_FDE_2018_APPUNTI.pdf" download> Parte 3 </a> - <a href="2/FDE/appuntiTombolan/53_TOMBOLAN_FDE_2018_APPUNTI.pdf" download> Parte 4 </a> - <a href="2/FDE/appuntiTombolan/73_TOMBOLAN_FDE_2018_APPUNTI.pdf" download> Parte 5 </a>
 
 # Terzo anno
 
 ### Elettronica digitale
 - VHDL Cheatsheet di [Lorenzo Rossi](https://github.com/lorossi/appunti-vhdl) - <a href="3/Digitale/vhdl.pdf" download> Download </a>
-- Appunti rapidi di elettronica digitale di Lorenzo Rossi  - <a href="https://github.com/5N44P/triennale-elettronica-polimi/blob/master/3/Digitale/appunti_digitale.tex"> Sorgente LaTeX </a> - <a href="3/Digitale/appunti_digitale.pdf" download> Download PDF </a>
-- Esercizi in VHDL [https://github.com/5N44P/elettronica-digitale-notes](https://github.com/5N44P/elettronica-digitale-notes)
+- Appunti rapidi di elettronica digitale di Lorenzo Rossi  - <a href="https://github.com/valerionew/triennale-elettronica-polimi/blob/master/3/Digitale/appunti_digitale.tex"> Sorgente LaTeX </a> - <a href="3/Digitale/appunti_digitale.pdf" download> Download PDF </a>
+- Esercizi in VHDL [https://github.com/valerionew/elettronica-digitale-notes](https://github.com/valerionew/elettronica-digitale-notes)
 
 ### Elettronica Analogica
-- Materiale del Prof. Sampietro: [https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html](https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html) - [Mirror](https://github.com/5N44P/triennale-elettronica-polimi/tree/master/3/Analogica)
+- Materiale del Prof. Sampietro: [https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html](https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html) - [Mirror](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/3/Analogica)
 
 ### Fondamenti di segnali
 - Appunti di Andrea Bertazzoni - <a href="3/Segnali/probabilitaBertazzoni.pdf" download>Probabilità</a> - <a href="3/Segnali/segnaliBertazzoni.pdf" download> Segnali</a> - <a href="3/Segnali/trasmissioniBertazzoni.pdf" download>Trasmissioni</a> - <a href="3/Segnali/processiBertazzoni.pdf" download>Processi</a> (non completo)
@@ -66,11 +66,11 @@ Raccolta di materiali privi di copyright o ridistribuibili
 - Fomrulario di Massimo Barbagallo - [https://www.unirc.it/documentazione/materiale_didattico/599_2009_200_5021.pdf](https://www.unirc.it/documentazione/materiale_didattico/599_2009_200_5021.pdf) - <a href="3/Segnali/formularioBarbagallo.pdf" download> Mirror </a>
 
 ### Calcolo Numerico
-- Laboratori: [https://github.com/5N44P/calcolo_numerico](https://github.com/5N44P/calcolo_numerico)
+- Laboratori: [https://github.com/valerionew/calcolo_numerico](https://github.com/valerionew/calcolo_numerico)
 
 ### Microcontrollori
-- Note sui pic, appunti del corso: [pic-notes di Lara Devoti](https://github.com/Squareroot7/pic-notes) - [Mirror](https://github.com/5N44P/pic-notes)
-- Codici dei laboratori [https://github.com/5N44P/microcontrollori-polimi](https://github.com/5N44P/microcontrollori-polimi)
+- Note sui pic, appunti del corso: [pic-notes di Lara Devoti](https://github.com/Squareroot7/pic-notes) - [Mirror](https://github.com/valerionew/pic-notes)
+- Codici dei laboratori [https://github.com/valerionew/microcontrollori-polimi](https://github.com/valerionew/microcontrollori-polimi)
 
 ### Campi Elettromagnetici
 - Formulario di Lorenzo Rossi - [Repository](https://github.com/lorossi/formulario-campi-elettromagnetici) - <a href="https://github.com/lorossi/formulario-campi-elettromagnetici/raw/master/formulario_campi.pdf" download> Link diretto </a> - <a href="3/CEM/formulario_campi.pdf" download> Mirror </a>
