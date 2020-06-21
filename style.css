@@ -8,6 +8,10 @@ body {
 	padding: 0 10px;
 	background-color: #fafafa;
 	text-align:left;
+
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+
 }
 
 h1,
