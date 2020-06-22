@@ -37,8 +37,11 @@ Legenda: le domande segnate con (\*) sono dei preappelli
 ## Orali COVID-19 edition:
 
 #### Studente:
-- teorema di fermat
-- ???
+- teorema di Fermat
+- ...
+- ...
+- ...
+- ...
 
 #### Studente:
 - effetto hall
@@ -52,7 +55,7 @@ Legenda: le domande segnate con (\*) sono dei preappelli
 - definizione di campo elettrico
 - definizione di linee di forza
 - esercizio con piano di carica + carica puntiforme
-- ???
+- ...
 
 #### Studente:
 - definizione scalare di corrente elettrica attraverso un conduttore e vettore densità di corrente
@@ -63,9 +66,9 @@ Legenda: le domande segnate con (\*) sono dei preappelli
 
 #### Studente:
 - corrente elettrica microscopica (leggi di ohm, portatori, modello con urti e cammino libero medio)
-- secoda legge di ohm
-- resititività con la temperatura
-- esercizio con filo elettrico, corrente di 1A circa, calcolare la densità di corrente (+ calcolo della velocità di deriva sapendo che ogni elettrone mette a disposizione un elettrone e data densità di massa del rame, numero di avogadro, moli di rame nel conduttore)
+- seconda legge di ohm
+- resistività con la temperatura
+- esercizio con filo elettrico, corrente di 1A circa, calcolare la densità di corrente (+ calcolo della velocità di deriva sapendo che ogni elettrone mette a disposizione un elettrone e data densità di massa del rame, numero di Avogadro, moli di rame nel conduttore)
 - cos’è l’interferenza della luce tra due sorgenti ottiche coerenti
 - diffrazione
 
@@ -77,7 +80,7 @@ Legenda: le domande segnate con (\*) sono dei preappelli
 
 #### Studente:
 - ricavare gauss da legge di coulomb
-- discutere della quarta eq di maxwell
+- discutere della quarta equazione di maxwell
 
 #### Studente:
 - potenziale elettrostatico di un campo generato da una carica
