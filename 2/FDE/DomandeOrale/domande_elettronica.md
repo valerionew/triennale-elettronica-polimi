@@ -4,15 +4,15 @@
   
   *  piccolo segnale (definizione)
   
-  * corrente totale nel 
+  * corrente totale nel mos 
   
-  * generatore di coda con resistenza in parallelo (R0 del MOS di 
+  * generatore di coda con resistenza in parallelo (R0 del MOS di coda) 
   
-  * modulazione di 
+  * modulazione di canale
   
-  * perchè non si vorrebbe 
+  * perchè non si vorrebbe R0? 
   
-  * importanza di R0 su modo comune (trasferimento e 
+  * importanza di R0 su modo comune (trasferimento e CMRR) 
   
   * "manopola per cambiare solo la corrente che circola nei transistori: lavora a corrente alta o bassa?" => obbiettivo stadio differenziale (CMRR infinito) 
 
@@ -20,11 +20,11 @@
 
 *secondo studente*
 
-+ effetto della retroazione sulle impedenze di un circuito con 
++ effetto della retroazione sulle impedenze di un circuito con operazionale 
   
-  + retroazione 
+  + retroazione negativa
   
-  + a quale frequenza gloop è negativo per la retroazione negativa (R: in 
+  + a quale frequenza gloop è negativo per la retroazione negativa (R: in continua) 
   
   + integratore approssimato (perchè è approssimato?)
 
