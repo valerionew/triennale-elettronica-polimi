@@ -1,4 +1,4 @@
-# https://valerionew.github.io/triennale-elettronica-polimi/
+- # https://valerionew.github.io/triennale-elettronica-polimi/
 
 ## Domande degli scritti passati
 
@@ -37,6 +37,8 @@ Legenda: le domande segnate con (\*) sono dei preappelli
 - 10/09/2019 - Magnetismo nella materia: precessione di Larmor
 
 ## Orali COVID-19 edition:
+
+### Giugno 2020
 
 #### Studente:
 - teorema di Fermat
@@ -137,3 +139,57 @@ Legenda: le domande segnate con (\*) sono dei preappelli
 
 #### Studente:
 - sup chiusa con distribuzione di carica interna e una esterna. Calcolo del campo sulla sup in base alle cariche
+
+
+### Luglio 2020
+
+#### Studente:
+- problema tre cariche puntiformi ai 3 vertici di un quadrato : in alto a sx carica Q, in alto a dx carica 2Q, in basso a dx carica -Q.
+Nel vertice senza carica calcolare campo e potenziale
+- lente positiva sottile con focale nota (30mm). La lente forma un’immagine con ingrandimento trasversale (in modulo) pari a 3.
+Dove si trova l’oggetto e dove si forma l’immagine
+- definizione di muta e auto induzione
+- definizione equazione delle onde (e generica soluzione):
+il campo elettrico e magnetico sono ortogonali solo nel vuoto
+
+#### Studente:
+- onda piana monocromatica di frequenza 50MHz che si propaga lungo asse z. L’onda è polarizzata lungo asse y. E_0 noto (120V/m)
+- densità di energia dell’onda: richiesto valore della densità e unità di misura
+- problema con due piani paralleli carichi +Q e -Q. Calcolo del campo elettrico in tutto lo spazio. Calcolo del potenziale in tutto lo spazio
+- definizione della legge di Faraday-Lenz
+- spira rettangolare estratta da campo magnetico: forza di Lorentz e fem
+- espressione esplicita della resistività legata al modello di Drude e alla legge di ohm locale
+
+#### Studente:
+- guscio sferico conduttore con raggi R1 (interno) R2 (esterno). Isolato e scarico. Si ponga Q dentro al guscio. Calcolo del campo e del potenziale nello spazio
+- spiegare il teorema di Poynting
+- legge della rifrazione utilizzando Fermat
+
+#### Studente:
+- effetto hall
+
+#### Studente:
+- conservazione carica elettrica (caso generale) e ricavare equazione di continuità
+- condensatore piano riempito per metà di dielettrico (D conservato)
+- snell no fermat
+- Effetto Hall
+
+#### Studente:
+- condizione di un conduttore all’equilibrio elettrostatico. Perché il campo è nullo e tutta la carica è sulla sup?
+- pressione elettrostatica
+- fenomeno della diffrazione + diffrazione di una fenditura
+- cosa significa onda piana polarizzata linearmente
+
+#### Studente:
+- Gauss partendo dalla legge di Coulomb (con enfasi sulla relazione di 1/r^2 con l’angolo solido)
+- Campo magnetico filo spesso
+- valore lunghezza d’onda spettro visibile e frequenze corrispondenti
+- campo magnetico generato da un solenoide
+
+#### Studente:
+- due fili infiniti monodimensionali paralleli distanziati di 2d, calcolare campo sull’asse parallelo ai fili (a distanza d) con correnti concordi e discordi
+- dispersione della luce. Suggerimenti: dispersione del pacchetto d’onda policromatico nel tempo e quando incide su un’interfaccia come aria vetro
+- spiegare l’incongruenza della legge di Ampere con l’equazione di continuità.
+ricavare l’equazione di Ampere-Maxwell.
+Fare esempio di come si riflette l’incongruenza in caso non stazionario con un condensatore che si carica
+- diffrazione + reticolo di diffrazione
