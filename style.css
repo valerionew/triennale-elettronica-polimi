@@ -19,6 +19,11 @@ h2,
 h3 {
 	line-height: 1.2
 }
+h4{
+	margin: 1em;
+  margin-right: 0px;
+  margin-left: 0px;
+}
 
 a {
 	color: lightseagreen;
@@ -26,6 +31,9 @@ a {
 
 ul {
 	list-style: square;
+}
+.toc {
+	list-style: circle;
 }
 
 p.endpage {
@@ -48,4 +56,16 @@ pre{
 	user-select: contain;
 	overflow-x: auto;
 	padding: 20px;
+}
+
+div.toccontainer{
+    background: #f9f9f9;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    display: table;
+    margin-bottom: 1em;
+    padding: 10px;
+    position: relative;
+    width: auto;
 }
