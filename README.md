@@ -2,14 +2,13 @@ https://valerionew.github.io/triennale-elettronica-polimi/
 =============
 ## Come contribuire ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 Il repository è così strutturato:
-```
+```tree -d -L 2 .
 triennale-elettronica-polimi/
 ├── 1
 │   ├── AM1
 │   ├── Chimica
 │   ├── Fisica1
 │   ├── GAL
-│   ├── Economia
 │   └── Informatica
 ├── 2
 │   ├── AM2
@@ -25,12 +24,13 @@ triennale-elettronica-polimi/
 │   ├── Digitale
 │   ├── ESS
 │   ├── Macchine
+│   ├── Microcontrollori
+│   ├── Optoelettronica
 │   ├── Segnali
 │   └── Trasformate
-├── README.md
-├── index.html
-└── style.css
+└── readme-media
 ```
+
 Nel repository ci sono 3 cartelle: `1`, `2`, `3`, ciascuna relativa a quell'anno di corso, che contengono a loro volta le cartelle dei corsi; un file `index.html` e un file `style.css`. Alla raccolta si accede attraverso la pagina HTML all'indirizzo https://valerionew.github.io/triennale-elettronica-polimi/.
 
 Nella raccolta esistono due tipi di risorse:
