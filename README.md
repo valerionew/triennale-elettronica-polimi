@@ -25,6 +25,7 @@ triennale-elettronica-polimi/
 │   ├── Digitale
 │   ├── ESS
 │   ├── Macchine
+│   ├── Calcolo numerico
 │   ├── Microcontrollori
 │   ├── Optoelettronica
 │   ├── Segnali
