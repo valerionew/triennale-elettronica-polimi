@@ -9,6 +9,7 @@ triennale-elettronica-polimi/
 │   ├── Chimica
 │   ├── Fisica1
 │   ├── GAL
+│   ├── Economia
 │   └── Informatica
 ├── 2
 │   ├── AM2
@@ -24,6 +25,7 @@ triennale-elettronica-polimi/
 │   ├── Digitale
 │   ├── ESS
 │   ├── Macchine
+│   ├── Calcolo numerico
 │   ├── Microcontrollori
 │   ├── Optoelettronica
 │   ├── Segnali
