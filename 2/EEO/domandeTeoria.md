@@ -193,3 +193,167 @@ il campo elettrico e magnetico sono ortogonali solo nel vuoto
 ricavare l’equazione di Ampere-Maxwell.
 Fare esempio di come si riflette l’incongruenza in caso non stazionario con un condensatore che si carica
 - diffrazione + reticolo di diffrazione
+
+
+### Settembre 2020
+
+Campo elettrostatico 
+- definizione di campo elettrico
+parto dalla legge di coulomb e scrivo la forza. Due cariche sentono una forza, posso definire il campo operativamente come la forza fratto carica. Ciò vuol dire che prendo una carica sonda e “sento” la forza in quel punto che viene applicata
+- definizione di linee di forza
+seguono il campo. La densità delle linee rivela quanto forte sia il campo. Escono da cariche positive ed entrano in cariche negative. Essendo il campo conservativo, esse non si toccano mai
+- esercizio con piano di carica + carica puntiforme
+prendo cilindretto parallelo al piano. calcolo flusso del campo e lo uguaglio a carica su epsilon. c’è la differenza di campo sempre
+- ricavare gauss da legge di coulomb
+
+
+- potenziale elettrostatico di un campo generato da una carica 
+Integro il la forza elettrica è uguale a meno forza meccanica. Il potenziale è l’energia che serve per costruire il sistema portando le cariche da posizione infinita. Il lavoro viene calcolato integrando la forza meccanica nel percorso quindi integrale di meno forza elettrica.
+Scrivo int -qEds con ds come percorso da seguire. 
+Se utilizzo il campo generato da una carica elettrica ritrovo il potenziale come U= qq0/ ( 4 pi eps0 r )
+
+
+- energia potenziale attribuita ad una carica q generata da una carica Q
+Uso carica sonda, il campo lo conosco già (legge di coulomb).
+
+- pressione elettrostatica
+Prendo una sfera e faccio una sezione circolare dS. So che il campo della sfera totale  è dato dal campo generato dalla sezione + campo generato dal resto della sfera. Sono sicuro di conoscere il campo generato dalla sezione pari a sigma su epsilon mezzi. Di conseguenza il campo fuori dalla sfera che è sigma su epsilon - campo generato dalla sezione dà il campo generato dal resto della sfera.
+La vacanza (tolta la sezione) di conseguenza sente il campo generato dal resto della sfera. Che forza applica questo campo sulla sezione circolare? La carica della sezione circolare è dq = sigma dA con A= area della superficie
+Quindi la forza è dF = carica * campo = dq * Es con Es =campo generato dal resto della sfera -  sezione
+Quindi la forza per unità di area dF / dA = sigma^2 / (2 eps0) con direzione pari alla normale della sezione circolare
+Questa è la pressione elettrostatica detta anche densità di energia elettrostatica. Posso dire anche che la pressione è data da p = dF / dA = (eps0 /2 ) * E^2
+- campo generato da un filo carico
+Scrivo equazione per dE, faccio assunzioni di simmetria e calcolo il campo con Gauss. essendo radiale, il flusso del campo è sulla sup laterale. viene che il campo è lambda / (2 pi eps0 r)
+- potenziale generato dal filo carico (distribuzione illimitata)
+Distribuzione illimitata, mi frego perchè non posso dire che V(inf) = 0 
+Calcolo pot tra due punti. E=-dV quindi deltaV = int -E dr
+Viene che integrando -1/r il pot
+Vb-Va = (lambda / (2 pi eps0)) (ln(r_B) - lb(r_A))
+
+- problema con sfera carica e guscio sferico
+
+
+
+- sup chiusa con distribuzione di carica interna e una esterna. Calcolo del campo sulla sup in base alle cariche
+- carica su due sfere che poi vengono collegate da un filo
+Sulla sup delle due sfere ho V1 = Q1 / ( 4 pi eps0 R1 )
+ V2 = Q2 / ( 4 pi eps0 R2 )
+
+Uguaglio i potenziali dopo aver collegato il filo, so che Q = Q1 + Q2 
+Quindi scrivo Q1 in funzione di Q,R1,R2 (come se fosse un partitore di tensione)
+Nota che le cariche si distribuiscono in maggiore quantità sui raggi più piccoli
+
+- polarizzazione nei dielettrici
+
+- esercizio su condensatore piano con due dielettrici (posti in modo tale che E si conservi) (capacità, cariche libere e di polarizzazione)
+
+
+- Capacità di conduttori isolati
+Caso della sfera isolata, calcolo il potenziale che sarà V = Q / ( 4 pi eps0 R ) sulla sua superficie. Di conseguenza vado a definire la capacità C = Q / deltaV e quindi C =  4 pi eps0 R
+
+- condensatori sferici
+Ho le due sfere di raggio R1 e R2. Calcolo diff potenziale che sarà
+V = (Q / ( 4 pi eps0 ) ) * (1/R1 - 1/R2)   (me ne frego del pot all’infinito)
+Sapendo che R_medio  = sqrt(R1R2) e che R1-R2 è la distanza d
+deltaV = Qd / (4 pi eps0 R_medio^2)
+
+C = Q /deltaV = (4 pi eps0 R_medio^2) / d = eps0 S/d in cui S è la superficie sferica di raggio R_medio
+- parallelo di condensatori
+Vabb stupdata
+
+Corrente elettrica
+
+- legge di ohm macroscopica
+V = Ri sperimentalmente (prima legge)
+R = ro L / s (seconda legge) in cui ro(T) = ro(T0) (1+alpha(T-T0)
+- legge di ohm locale
+densità di corrente J = 1/ ro campo = conducibilità * Campo
+- modello di drude
+////formule
+- corrente elettrica microscopica (leggi di ohm, portatori, modello con urti e cammino libero medio)
+- secoda legge di ohm
+- resititività con la temperatura
+- esercizio con filo elettrico, corrente di 1A circa, calcolare la densità di corrente (+ calcolo della velocità di deriva sapendo che ogni elettrone mette a disposizione un elettrone e data densità di massa del rame, numero di avogadro, moli di rame nel conduttore)
+- definizione scalare di corrente elettrica attraverso un conduttore e vettore densità di corrente
+- equazione di continuità
+///IMPORTANTE
+- effetto hall
+///IMPORTANTE
+Campo magnetostatico
+- moto di una particella in un campo magnetico in un emispazio
+La particella entra nell’emispazio con una determinata velocità. Appena entra nell’emispazio si applica una forza di Lorentz data dal campo elettrico e la direzione della velocità secondo la mano destra. Si nota che in ogni percorso infinitesimo la forza applicata cambia il verso della velocità. Di conseguenza, la direzione della forza applicata cambia a sua volta.
+Possiamo dire che la forza applicata è centripeta, di conseguenza la particella avrà un moto circolare e avrà un punto di uscita dall’emispazio 
+Quindi uguaglio q v B = m v^2 / R 
+Ricavo R e so che omega = 2 pi / T = qB/m mentre T = 2 pi r /v
+Il periodo è T = 2 pi m / B
+
+se la particella partisse con velocità v nello spazio e non uscisse mai dalla regione col campo elettrico, compirebbe una rotazione circolare di periodo T e pulsazione angolare omega
+
+Spettrometro di massa
+
+- forza magnetica tra due fili
+Con Biot-Savart conosco il campo B incidente sul secondo filo da parte del primo.
+Seconda formula di Laplace F = B l i costituisce la forza data dal campo. Per il terzo principio di Newton F1=-F2
+- campo magnetico in una spira circolare
+Seconda legge di ampere, faccio le dovute assunzioni con mano destra, semplifico l’integrale e trovo che B = ( mu0 i ) / (2 r)
+
+
+- mutua induzione
+Calcolo del flusso del campo generato da spira 1 su spira 2. 
+Uso int B *u_n dS per il flusso su sup 2 in cui B è calcolato con prima formula laplace su sup 1. 
+Il termine che lega flusso con corrente è detto mutua induttanza
+- calcolo problema campo magnetico filo spesso
+
+- campo in un solenoide
+
+- barretta in moto in un campo magnetico
+
+- auto induttanza: definizione, autoinduttanza del solenoide
+
+Onde Elettromagnetiche
+- discutere della quarta eq di maxwell
+///scrivi l’equazione e spiega come mai bisogna mettere a posto l’eq di ampere
+- equazione delle onde e generica soluzione f(kr-wt)
+////eq di d’Alambert che nel vuoto permette due tipi di soluzione
+- polarizzazione lineare e circolare
+Scrivi due onde. Possono essere polarizzate linearmente. Se campo elettrico e magnetico seguono lo stesso vettore si sommano. Se invece sono sfasate iniziano a ruotare in maniera ellittica. Nel caso lo sfasamento sia di 90% allora la rotazione sarà circolare
+- cos’è la densità di energia (elettromagnetica) del campo elettromagnetico (di un onda) nello spazio
+Esprimo la densità di energia potenziale elettrica e magnetica ue, um
+la somma di queste due si chiama densità di energia elettromagentica. Nel vuoto E = cB quindi le due densità elettriche e magnetiche sono uguali e quindi la somma da u_em = eps0 E^2 = B^2 / mu_0
+
+
+- intensità di un’onda piana (vettore di poynting)
+Si può scrivere che in un volumetto d_tau un campo elettromagnetico compie lavoro su cariche e correnti del tipo dL = E *J d_tau dt
+Posso quindi dire che dL / ( d_tau dt ) =  E * J 
+Dopo vari passaggi algebrici mi ritrovo con la formula corrispondente a 
+la variazione di energia nella materia nel tempo + 
+variazione di energia del campo elettromagnetico (all’interno di d_tau)
+è uguale a 
+Il flusso di energia elettromagnetica entrante o uscente dalla superficie del volumetto
+
+Il vettore di poynting rappresenta l’energia per unità di tempo attraversa (ortogonalmente) la superficie. Nel caso delle onde piane viene molto semplice
+Ottica
+- equazione delle immagini per lente sottile
+- cosa è un diottro
+- equazione del raggio e ipotesi dell'ottica geometrica
+- cos’è l’interferenza della luce tra due sorgenti ottiche coerenti
+///C’è qualcosa da dire prima di questo?
+Sperimentalmente si osserva che l’intensità varia con le due coerenti. 
+Se lo sfasamento tra le onde cambia con il tempo non c’è interferenza perchè il valore medio sarà nullo (dato dal coseno). Si dimostra che Itot = I1 + I2 +2sqrt(I1I2)costheta 
+Di conseguenza, in base all’angolo di sfasamento theta si può ricavare l’andamento delle onde
+- diffrazione
+
+- profilo di diffrazione di una fenditura rettangolare (Fraunhofer)
+risolvo con fasori
+- dispersione della luce 
+(?????)
+- equazioni della lente sottile
+- aberrazioni (viene poi chiesta la cromatica nello specifico)
+- coefficienti di fresnel e riflessione interna/esterna, grafici in funzione di teta
+- angolo di brewster dai coefficienti di fresnel
+- angolo critico
+- trasmissione e rifrazione attraverso un interfaccia
+- snell da fermat
+- reticolo di diffrazione
+Dato già per scontata l’interferenza bisogna considerare la diffrazione che compie un inviluppo. Interferenza legata a distanza e numero delle aperture, mentre diffrazione è legata solo all’ampiezza dell’apertura
+
