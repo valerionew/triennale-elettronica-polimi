@@ -9,7 +9,6 @@ triennale-elettronica-polimi/
 │   ├── Chimica
 │   ├── Fisica1
 │   ├── GAL
-│   ├── Economia
 │   └── Informatica
 ├── 2
 │   ├── AM2
@@ -25,11 +24,22 @@ triennale-elettronica-polimi/
 │   ├── Digitale
 │   ├── ESS
 │   ├── Macchine
-│   ├── Calcolo numerico
 │   ├── Microcontrollori
 │   ├── Optoelettronica
 │   ├── Segnali
 │   └── Trasformate
+├── 4
+│   ├── Analog
+│   ├── MEMS
+│   ├── Prerequisites
+│   ├── RFCircuitDesign
+│   └── SignalRecovery
+├── 5
+├── TAB1
+│   ├── NumericalMethods
+│   └── OpticalMeasurements
+├── TAB2
+│   └── RFsystems
 └── readme-media
 ```
 
