@@ -38,6 +38,7 @@ triennale-elettronica-polimi/
 ├── TAB1
 │   ├── EMC
 │   ├── NumericalMethods
+│   ├── HardwareAccelerators
 │   └── OpticalMeasurements
 ├── TAB2
 │   ├── PhotonicDevices
