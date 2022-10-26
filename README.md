@@ -36,9 +36,12 @@ triennale-elettronica-polimi/
 │   └── SignalRecovery
 ├── 5
 ├── TAB1
+│   ├── EMC
 │   ├── NumericalMethods
+│   ├── HardwareAccelerators
 │   └── OpticalMeasurements
 ├── TAB2
+│   ├── PhotonicDevices
 │   └── RFsystems
 └── readme-media
 ```
