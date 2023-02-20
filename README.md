@@ -28,18 +28,23 @@ triennale-elettronica-polimi/
 │   ├── Optoelettronica
 │   ├── Segnali
 │   └── Trasformate
+├── Prerequisites
 ├── 4
-│   ├── Analog
 │   ├── MEMS
-│   ├── Prerequisites
-│   ├── RFCircuitDesign
-│   └── SignalRecovery
+│   ├── Analog Circuit Design
+│   ├── Electron Devices
+│   ├── Electronic Systems
+│   ├── Signal Recovery 
+│   ├── RF Circuit Design
+│   └── DESD
 ├── 5
 ├── TAB1
-│   ├── EMC
 │   ├── NumericalMethods
 │   ├── HardwareAccelerators
-│   └── OpticalMeasurements
+│   ├── Optical Measurements
+│   ├── Sensor Systems
+│   ├── EMC
+│   └── Solid state physics A
 ├── TAB2
 │   ├── PhotonicDevices
 │   └── RFsystems
