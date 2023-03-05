@@ -7,53 +7,49 @@ Il repository è così strutturato:
 ```tree -d -L 2 .
 triennale-elettronica-polimi/
 ├── 1
-│   ├── Analisi 1
+│   ├── AM1
 │   ├── Chimica
-│   ├── Informatica
-│   ├── Geometria e algebra lineare
-│   ├── Fisica 1
-│   └── Economia
+│   ├── Fisica1
+│   ├── GAL
+│   └── Informatica
 ├── 2
-│   ├── Analisi 2
-│   ├── Elettromagnetismo e ottica
+│   ├── AM2
+│   ├── ArchCalc
+│   ├── DE
+│   ├── EEO
 │   ├── Elettrotecnica
-│   ├── Fondamenti di automatica
-│   ├── Dispositivi elettronici
-│   ├── Architetture di calcolatori
-│   └── Fondamenti di elettronica
+│   ├── FDA
+│   └── FDE
 ├── 3
-│   ├── Elettronica digitale
-│   ├── Elettronica analogica
-│   ├── Fondamenti di segnali
-│   ├── Calcolo numerico
+│   ├── Analogica
+│   ├── CEM
+│   ├── Digitale
+│   ├── ESS
+│   ├── Macchine
 │   ├── Microcontrollori
-│   ├── Campi elettromagnetici
-│   ├── Macchine elettriche
-│   ├── Elettronica dello stato solido
 │   ├── Optoelettronica
-│   └── Elementi di analisi funzionale e trasformate
-├── Prerequisites
-│   ├── Circuit feedback theory
-│   └── Bachelor's material
+│   ├── Segnali
+│   └── Trasformate
 ├── 4
-│   ├── MEMS and Microsensors
-│   ├── Analog Circuit Design
+│   ├── Analog
 │   ├── Electron Devices
-│   ├── Electronic Systems
-│   ├── Signal Recovery 
-│   ├── RF Circuit Design
-│   └── Digital Electronic Systems Design
+│   ├── ElectronicSystems
+│   ├── MEMS
+│   ├── Prerequisites
+│   ├── RFCircuitDesign
+│   └── SignalRecovery
 ├── 5
+│   └── EDFBI
 ├── TAB1
-│   ├── Numerical Methods in Microelectronics
-│   ├── Design of Hardware Accelerators
-│   ├── Optical Measurements
-│   ├── Sensor Systems
-│   ├── Electromagnetic compatibility 
+│   ├── EMC
+│   ├── HardwareAccelerators
+│   ├── NumericalMethods
+│   ├── OpticalMeasurements
+│   ├── SensorSystems
 │   └── Solid State Physics A
 ├── TAB2
-│   ├── RF Systems
-│   └── Photonic devices
+│   ├── PhotonicDevices
+│   └── RFsystems
 └── readme-media
 ```
 
