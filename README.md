@@ -73,7 +73,7 @@ Per contribuire alla raccolta dovrai avere un account GitHub. Dovrai creare un *
 
 1. Forka il progetto. Questa è la tua copia personale di questo repository che potrai modificare  
    ![Fork button](/readme-media/fork.jpg)
-1. Se hai dei file da aggiungere aggiungili con il drag&drop: naviga nella sottocartella del corso e trascina i file. Ti sarà chiesto di creare un **commit**, questo è il nome che su git hanno i singoli cambiamenti elementari di file. Ricordati di dargli un nome significativo! Per altre informazioni vedi [la sezione sui file](##voglio-aggiungere-un-mio-file-alla-raccolta)  
+1. Se hai dei file da aggiungere aggiungili con il drag&drop: naviga nella sottocartella del corso e trascina i file. Ti sarà chiesto di creare un **commit**, questo è il nome che su git hanno i singoli cambiamenti elementari di file. Ricordati di dargli un nome significativo! Per altre informazioni vedi [la sezione sui file](#voglio-aggiungere-un-mio-file-alla-raccolta)  
    ![Commit](/readme-media/upload-commit.jpg)
 1. Ora devi aggiungere un link alla risorsa in modo che le persone possano trovarla. Per fare questo dovrai aggiungere un link nel file `index.html`. Apri il file e premi l'icona di modifica  
    ![Edit](/readme-media/file-edit.jpg)  
