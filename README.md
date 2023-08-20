@@ -37,8 +37,11 @@ triennale-elettronica-polimi/
 │   ├── MEMS
 │   ├── Prerequisites
 │   ├── RFCircuitDesign
+│   ├── DESD
+│   ├── DICD
 │   └── SignalRecovery
 ├── 5
+│   ├── PowerElectronics
 │   └── EDFBI
 ├── TAB1
 │   ├── EMC
