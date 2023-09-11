@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electronics engineering at Polimi 📝</title>
+    <link>/</link>
+    <description>Recent content on Electronics engineering at Polimi 📝</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Participate</title>
+      <link>/contribute/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contribute/</guid>
+      <description>Participate 🇮🇹 È semplicissimo contribuire a questa raccolta di materiale. Vai su Github.
+🇬🇧 It is very very easy to contribute to this webiste. Go to Github.
+List of contributors in chronological order Valerio Nappi (Autore) - Lorenzo Rossi - Giacomo Tombolan - Francesco Bossio - Andrea Bertazzoni - Pietro Giannoccaro - Alessio Serraino - Matteo Rigamonti - Lorenzo Perlo - Francesco Lenzi - Simone Guglielmino - Alessandro Perna - Andreja Marinkovic - Donato Carlo Giorgio - Mattia Marinoni - Tommaso Dezuanni - Luca Daidone - Guido Rolle - Leonardo Sera - Luca Colombo - Francesco Forestieri - Andrea Al Muktash - Mario Caliò - More to come&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Licences</title>
+      <link>/licenses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/licenses/</guid>
+      <description>Licenses 🇮🇹 Il materiale presente in questa pagina è stato prodotto dall&amp;rsquo;autore o contribuito a questa raccolta dai rispettivi autori, fatto salvo per le risorse contrassegnate con (*).
+In generale, il materiale prodotto dall&amp;rsquo;autore e presente nella raccolta ed è da intendersi rilasciato sotto licenza Creative Commons BY-NC-SA 4.0.
+🇬🇧 The material present in this page has been prepared by the author or contributed to this collection by the respective authors, except for the resources marked by (*).</description>
+    </item>
+    
+    <item>
+      <title>Support</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>Support 🇮🇹 Condividi eventuali problemi col sito o tue idee.
+Puoi farlo via email qui sotto o via Github.
+🇬🇧 Feel free to share any issues with the website or your ideas.
+You can do it down below or open an issue on Github.
+E-mail us Name&amp;nbsp;E-mail address&amp;nbsp;Message&amp;nbsp;SubmitYou need Javascript for CAPTCHA verification to submit this form.🇮🇹 Se hai dei file di appunti, aggiungili qui.</description>
+    </item>
+    
+    <item>
+      <title>Report a copyright violation</title>
+      <link>/report-a-copyright-violation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/report-a-copyright-violation/</guid>
+      <description>🇬🇧 Report a copyright violation You have two options for reporting copyright violations:
+Guided Report Issue on GitHub: If you have a GitHub account, you can report copyright violations using our guided reporting issue on GitHub. This system is designed to help you provide the minimum necessary information effectively.
+Via Email: You can also report violations by sending us an email. Please refer to our contact page to reach us.</description>
+    </item>
+    
+  </channel>
+</rss>
