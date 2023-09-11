@@ -1,0 +1,65 @@
+<noscript>
+  <link rel="stylesheet" href="{{ relURL "noscript_style.css" }}">
+
+  <p style="text-align: center;">To change between dark and light theme you need Javascript</p>
+</noscript>
+
+<script>
+
+  document.addEventListener("DOMContentLoaded", () => {
+
+    var switcher = document.getElementById("toggle");
+
+    switcher.addEventListener("click", () => {
+
+      if (localStorage.getItem('darkMode') === null) {
+
+        localStorage.setItem("darkMode", "true");
+
+        document.styleSheets[0].cssRules[23].media.mediaText =
+          "(prefers-color-scheme: dark)";
+
+      } else {
+
+        document.styleSheets[0].cssRules[23].media.mediaText =
+          "(prefers-color-scheme: light)";
+
+        setTimeout(function () {
+          localStorage.removeItem("darkMode");
+        }, 100);
+
+      }
+    });
+
+    if (localStorage.getItem("darkMode")) {
+
+      document.styleSheets[0].cssRules[23].media.mediaText =
+        "(prefers-color-scheme: dark)";
+
+    } else {
+
+      document.styleSheets[0].cssRules[23].media.mediaText =
+        "(prefers-color-scheme: light)";
+
+    }
+  });
+
+  const flagemojiToPNG = (flag) => {
+
+    var countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt()).map(char => String.fromCharCode(char - 127397).toLowerCase()).join('')
+    return "<img src='https://flagcdn.com/24x18/" + countryCode + ".png'>"
+
+  }
+
+  var reg = new RegExp('(?:\ud83c[\udde6-\uddff]){2}', 'g');
+
+  document.body.innerHTML = document.body.innerHTML.replaceAll(reg, flagemojiToPNG);
+
+
+  document.addEventListener('DOMContentLoaded', () => {
+
+    document.body.style.visibility = "visible";
+
+  })
+
+</script>
