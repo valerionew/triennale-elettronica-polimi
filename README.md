@@ -15,7 +15,7 @@
 
 &nbsp;
 
-# To contribute, please refer to the [wiki](https://github.com/TIT8/polimi-elettronica/wiki/How-to-add-new-notes)
+# To contribute, please refer to the [wiki](https://github.com/valerionew/triennale-elettronica-polimi/wiki/How-to-add-new-notes)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/TIT8/polimi-elettronica/wiki/How-to-add-new-notes)
 
 &nbsp;
