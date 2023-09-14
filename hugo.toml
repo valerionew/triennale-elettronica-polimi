@@ -1,7 +1,7 @@
 baseURL = '/'
 languageCode = 'en-us'
 title = 'Electronics engineering at Polimi 📝'
-theme = 'hugo-bearblog-patch'
+theme = 'hugo-bearblog-patch2'
 disableKinds = ["taxonomy"]
 
 enableEmoji = true
