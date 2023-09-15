@@ -99,7 +99,7 @@ Primo anno
 *   [Appunti generali](1/Informatica/noteVelociFDInformatica.pdf)
 *   [Appunti stdio](1/Informatica/stdio.pdf)
 *   [Appunti stdlib](1/Informatica/stdlib.pdf)
-*   [Temi d'esame risolti](https://github.com/tit8/polimi-elettronica/tree/master/static/1/Informatica/TemiDEsameRisolti/) di Matteo Rigamonti - [Repository](https://github.com/Overlord2410/Temi-d-esame-Matera)
+*   [Temi d'esame risolti](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/1/Informatica/TemiDEsameRisolti/) di Matteo Rigamonti - [Repository](https://github.com/Overlord2410/Temi-d-esame-Matera)
 
 ### Geometria e algebra lineare
 
@@ -134,7 +134,7 @@ Secondo anno
 *   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Ah5g1DTQ#jtuBwLooK_87YXFkgsYAUw)
 *   Rifrazione e riflessione dal principio di fermat [da batmath.it](http://www.batmath.it/fisica/fondamenti/rifl_rifr/rifl_rifr.htm) **(\*)**
 *   Formulario di [_Giuseppe Chierchia_](https://sites.google.com/view/giuseppechierchia/materiale-tecnico) - [Mirror](2/EEO/formularioEEOchierchia.pdf) **(\*)**
-*   Domande di teoria degli esami - [Link](https://github.com/tit8/polimi-elettronica/blob/master/static/2/EEO/domandeTeoria.md)
+*   Domande di teoria degli esami - [Link](https://github.com/valerionew/triennale-elettronica-polimi/blob/master/static/2/EEO/domandeTeoria.md)
 
 ### Elettrotecnica
 
@@ -165,9 +165,9 @@ Secondo anno
 ### Fondamenti di elettronica
 
 *   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/hogSVToa#CCYWLTbUAuxWRKTE5MxOVg)
-*   Appunti di lezioni ed esercitazioni di _Francesco Bossio_ [Cartella](https://github.com/tit8/polimi-elettronica/tree/master/static/2/FDE/appuntiBossio)
+*   Appunti di lezioni ed esercitazioni di _Francesco Bossio_ - [Cartella](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/2/FDE/appuntiBossio)
 *   Appunti di _Giacomo Tombolan_ del corso - Download [Parte 1](2/FDE/appuntiTombolan/1_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 2](2/FDE/appuntiTombolan/22_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 3](2/FDE/appuntiTombolan/38_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 4](2/FDE/appuntiTombolan/53_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 5](2/FDE/appuntiTombolan/73_TOMBOLAN_FDE_2018_APPUNTI.pdf)
-*   [Alcune domande degli esami orali](https://github.com/tit8/polimi-elettronica/blob/master/static/2/FDE/domandeElettronica.md)
+*   [Alcune domande degli esami orali](https://github.com/valerionew/triennale-elettronica-polimi/blob/master/static/2/FDE/domandeElettronica.md)
 
 &nbsp;
 
@@ -181,13 +181,13 @@ Terzo anno
 *   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/04AkkJia#p4sURbtF3DmMk96W6KEP3w)
 *   VHDL Cheatsheet di _Lorenzo Rossi_ - [Download](3/Digitale/vhdl.pdf)
 \- [Repository](https://github.com/lorossi/appunti-vhdl)
-*   Appunti rapidi di elettronica digitale di _Lorenzo Rossi_ - [Download](3/Digitale/appunti_digitale.pdf) - [Sorgenti LaTeX](https://github.com/tit8/polimi-elettronica/blob/master/static/3/Digitale/appunti_digitale.tex)
+*   Appunti rapidi di elettronica digitale di _Lorenzo Rossi_ - [Download](3/Digitale/appunti_digitale.pdf) - [Sorgenti LaTeX](https://github.com/valerionew/triennale-elettronica-polimi/blob/master/static/3/Digitale/appunti_digitale.tex)
 *   Esercizi in VHDL [https://github.com/valerionew/elettronica-digitale-notes](https://github.com/valerionew/elettronica-digitale-notes)
 *   Formulario di _Mario Caliò_ - [Download](3/Digitale/formulario_VHDL_Calio.pdf)
 
 ### Elettronica analogica
 
-*   Materiale del _Prof. Sampietro_: [https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html](https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html) - [Mirror](https://github.com/tit8/polimi-elettronica/tree/master/static/3/Analogica) **(\*)**
+*   Materiale del _Prof. Sampietro_: [https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html](https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html) - [Mirror](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/3/Analogica) **(\*)**
 
 ### Fondamenti di segnali
 
@@ -290,7 +290,7 @@ First year
 
 ### Signal Recovery
 
-*   Solutions of the tutorials by _Simone Guglielmino_ - [Folder](https://github.com/tit8/polimi-elettronica/tree/master/static/4/SignalRecovery/TutorialsTranscripts) - [download](4/SignalRecovery/TutorialsTranscripts/SRTranscripts.zip)
+*   Solutions of the tutorials by _Simone Guglielmino_ - [Folder](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/4/SignalRecovery/TutorialsTranscripts) - [download](4/SignalRecovery/TutorialsTranscripts/SRTranscripts.zip)
 *   Course Notes by _Luca Colombo_ - [download](4/SignalRecovery/SignalRecovery.pdf)
 *   Cheat sheet by _Giacomo Tombolan_ - [download](4/SignalRecovery/TOMBOLAN_SR_CHEAT_SHEET.pdf)
 

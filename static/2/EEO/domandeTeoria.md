@@ -1,4 +1,4 @@
-- # https://tit8.github.io/polimi-elettronica/
+- # https://valerionew/triennale-elettronica-polimi/
 
 ## Domande degli scritti passati
 
