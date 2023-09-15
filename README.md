@@ -12,19 +12,13 @@
 - Love for electronics
 - [Go Api](https://github.com/TIT8/go-api) to contact contributors
 
-&nbsp;
-
 # To contribute, please refer to the [wiki](https://github.com/valerionew/triennale-elettronica-polimi/wiki/How-to-add-new-notes)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/valerionew/triennale-elettronica-polimi/wiki/How-to-add-new-notes)
 
-&nbsp;
-
-## Known issue
+# Known issue
 
 This issue is specific to Firefox and occurs exclusively on Github Pages (not on Netlify) when the [Dark Reader extension](https://darkreader.org/) is installed. While using this extension, toggling between dark and light themes may result in unexpected behavior when navigating to different pages on the website. To resolve this issue, it is necessary to completely disable the extension, rather than merely disabling it for the website.
 
-&nbsp;
-
-## [Report Copyright Violation](https://github.com/valerionew/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
+# [Report Copyright Violation](https://github.com/valerionew/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
 
 [![Copyright violation](https://img.shields.io/badge/copyright-violation-red?style=flat)](https://github.com/valerionew/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
