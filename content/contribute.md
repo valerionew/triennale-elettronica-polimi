@@ -8,7 +8,7 @@ weight = -4
 
 ## Participate
 
-🇮🇹 &nbsp;**È semplicissimo contribuire a questa raccolta di materiale.**
+🇮🇹 &nbsp;**È semplicissimo contribuire a questa raccolta di materiale.**  
 Se hai del materiale di cui possiedi i diritti e lo vorresti rendere disponibile a tutti, o se conosci delle risorse utili che credi vadano linkate in questa pagina sentiti libero di aprire una pull request su **[Github](https://github.com/valerionew/triennale-elettronica-polimi)**.  
 **Se non hai familiarità con gli strumenti**, mettiti in contatto con noi [attraverso una issue](https://github.com/valerionew/triennale-elettronica-polimi/issues) o via **[email]({{< ref "contact.md#e-mail-us" >}})** e sarà un piacere aiutarti.  
 
