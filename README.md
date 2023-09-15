@@ -25,6 +25,6 @@ This issue is specific to Firefox and occurs exclusively on Github Pages (not on
 
 &nbsp;
 
-## [Report Copyright Violation](https://github.com/tit8/polimi-elettronica/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
+## [Report Copyright Violation](https://github.com/valerionew/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
 
 [![Copyright violation](https://img.shields.io/badge/copyright-violation-red?style=flat)](https://github.com/valerionew/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
