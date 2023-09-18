@@ -44,18 +44,23 @@ _🇬🇧 &nbsp;Compilation of copyright-free or redistributable materials, bene
     - [Circuit feedback theory](#circuit-feedback-theory)
     - [Webex links](#webex-links)
   4. [First year](#first-year)
-      - [MEMS and Microsensors](#mems-and-microsensors)
       - [Analog Circuit Design](#analog-circuit-design)
+      - [MEMS and Microsensors](#mems-and-microsensors)
       - [Electron Devices](#electron-devices)
       - [Electronic Systems](#electronic-systems)
       - [Signal Recovery](#signal-recovery)
       - [RF Circuit Design](#rf-circuit-design)
       - [Digital Integrated Circuit Design](#digital-integrated-circuit-design)
       - [Digital Electronic Systems Design](#digital-electronic-systems-design)
+      - [Biochip](#biochip)
   5. [Second year](#second-year)
+      - [Mixed-Signal Circuit Design](#mixed-signal-circuit-design)
       - [Power Electronics](#power-electronics)
+      - [Microelectronic Technologies](#microelectronic-technologies)
       - [Electronic Design For Biomedical Instrumentation](#electronic-design-for-biomedical-instrumentation)
   - [TAB 1](#tab-1)
+    - [Advanced optics and lasers](#advanced-optics-and-lasers)
+    - [Automation and control in electric and hibryd vechicles](#automation-and-control-in-electric-and-hybrid-vehicles)
     - [Numerical Methods in Microelectronics](#numerical-methods-in-microelectronics)
     - [Design of Hardware Accelerators](#design-of-hardware-accelerators)
     - [Optical Measurements](#optical-measurements)
@@ -130,7 +135,7 @@ Secondo anno
 
 ### Elettromagnetismo ed ottica
 
-*   Concetti riassuntivi della teoria del Prof. Laporta - [download](2/EEO/EEO_ConcettiRiassuntivi_UnicoStampa.pdf)
+*   Concetti riassuntivi della teoria del Prof. Laporta - [Download](2/EEO/EEO_ConcettiRiassuntivi_UnicoStampa.pdf)
 *   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Ah5g1DTQ#jtuBwLooK_87YXFkgsYAUw)
 *   Rifrazione e riflessione dal principio di fermat [da batmath.it](http://www.batmath.it/fisica/fondamenti/rifl_rifr/rifl_rifr.htm) **(\*)**
 *   Formulario di [_Giuseppe Chierchia_](https://sites.google.com/view/giuseppechierchia/materiale-tecnico) - [Mirror](2/EEO/formularioEEOchierchia.pdf) **(\*)**
@@ -270,42 +275,52 @@ Prerequisites
 First year
 ----------
 
-### MEMS and Microsensors
-
-*   Course Notes written in Latex by _Francesco Lenzi & Donato Carlo Giorgio_ - [download](4/MEMS/MEMS_and_Microsensors.pdf)
-
 ### Analog Circuit Design
 
-*   Notes by _Andrea Bertazzoni_ - [download](4/Analog/AnalogCircuitDesign-Bertazzoni.pdf)
-*   Summaries for the oral exam by _Leonardo Sera_ (_questions 1-32_) - [download](4/Analog/ACD_Summaries_Sera.pdf)
+*   Course notes by _Andrea Bertazzoni_ - [Download](4/Analog/AnalogCircuitDesign-Bertazzoni.pdf)
+*   Summaries for the oral exam by _Leonardo Sera_ (_questions 1-32_) - [Download](4/Analog/ACD_Summaries_Sera.pdf)
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1EHAdoGCdYNnAqupD2ju8tO2S0vs1d0OL)
+
+### MEMS and Microsensors
+
+*   Course notes written in Latex by _Francesco Lenzi & Donato Carlo Giorgio_ - [Download](4/MEMS/MEMS_and_Microsensors.pdf)
+*   Course notes and formulary by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1rBTR7KC1rNfscHHJlDm7ZIyfFny1-2YM)
 
 ### Electron Devices
 
-*   Notes by _Mattia Marinoni_ - [download](4/ElectronDevices/appuntiEDMarinoni.pdf)
+*   Course notes by _Mattia Marinoni_ - [Download](4/ElectronDevices/appuntiEDMarinoni.pdf)
 
 ### Electronic Systems
 
-*   Notes by _Francesco Forestieri_ - [Theory](4/ElectronicSystems/ES_Theory_Forestieri.zip) - [Exercises](4/ElectronicSystems/ES_Exercises_Forestieri.zip)
-*   Course Notes by _Luca Colombo_ - [download](4/ElectronicSystems/ElectronicSystems.pdf)
+*   Course notes by _Francesco Forestieri_ - [Theory](4/ElectronicSystems/ES_Theory_Forestieri.zip) - [Exercises](4/ElectronicSystems/ES_Exercises_Forestieri.zip)
+*   Course notes by _Luca Colombo_ - [Download](4/ElectronicSystems/ElectronicSystems.pdf)
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1RIdzefSzCJRy1k41KNpi7umDvHbOc3Cc)
 
 ### Signal Recovery
 
-*   Solutions of the tutorials by _Simone Guglielmino_ - [Folder](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/4/SignalRecovery/TutorialsTranscripts) - [download](4/SignalRecovery/TutorialsTranscripts/SRTranscripts.zip)
-*   Course Notes by _Luca Colombo_ - [download](4/SignalRecovery/SignalRecovery.pdf)
-*   Cheat sheet by _Giacomo Tombolan_ - [download](4/SignalRecovery/TOMBOLAN_SR_CHEAT_SHEET.pdf)
+*   Solutions of the tutorials by _Simone Guglielmino_ - [Folder](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/4/SignalRecovery/TutorialsTranscripts) - [Download](4/SignalRecovery/TutorialsTranscripts/SRTranscripts.zip)
+*   Course notes by _Luca Colombo_ - [Download](4/SignalRecovery/SignalRecovery.pdf)
+*   Cheat sheet by _Giacomo Tombolan_ - [Download](4/SignalRecovery/TOMBOLAN_SR_CHEAT_SHEET.pdf)
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1oWAigQAJpLHzZl8WDYJxM7WvihO_sY8T)
 
 ### RF Circuit Design
 
-*   Notes by _Andrea Bertazzoni_ - [download](4/RFCircuitDesign/RFCircuitDesign-Bertazzoni.pdf)
+*   Course notes by _Andrea Bertazzoni_ - [Download](4/RFCircuitDesign/RFCircuitDesign-Bertazzoni.pdf)
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/15yBgF_jmEApOPBcul8NRNnyfJOv_r8J0)
 
 ### Digital Integrated Circuit Design
 
-*   Course Notes by _Luca Colombo_ - [download](4/DICD/DigitalIntegratedCircuitDesign.pdf)
+*   Course notes by _Luca Colombo_ - [Download](4/DICD/DigitalIntegratedCircuitDesign.pdf)
 
 ### Digital Electronic Systems Design
 
 *   VHDL snippets for Visual Studio code, lets you spare a lot of time, especially writing test benches - [view online](https://gist.github.com/valerionew/3f3fb06988160b60b82bde3496311a7f)
 *   VHDL Code for the labs (2021, labs may have changed) - [repo](https://github.com/valerionew/desd-labs)
+
+### Biochip
+
+*   Course notes on [Stduwiz](https://www.studwiz.com/notes/polimi/engineering/06-biomedical-engineering/subject-163/index.php) (add them to Prof's slides)
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/18qR8uuJGY1ekr2HxXgdR9YouXcNjTZnu)
 
 &nbsp;
 
@@ -314,13 +329,23 @@ First year
 Second year
 -----------
 
+### Mixed-Signal Circuit Design
+
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1Dt6Us1RiZQkEG-8oJ6TgEohX7T3i1Dvi)
+
 ### Power Electronics
 
-*   Course Notes by _Luca Colombo_ - [download](5/PowerElectronics/PowerElectronics.pdf)
+*   Course notes by _Luca Colombo_ - [Download](5/PowerElectronics/PowerElectronics.pdf)
+
+### Microelectronic Technologies
+
+*   Course notes by _Mikel Kumria_ - [Folder](https://drive.google.com/drive/folders/12AprM4BqPXh8qebSwoPI3FGgb9QD1zvW)
 
 ### Electronic Design For Biomedical Instrumentation
 
-*   Course Notes by _Luca Colombo_ - [download](5/EDFBI/ElectronicsDesign.pdf)
+*   Course notes by _Luca Colombo_ - [Download](5/EDFBI/ElectronicsDesign.pdf)
+*   Summary by _Matteo Toia_ - [Download](5/EDFBI/Summary_Toia.pdf)
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1N2Xk5plTNXJkXJJkuynDPz0x7fKjDf3L)
 
 &nbsp;
 
@@ -329,35 +354,44 @@ Second year
 TAB 1
 -----
 
+### Advanced optics and lasers
+
+*   Course notes by _Francesco Faillace_ - [Download](TAB1/AdvancedOpticsLasers/ADVANCED_OPTICS_AND_LASERS_NOTES.pdf)
+
+### Automation and control in electric and hybrid vehicles
+
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/12r6ir-L7ZYedaiKsd21QZ8aJkXAbbFD8)
+
 ### Numerical Methods in Microelectronics
 
-*   Notes by _Andrea Bertazzoni_ (_please note that these notes refer to the entire course, of which Numerical Methods in Microelectronics is just a module_) - [download](TAB1/NumericalMethods/ComputationalModelinginElectronicsandBiomathematics-Bertazzoni.pdf)
+*   Course notes by _Andrea Bertazzoni_ (_please note that these notes refer to the entire course, of which Numerical Methods in Microelectronics is just a module_) - [Download](TAB1/NumericalMethods/ComputationalModelinginElectronicsandBiomathematics-Bertazzoni.pdf)
 
 ### Design of Hardware Accelerators
 
-*   Notes by _Guido Rolle_ - [notes](TAB1/HardwareAccelerators/HardwareAccelerators.pdf) - [markdown source](TAB1/HardwareAccelerators/HWACC.md)
+*   Course notes by _Guido Rolle_ - [Notes](TAB1/HardwareAccelerators/HardwareAccelerators.pdf) - [Markdown source](TAB1/HardwareAccelerators/HWACC.md)
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1NLIfOZ-jwgkg6_cyv0STUiMOF6GvWFJT)
 
 ### Optical Measurements
 
-*   Formulas by _Tommaso Dezuanni_ - [download](TAB1/OpticalMeasurements/FormOM.pdf)
+*   Formulas by _Tommaso Dezuanni_ - [Download](TAB1/OpticalMeasurements/FormOM.pdf)
 
 ### Sensor Systems
 
-*   Course Notes by _Luca Colombo_ - [download](TAB1/SensorSystems/SensorSystems.pdf)
+*   Course notes by _Luca Colombo_ - [Download](TAB1/SensorSystems/SensorSystems.pdf)
 *   Code of the LABs - [Valerio Nappi](https://github.com/valerionew/sensor-systems-course) - [Emilio Corigliano](https://github.com/EmilioCorigliano/sensor-systems)
 
 ### Electromagnetic Compatibility
 
-*   Notes by _Tommaso Dezuanni_ - [download](TAB1/EMC/Notes_EMC_C.pdf)
+*   Course notes by _Tommaso Dezuanni_ - [Download](TAB1/EMC/Notes_EMC_C.pdf)
 
 ### Solid State Physics A
 
 *   Questions asked at the oral exam by _Mattia Marinoni_ - [Download](TAB1/SolidStatePhysicsA/domandeSSPAMarinoni.docx)
-*   Notes by _Mattia Marinoni_ - Download: [part 1](TAB1/SolidStatePhysicsA/appuntiSSPAParte1Marinoni.pdf) - [part 2](TAB1/SolidStatePhysicsA/appuntiSSPAParte2Marinoni.pdf)
+*   Course notes by _Mattia Marinoni_ - Download: [part 1](TAB1/SolidStatePhysicsA/appuntiSSPAParte1Marinoni.pdf) - [part 2](TAB1/SolidStatePhysicsA/appuntiSSPAParte2Marinoni.pdf)
 
 ### Quantum Communications
 
-*   Notes by _Andrea Al Muktash_ - [download](TAB1/QuantumCommunications/QuantumCommuncations-AlMuktash.pdf)
+*   Course notes by _Andrea Al Muktash_ - [Download](TAB1/QuantumCommunications/QuantumCommuncations-AlMuktash.pdf)
 
 &nbsp;
 
@@ -368,11 +402,11 @@ TAB 2
 
 ### RF Systems
 
-*   Formulas by _Tommaso Dezuanni_ - [download](TAB2/RFsystems/RFsystems_formulary.pdf)
+*   Formulas by _Tommaso Dezuanni_ - [Download](TAB2/RFsystems/RFsystems_formulary.pdf)
 
 ### Photonic Devices
 
-*   Notes by _Tommaso Dezuanni_ - [download](TAB2/PhotonicDevices/notes_of_photonics_devices.pdf)
+*   Course notes by _Tommaso Dezuanni_ - [Download](TAB2/PhotonicDevices/notes_of_photonics_devices.pdf)
 
 &nbsp;
 
