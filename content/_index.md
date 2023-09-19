@@ -64,11 +64,11 @@ _🇬🇧 &nbsp;Compilation of copyright-free or redistributable materials, bene
     - [Numerical Methods in Microelectronics](#numerical-methods-in-microelectronics)
     - [Design of Hardware Accelerators](#design-of-hardware-accelerators)
     - [Optical Measurements](#optical-measurements)
-    - [Sensor Systems](#sensor-systems)
     - [Electromagnetic Compatibility](#electromagnetic-compatibility)
     - [Solid State Physics A](#solid-state-physics-a)
     - [Quantum Communications](#quantum-communications)
   - [TAB 2](#tab-2)
+    - [Sensor Systems](#sensor-systems)
     - [RF Systems](#rf-systems)
     - [Photonic Devices](#photonic-devices)
 
@@ -375,11 +375,6 @@ TAB 1
 
 *   Formulas by _Tommaso Dezuanni_ - [Download](TAB1/OpticalMeasurements/FormOM.pdf)
 
-### Sensor Systems
-
-*   Course notes by _Luca Colombo_ - [Download](TAB1/SensorSystems/SensorSystems.pdf)
-*   Code of the LABs - [Valerio Nappi](https://github.com/valerionew/sensor-systems-course) - [Emilio Corigliano](https://github.com/EmilioCorigliano/sensor-systems)
-
 ### Electromagnetic Compatibility
 
 *   Course notes by _Tommaso Dezuanni_ - [Download](TAB1/EMC/Notes_EMC_C.pdf)
@@ -399,6 +394,11 @@ TAB 1
 
 TAB 2
 -----
+
+### Sensor Systems
+
+*   Course notes by _Luca Colombo_ - [Download](TAB2/SensorSystems/SensorSystems.pdf)
+*   Code of the LABs - [Valerio Nappi](https://github.com/valerionew/sensor-systems-course) - [Emilio Corigliano](https://github.com/EmilioCorigliano/sensor-systems)
 
 ### RF Systems
 
