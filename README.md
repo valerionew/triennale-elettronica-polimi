@@ -1,7 +1,7 @@
 # [Github Page](https://valerionew.github.io/triennale-elettronica-polimi/) - [Netlify](https://triennale-elettronica-polimi.netlify.app/)
 
 ![Github Actions](https://github.com/valerionew/triennale-elettronica-polimi/actions/workflows/hugo.yaml/badge.svg)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/41295a5a-290b-4840-b062-9507b07201ce/deploy-status)](https://app.netlify.com/sites/polimi-electronics/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/059819a0-9cee-4dde-9301-8b6baf2885f8/deploy-status)](https://app.netlify.com/sites/triennale-elettronica-polimi/deploys)
 
 # Feature
 
