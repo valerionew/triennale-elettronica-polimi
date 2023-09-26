@@ -94,13 +94,13 @@ Primo anno
 
 ### Chimica
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Q4hy2Rgb#7iPOP8n_X9mUllrrs1OyyQ)
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Q4hy2Rgb#7iPOP8n_X9mUllrrs1OyyQ) **(\*)**
 *   Tabella riassuntiva [Orto-Meta-Para orientanti](1/Chimica/OMPBenzene.pdf)
 *   Appunti di _Pietro Giannoccaro_ - [Download](1/Chimica/appuntiGiannoccaro.pdf)
 
 ### Informatica
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/doJQxRTK#oP3vuq2p9OQ-wjHXcwDu6Q)
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/doJQxRTK#oP3vuq2p9OQ-wjHXcwDu6Q) **(\*)**
 *   [Appunti generali](1/Informatica/noteVelociFDInformatica.pdf)
 *   [Appunti stdio](1/Informatica/stdio.pdf)
 *   [Appunti stdlib](1/Informatica/stdlib.pdf)
@@ -113,12 +113,12 @@ Primo anno
 
 ### Fisica 1
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/QxRm0JCZ#B05MLcw3tU8x4eFMoLGwUA)
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/QxRm0JCZ#B05MLcw3tU8x4eFMoLGwUA) **(\*)**
 *   Formulario di [_Giuseppe Chierchia_](https://sites.google.com/view/giuseppechierchia/materiale-tecnico) - [Mirror](1/Fisica1/FormularioFIS1chierchia.pdf) **(\*)**
 
 ### Economia
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/opRGzb4C#6ezLCsyGkJBtRo7L1u8oKQ)
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/opRGzb4C#6ezLCsyGkJBtRo7L1u8oKQ) **(\*)**
 
 &nbsp;
 
@@ -129,33 +129,33 @@ Secondo anno
 
 ### Analisi 2
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/w5hgjDKD#Se9OADU_LmcbxUlFfTzs8Q)
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/w5hgjDKD#Se9OADU_LmcbxUlFfTzs8Q) **(\*)**
 *   Formulario di [_Giuseppe Chierchia_](https://sites.google.com/view/giuseppechierchia/materiale-tecnico) - [Mirror](2/AM2/formularioAM2chierchia.pdf) **(\*)**
 *   [Domande tipiche degli orali](http://www1.mate.polimi.it/~bramanti/corsi/temidesame_analisi2/domande_orali_2019.pdf) - [Mirror](2/AM2/domande_orali_2019.pdf)
 
 ### Elettromagnetismo ed ottica
 
 *   Concetti riassuntivi della teoria del Prof. Laporta - [Download](2/EEO/EEO_ConcettiRiassuntivi_UnicoStampa.pdf)
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Ah5g1DTQ#jtuBwLooK_87YXFkgsYAUw)
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Ah5g1DTQ#jtuBwLooK_87YXFkgsYAUw) **(\*)**
 *   Rifrazione e riflessione dal principio di fermat [da batmath.it](http://www.batmath.it/fisica/fondamenti/rifl_rifr/rifl_rifr.htm) **(\*)**
 *   Formulario di [_Giuseppe Chierchia_](https://sites.google.com/view/giuseppechierchia/materiale-tecnico) - [Mirror](2/EEO/formularioEEOchierchia.pdf) **(\*)**
 *   Domande di teoria degli esami - [Link](https://github.com/valerionew/triennale-elettronica-polimi/blob/master/static/2/EEO/domandeTeoria.md)
 
 ### Elettrotecnica
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Ex42mByZ#wD6G5eFB01aDDTVMqzuKXg)
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Ex42mByZ#wD6G5eFB01aDDTVMqzuKXg) **(\*)**
 *   Raccolta di temi d'esame a cura di _Dino Ghilardi_ (_CC BY-NC-SA 3.0_) - [Link](https://damore.faculty.polimi.it/download/temiDEsame.pdf) - [Mirror](2/Elettrotecnica/temiDEsame.pdf)
 *   Compendio/formulario di _Pietro Giannoccaro_ - [Download](2/Elettrotecnica/formularioGiannoccaro.pdf)
 
 ### Fondamenti di automatica
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/ZsAAVRgK#zqkxEcOdi1VYIzRtDY2rkw)
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/ZsAAVRgK#zqkxEcOdi1VYIzRtDY2rkw) **(\*)**
 *   Risposte ad alcune tipiche domande di teoria - [Download](2/FDA/teoria_automatica.pdf)
 *   Appunti di _Giacomo Tombolan_ del corso - Download: [Parte 1](2/FDA/appuntiTombolan/1_TOMBOLAN_AUTOMATICA_CORNO_2018.pdf) - [Parte 2](2/FDA/appuntiTombolan/33_TOMBOLAN_AUTOMATICA_CORNO_2018.pdf) - [Parte 3](2/FDA/appuntiTombolan/61_TOMBOLAN_AUTOMATICA_CORNO_2018.pdf)
 
 ### Dispositivi elettronici
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/VhJgVDKA#nQkA2sXq8NXwOcMD0L2LZw)
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/VhJgVDKA#nQkA2sXq8NXwOcMD0L2LZw) **(\*)**
 *   Risposte alle domande per la discussione orale - [Download](2/DE/DomandeOrale.pdf)
 *   Collezione di esercizi svolti (alcuni sbagliati o incompleti, la maggior parte giusti) - [Download](2/DE/HomeworkS.zip)
 *   Formulario di _Alessio Serraino_ - [Download](2/DE/formularioSerraino.pdf)
@@ -163,13 +163,13 @@ Secondo anno
 
 ### Architetture dei calcolatori
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/MhhWHT4D#9UOTcMcP_jEpYdLmhsp6bQ)
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/MhhWHT4D#9UOTcMcP_jEpYdLmhsp6bQ) **(\*)**
 *   Appunti di _Pietro Giannoccaro_ - [Download](2/ArchCalc/ArchitettureDeiCalcolatori-PietroGiannoccaro.pdf)
 *   Brevi appunti manoscritti - [Download](2/ArchCalc/appuntiArchCalc.pdf)
 
 ### Fondamenti di elettronica
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/hogSVToa#CCYWLTbUAuxWRKTE5MxOVg)
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/hogSVToa#CCYWLTbUAuxWRKTE5MxOVg) **(\*)**
 *   Appunti di lezioni ed esercitazioni di _Francesco Bossio_ - [Cartella](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/2/FDE/appuntiBossio)
 *   Appunti di _Giacomo Tombolan_ del corso - Download [Parte 1](2/FDE/appuntiTombolan/1_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 2](2/FDE/appuntiTombolan/22_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 3](2/FDE/appuntiTombolan/38_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 4](2/FDE/appuntiTombolan/53_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 5](2/FDE/appuntiTombolan/73_TOMBOLAN_FDE_2018_APPUNTI.pdf)
 *   [Alcune domande degli esami orali](https://github.com/valerionew/triennale-elettronica-polimi/blob/master/static/2/FDE/domandeElettronica.md)
@@ -183,7 +183,7 @@ Terzo anno
 
 ### Elettronica digitale
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/04AkkJia#p4sURbtF3DmMk96W6KEP3w)
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/04AkkJia#p4sURbtF3DmMk96W6KEP3w) **(\*)**
 *   VHDL Cheatsheet di _Lorenzo Rossi_ - [Download](3/Digitale/vhdl.pdf)
 \- [Repository](https://github.com/lorossi/appunti-vhdl)
 *   Appunti rapidi di elettronica digitale di _Lorenzo Rossi_ - [Download](3/Digitale/appunti_digitale.pdf) - [Sorgenti LaTeX](https://github.com/valerionew/triennale-elettronica-polimi/blob/master/static/3/Digitale/appunti_digitale.tex)
@@ -196,7 +196,7 @@ Terzo anno
 
 ### Fondamenti di segnali
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Y9xmnBbY#IE30YBzg-g3L6GIx4464mA)
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Y9xmnBbY#IE30YBzg-g3L6GIx4464mA) **(\*)**
 *   Appunti di _Andrea Bertazzoni_ - [Probabilità](3/Segnali/probabilitaBertazzoni.pdf) - [Segnali](3/Segnali/segnaliBertazzoni.pdf) - [Trasmissioni](3/Segnali/trasmissioniBertazzoni.pdf) - [Processi](3/Segnali/processiBertazzoni.pdf) (non completo)
 *   Dispense ed Esercizi svolti _proff. Barni e De Rosa_ - [Link diretto](https://www3.diism.unisi.it/~pozzebon/comunicazioni_elettriche/segnali/dispense/dispense_tds.pdf) - [Mirror](3/Segnali/dispense_tds.pdf)
 *   Formulario di _Lorenzo Rossi_ - [Download](3/Segnali/20191128_1130_FORMULARIO.pdf)
@@ -205,7 +205,7 @@ Terzo anno
 
 ### Calcolo numerico
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/ZkpiGY6L#PmtUCNVhu_5XDsVj5rogBg)
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/ZkpiGY6L#PmtUCNVhu_5XDsVj5rogBg) **(\*)**
 *   Laboratori: [https://github.com/valerionew/calcolo\_numerico](https://github.com/valerionew/calcolo_numerico)
 
 ### Microcontrollori
@@ -217,7 +217,7 @@ Terzo anno
 
 ### Campi elettromagnetici
 
-*   Appunti di _Lorenzo Perlo_ e _Alessandro Perna_ - [Cartella](https://mega.nz/folder/YkhClASa#x_uoPjlGKTnmuX-r_IevgA)
+*   Appunti di _Lorenzo Perlo_ e _Alessandro Perna_ - [Cartella](https://mega.nz/folder/YkhClASa#x_uoPjlGKTnmuX-r_IevgA) **(\*)**
 *   Formulario di _Lorenzo Rossi_ - [Repository](https://github.com/lorossi/formulario-campi-elettromagnetici) - [Link diretto](https://github.com/lorossi/formulario-campi-elettromagnetici/raw/master/formulario_campi.pdf) - [Mirror](3/CEM/formulario_campi.pdf)
 *   Appunti di _Andrea Bertazzoni_ - [Download](3/CEM/campiBertazzoni.pdf)
 *   Temi d'esame risolti di _Andreja Marinkovic_ - [Download](3/CEM/campiTemiDEsameMarinkovic.pdf)
@@ -229,7 +229,7 @@ Terzo anno
 
 ### Elettronica dello stato solido
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/UkBFHYjL#lOHzgWuYxroO8qPBM8DYJA)
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/UkBFHYjL#lOHzgWuYxroO8qPBM8DYJA) **(\*)**
 *   Appunti incompleti sui casi risolutivi dell'equazione di Schrödinger - [Download](3/ESS/schrodinger.pdf) - [Sorgenti LaTeX](3/ESS/schrodinger.tex)
 *   Formulario di _Lorenzo Rossi_ - [Repository](https://github.com/lorossi/formulario-stato-solido) - [Link diretto](https://github.com/lorossi/formulario-stato-solido/raw/master/formulario-elettronica-dello-stato-solido.pdf) - [Mirror](3/ESS/formulario-elettronica-dello-stato-solido.pdf)
 *   Appunti di _Mattia Marinoni_ - [Download](3/ESS/appuntiMarinoni.pdf)
@@ -237,7 +237,7 @@ Terzo anno
 
 ### Optoelettronica
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/4so2WSLT#mz8ZNMKP3FTHZ4VB7UFIhg)
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/4so2WSLT#mz8ZNMKP3FTHZ4VB7UFIhg) **(\*)**
 *   Formulario di _Lorenzo Rossi_ e raccolta di domande di teoria - [Download](https://github.com/lorossi/formulario-optoelettronica/raw/master/formulario-optoelettronica.pdf) - [Mirror](3/Optoelettronica/formularioRossiOpto.pdf) - [Repository](https://github.com/lorossi/formulario-optoelettronica)
 *   Appunti di _Andrea Al Muktash_ - [Download](3/Optoelettronica/optoelettronicaAlMuktash.pdf)
 
