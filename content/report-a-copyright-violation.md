@@ -8,7 +8,7 @@ weight = -1
 
 ## 🇬🇧 &nbsp;Report a copyright violation
 
-[![Copyright violation](https://img.shields.io/badge/copyright-violation-red?style=flat)](https://github.com/valerionew/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
+[{{< copyright >}}](https://github.com/valerionew/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
 
 You have two options for reporting copyright violations:
 
