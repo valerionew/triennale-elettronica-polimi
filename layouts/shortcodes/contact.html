@@ -105,6 +105,18 @@
       });
     }
 
+    var host = window.location.host;
+    var span_it = document.getElementById("alternative-it");
+    var span_en = document.getElementById("alternative-en");
+
+    if (host.includes("netlify")) {
+      span_it.innerHTML = `Se incontri dei problemi con l'attuale sito prova sulla <a href="https://valerionew.github.io/triennale-elettronica-polimi/">Github Page</a>.`;
+      span_en.innerHTML = `If you encounter any problem with the actual website you can try the <a href="https://valerionew.github.io/triennale-elettronica-polimi/">Github Page</a>.`;
+    } else if (host.includes("github")) {
+      span_it.innerHTML = `Se incontri dei problemi con l'attuale sito prova sul <a href="https://triennale-elettronica-polimi.netlify.app/">Netlify Mirror</a>.`;
+      span_en.innerHTML = `If you encounter any problem with the actual website you can try the <a href="https://triennale-elettronica-polimi.netlify.app/">Netlify Mirror</a>.`;
+    }
+
     form.addEventListener("submit", handleSubmit);
 
   })
