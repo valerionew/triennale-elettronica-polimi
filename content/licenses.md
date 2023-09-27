@@ -16,6 +16,8 @@ In general, except otherwise specified, the author's material and the other righ
 
 * * *
 
+### External links
+
 🇮🇹 &nbsp;**(\*)**: indica il materiale liberamente disponibile in rete riportato su questa risorsa. Dove lo si è ritenuto opportuno, si è provveduto a creare una copia locale, nel caso le risorse diventassero non più disponibili in futuro. **Tutti i diritti restano dei rispettivi autori.**  
 
 🇬🇧 &nbsp;**(\*)**: marks the material freely available on internet, reported in this resource. Where it was deemed appropriate, we proceeded to create a local mirror, in case the resource stops beeing available in the future. **All the rights remain to the respective authors.**

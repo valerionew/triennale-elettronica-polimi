@@ -419,10 +419,12 @@ TAB 2
 Extra
 =====
 
-🇮🇹 &nbsp;Gli appunti sono nella stessa lingua in cui viene erogato il corso.  
+🇮🇹 &nbsp; **(\*)**  è spiegato [qui]({{< ref "licenses.md#external-links" >}}).  
+Gli appunti sono nella stessa lingua in cui viene erogato il corso.  
 ***Buono studio 💪***
 
-🇬🇧 &nbsp;The notes are in the same language in which the course is delivered.  
+🇬🇧 &nbsp; **(\*)** explained [here]({{< ref "licenses.md#external-links" >}}).  
+The notes are in the same language in which the course is delivered.  
 ***Good study 🤓***
 
 
