@@ -420,11 +420,9 @@ Extra
 =====
 
 🇮🇹 &nbsp;Gli appunti sono nella stessa lingua in cui viene erogato il corso.  
-👉 **(\*)** indica una risorsa esterna (sia al sito che alla repo Github).  
 ***Buono studio 💪***
 
 🇬🇧 &nbsp;The notes are in the same language in which the course is delivered.  
-👉 **(\*)** indicates an external resource (not hosted on the website or on the GitHub repository).  
 ***Good study 🤓***
 
 
