@@ -204,7 +204,9 @@ Terzo anno
 *   Formulario del _prof. Barbagallo_ - [Link diretto](https://www.unirc.it/documentazione/materiale_didattico/599_2009_200_5021.pdf) - [Mirror](3/Segnali/formularioBarbagallo.pdf) **(\*)**
 *   Appunti di _B. Berasategi_ **in inglese** _(Notes by B. Berasategi **in English**)_ - [Download](3/Segnali/notesBerasategi_eng.pdf). **(\*)**
 
-_Nota su appunti di B. Berasategi_: 🇮🇹 Non sono riuscito a mettermi in contatto con l'autore per chiedere il permesso di pubblicazione. Per ora l'ho condiviso perché mi sembra un ottimo lavoro e, dal fatto che ha dato ai docenti il permesso di diffonderlo, ho supposto che non ci siano problemi. 🇬🇧 I was not able to contact the author to ask for permission to publish. For now I shared it because it seems to me an excellent work and, from the fact that he gave the teachers permission to spread it, I assumed there are no problems. For any problem, see the [Report]({{< ref "report-a-copyright-violation.md" >}}) section
+_Nota su appunti di B. Berasategi_: 🇮🇹 Non sono riuscito a mettermi in contatto con l'autore per chiedere il permesso di pubblicazione. Per ora l'ho condiviso perché mi sembra un ottimo lavoro e, dal fatto che ha dato ai docenti il permesso di diffonderlo, ho supposto che non ci siano problemi. Per qualsiasi problema, vedere la sezione [Report]({{< ref "report-a-copyright-violation.md" >}})
+
+_Note on the notes of B. Berasategi_:🇬🇧 I was not able to contact the author to ask for permission to publish. For now I shared it because it seems to me an excellent work and, from the fact that he gave the teachers permission to spread it, I assumed there are no problems. For any problem, see the [Report]({{< ref "report-a-copyright-violation.md" >}}) section
 
 ### Calcolo numerico
 
