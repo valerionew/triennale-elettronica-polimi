@@ -326,7 +326,7 @@ First year
 
 ### Biochip
 
-*   Course notes on [Stduwiz](https://www.studwiz.com/notes/polimi/engineering/06-biomedical-engineering/subject-163/index.php) (add them to Prof's slides) **(\*)**
+*   Course notes on external webiste - [Studwiz](https://www.studwiz.com/notes/polimi/engineering/06-biomedical-engineering/subject-163/index.php) (add them to Prof's slides) **(\*)**
 *   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/18qR8uuJGY1ekr2HxXgdR9YouXcNjTZnu) **(\*)**
 
 &nbsp;
