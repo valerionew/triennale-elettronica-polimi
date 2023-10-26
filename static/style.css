@@ -192,6 +192,6 @@ button {
   border-radius: 5px;
 }
 
-html {
-  scroll-behavior: smooth;
+*, html {
+  scroll-behavior: smooth !important;
 }
