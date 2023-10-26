@@ -89,19 +89,19 @@ Primo anno
 
 ### Analisi 1
 
-*   Formulario di _[Giuseppe Chierchia](https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B4W4yLtAkKPZYjc3ZDdmN2MtMTk0OC00ZTkyLTk1ZDgtOGFhZDg3N2JjYTM5&hl=it)_ - [Mirror](1/AM1/formularioAM1chierchia.pdf) **(\*)**
+*   Formulario di _[Giuseppe Chierchia](https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B4W4yLtAkKPZYjc3ZDdmN2MtMTk0OC00ZTkyLTk1ZDgtOGFhZDg3N2JjYTM5&hl=it)_ - [Mirror](1/AM1/formularioAM1chierchia.pdf) {{< asterisk >}}
 *   Dimostrazioni dei teoremi di _Alessio Serraino_ - [Visita](http://serrainoalessio.github.io/math/teoremi_analisi/index.html)
 *   Appunti sulla teoria del primo parziale di _Vito Sciascia_ - [Cartella](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/1/AM1/PrimoParzialeTeoria/)
 
 ### Chimica
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Q4hy2Rgb#7iPOP8n_X9mUllrrs1OyyQ) **(\*)**
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Q4hy2Rgb#7iPOP8n_X9mUllrrs1OyyQ) {{< asterisk >}}
 *   Tabella riassuntiva [Orto-Meta-Para orientanti](1/Chimica/OMPBenzene.pdf)
 *   Appunti di _Pietro Giannoccaro_ - [Download](1/Chimica/appuntiGiannoccaro.pdf)
 
 ### Informatica
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/doJQxRTK#oP3vuq2p9OQ-wjHXcwDu6Q) **(\*)**
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/doJQxRTK#oP3vuq2p9OQ-wjHXcwDu6Q) {{< asterisk >}}
 *   [Appunti generali](1/Informatica/noteVelociFDInformatica.pdf)
 *   [Appunti stdio](1/Informatica/stdio.pdf)
 *   [Appunti stdlib](1/Informatica/stdlib.pdf)
@@ -109,17 +109,17 @@ Primo anno
 
 ### Geometria e algebra lineare
 
-*   L'arcinoto [Eserciziario di geometria di _Claretta Carrara_](http://science.unitn.it/~carrara/ESERCIZIARIO) - [Mirror](1/GAL/carrara.pdf) **(\*)**
-*   Estratto dei suggerimenti dell'eserciziario di _Claretta Carrara_ [Download](1/GAL/carraraEstratto.pdf) **(\*)**
+*   L'arcinoto [Eserciziario di geometria di _Claretta Carrara_](http://science.unitn.it/~carrara/ESERCIZIARIO) - [Mirror](1/GAL/carrara.pdf) {{< asterisk >}}
+*   Estratto dei suggerimenti dell'eserciziario di _Claretta Carrara_ [Download](1/GAL/carraraEstratto.pdf) {{< asterisk >}}
 
 ### Fisica 1
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/QxRm0JCZ#B05MLcw3tU8x4eFMoLGwUA) **(\*)**
-*   Formulario di [_Giuseppe Chierchia_](https://sites.google.com/view/giuseppechierchia/materiale-tecnico) - [Mirror](1/Fisica1/FormularioFIS1chierchia.pdf) **(\*)**
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/QxRm0JCZ#B05MLcw3tU8x4eFMoLGwUA) {{< asterisk >}}
+*   Formulario di [_Giuseppe Chierchia_](https://sites.google.com/view/giuseppechierchia/materiale-tecnico) - [Mirror](1/Fisica1/FormularioFIS1chierchia.pdf) {{< asterisk >}}
 
 ### Economia
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/opRGzb4C#6ezLCsyGkJBtRo7L1u8oKQ) **(\*)**
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/opRGzb4C#6ezLCsyGkJBtRo7L1u8oKQ) {{< asterisk >}}
 
 &nbsp;
 
@@ -130,33 +130,33 @@ Secondo anno
 
 ### Analisi 2
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/w5hgjDKD#Se9OADU_LmcbxUlFfTzs8Q) **(\*)**
-*   Formulario di [_Giuseppe Chierchia_](https://sites.google.com/view/giuseppechierchia/materiale-tecnico) - [Mirror](2/AM2/formularioAM2chierchia.pdf) **(\*)**
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/w5hgjDKD#Se9OADU_LmcbxUlFfTzs8Q) {{< asterisk >}}
+*   Formulario di [_Giuseppe Chierchia_](https://sites.google.com/view/giuseppechierchia/materiale-tecnico) - [Mirror](2/AM2/formularioAM2chierchia.pdf) {{< asterisk >}}
 *   [Domande tipiche degli orali](http://www1.mate.polimi.it/~bramanti/corsi/temidesame_analisi2/domande_orali_2019.pdf) - [Mirror](2/AM2/domande_orali_2019.pdf)
 
 ### Elettromagnetismo ed ottica
 
 *   Concetti riassuntivi della teoria del Prof. Laporta - [Download](2/EEO/EEO_ConcettiRiassuntivi_UnicoStampa.pdf)
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Ah5g1DTQ#jtuBwLooK_87YXFkgsYAUw) **(\*)**
-*   Rifrazione e riflessione dal principio di fermat [da batmath.it](http://www.batmath.it/fisica/fondamenti/rifl_rifr/rifl_rifr.htm) **(\*)**
-*   Formulario di [_Giuseppe Chierchia_](https://sites.google.com/view/giuseppechierchia/materiale-tecnico) - [Mirror](2/EEO/formularioEEOchierchia.pdf) **(\*)**
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Ah5g1DTQ#jtuBwLooK_87YXFkgsYAUw) {{< asterisk >}}
+*   Rifrazione e riflessione dal principio di fermat [da batmath.it](http://www.batmath.it/fisica/fondamenti/rifl_rifr/rifl_rifr.htm) {{< asterisk >}}
+*   Formulario di [_Giuseppe Chierchia_](https://sites.google.com/view/giuseppechierchia/materiale-tecnico) - [Mirror](2/EEO/formularioEEOchierchia.pdf) {{< asterisk >}}
 *   Domande di teoria degli esami - [Link](https://github.com/valerionew/triennale-elettronica-polimi/blob/master/static/2/EEO/domandeTeoria.md)
 
 ### Elettrotecnica
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Ex42mByZ#wD6G5eFB01aDDTVMqzuKXg) **(\*)**
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Ex42mByZ#wD6G5eFB01aDDTVMqzuKXg) {{< asterisk >}}
 *   Raccolta di temi d'esame a cura di _Dino Ghilardi_ (_CC BY-NC-SA 3.0_) - [Link](https://damore.faculty.polimi.it/download/temiDEsame.pdf) - [Mirror](2/Elettrotecnica/temiDEsame.pdf)
 *   Compendio/formulario di _Pietro Giannoccaro_ - [Download](2/Elettrotecnica/formularioGiannoccaro.pdf)
 
 ### Fondamenti di automatica
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/ZsAAVRgK#zqkxEcOdi1VYIzRtDY2rkw) **(\*)**
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/ZsAAVRgK#zqkxEcOdi1VYIzRtDY2rkw) {{< asterisk >}}
 *   Risposte ad alcune tipiche domande di teoria - [Download](2/FDA/teoria_automatica.pdf)
 *   Appunti di _Giacomo Tombolan_ del corso - Download: [Parte 1](2/FDA/appuntiTombolan/1_TOMBOLAN_AUTOMATICA_CORNO_2018.pdf) - [Parte 2](2/FDA/appuntiTombolan/33_TOMBOLAN_AUTOMATICA_CORNO_2018.pdf) - [Parte 3](2/FDA/appuntiTombolan/61_TOMBOLAN_AUTOMATICA_CORNO_2018.pdf)
 
 ### Dispositivi elettronici
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/VhJgVDKA#nQkA2sXq8NXwOcMD0L2LZw) **(\*)**
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/VhJgVDKA#nQkA2sXq8NXwOcMD0L2LZw) {{< asterisk >}}
 *   Risposte alle domande per la discussione orale - [Download](2/DE/DomandeOrale.pdf)
 *   Collezione di esercizi svolti (alcuni sbagliati o incompleti, la maggior parte giusti) - [Download](2/DE/HomeworkS.zip)
 *   Formulario di _Alessio Serraino_ - [Download](2/DE/formularioSerraino.pdf)
@@ -164,13 +164,13 @@ Secondo anno
 
 ### Architetture dei calcolatori
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/MhhWHT4D#9UOTcMcP_jEpYdLmhsp6bQ) **(\*)**
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/MhhWHT4D#9UOTcMcP_jEpYdLmhsp6bQ) {{< asterisk >}}
 *   Appunti di _Pietro Giannoccaro_ - [Download](2/ArchCalc/ArchitettureDeiCalcolatori-PietroGiannoccaro.pdf)
 *   Brevi appunti manoscritti - [Download](2/ArchCalc/appuntiArchCalc.pdf)
 
 ### Fondamenti di elettronica
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/hogSVToa#CCYWLTbUAuxWRKTE5MxOVg) **(\*)**
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/hogSVToa#CCYWLTbUAuxWRKTE5MxOVg) {{< asterisk >}}
 *   Appunti di lezioni ed esercitazioni di _Francesco Bossio_ - [Cartella](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/2/FDE/appuntiBossio)
 *   Appunti di _Giacomo Tombolan_ del corso - Download [Parte 1](2/FDE/appuntiTombolan/1_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 2](2/FDE/appuntiTombolan/22_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 3](2/FDE/appuntiTombolan/38_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 4](2/FDE/appuntiTombolan/53_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 5](2/FDE/appuntiTombolan/73_TOMBOLAN_FDE_2018_APPUNTI.pdf)
 *   [Alcune domande degli esami orali](https://github.com/valerionew/triennale-elettronica-polimi/blob/master/static/2/FDE/domandeElettronica.md)
@@ -184,7 +184,7 @@ Terzo anno
 
 ### Elettronica digitale
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/04AkkJia#p4sURbtF3DmMk96W6KEP3w) **(\*)**
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/04AkkJia#p4sURbtF3DmMk96W6KEP3w) {{< asterisk >}}
 *   VHDL Cheatsheet di _Lorenzo Rossi_ - [Download](3/Digitale/vhdl.pdf)
 \- [Repository](https://github.com/lorossi/appunti-vhdl)
 *   Appunti rapidi di elettronica digitale di _Lorenzo Rossi_ - [Download](3/Digitale/appunti_digitale.pdf) - [Sorgenti LaTeX](https://github.com/valerionew/triennale-elettronica-polimi/blob/master/static/3/Digitale/appunti_digitale.tex)
@@ -193,17 +193,17 @@ Terzo anno
 
 ### Elettronica analogica
 
-*   Materiale del _Prof. Sampietro_: [https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html](https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html) - [Mirror](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/3/Analogica) **(\*)**
+*   Materiale del _Prof. Sampietro_: [https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html](https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html) - [Mirror](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/3/Analogica) {{< asterisk >}}
 
 ### Fondamenti di segnali
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Y9xmnBbY#IE30YBzg-g3L6GIx4464mA) **(\*)**
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Y9xmnBbY#IE30YBzg-g3L6GIx4464mA) {{< asterisk >}}
 *   Appunti di _Andrea Bertazzoni_ - [Probabilità](3/Segnali/probabilitaBertazzoni.pdf) - [Segnali](3/Segnali/segnaliBertazzoni.pdf) - [Trasmissioni](3/Segnali/trasmissioniBertazzoni.pdf) - [Processi](3/Segnali/processiBertazzoni.pdf) (non completo)
 *   Dispense ed Esercizi svolti _proff. Barni e De Rosa_ - [Link diretto](https://www3.diism.unisi.it/~pozzebon/comunicazioni_elettriche/segnali/dispense/dispense_tds.pdf) - [Mirror](3/Segnali/dispense_tds.pdf)
 *   Formulario di _Lorenzo Rossi_ - [Download](3/Segnali/20191128_1130_FORMULARIO.pdf)
-*   Formulario _prof. Prati_ - [Link diretto](http://home.deib.polimi.it/prati/PwPoint/formularioSegnali.pdf) - [Mirror](3/Segnali/formularioProfPrati.pdf) **(\*)**
-*   Formulario del _prof. Barbagallo_ - [Link diretto](https://www.unirc.it/documentazione/materiale_didattico/599_2009_200_5021.pdf) - [Mirror](3/Segnali/formularioBarbagallo.pdf) **(\*)**
-*   Appunti di _B. Berasategi_ **in inglese** _(Notes by B. Berasategi **in English**)_ - [Download](3/Segnali/notesBerasategi_eng.pdf). **(\*)**
+*   Formulario _prof. Prati_ - [Link diretto](http://home.deib.polimi.it/prati/PwPoint/formularioSegnali.pdf) - [Mirror](3/Segnali/formularioProfPrati.pdf) {{< asterisk >}}
+*   Formulario del _prof. Barbagallo_ - [Link diretto](https://www.unirc.it/documentazione/materiale_didattico/599_2009_200_5021.pdf) - [Mirror](3/Segnali/formularioBarbagallo.pdf) {{< asterisk >}}
+*   Appunti di _B. Berasategi_ **in inglese** _(Notes by B. Berasategi **in English**)_ - [Download](3/Segnali/notesBerasategi_eng.pdf) **(&darr;)**
 
 _Nota su appunti di B. Berasategi_: 🇮🇹 Non sono riuscito a mettermi in contatto con l'autore per chiedere il permesso di pubblicazione. Per ora l'ho condiviso perché mi sembra un ottimo lavoro e, dal fatto che ha dato ai docenti il permesso di diffonderlo, ho supposto che non ci siano problemi. Per qualsiasi problema, vedere la sezione [Report]({{< ref "report-a-copyright-violation.md" >}})
 
@@ -211,7 +211,7 @@ _Note on the notes of B. Berasategi_:🇬🇧 I was not able to contact the auth
 
 ### Calcolo numerico
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/ZkpiGY6L#PmtUCNVhu_5XDsVj5rogBg) **(\*)**
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/ZkpiGY6L#PmtUCNVhu_5XDsVj5rogBg) {{< asterisk >}}
 *   Laboratori: [https://github.com/valerionew/calcolo\_numerico](https://github.com/valerionew/calcolo_numerico)
 
 ### Microcontrollori
@@ -223,7 +223,7 @@ _Note on the notes of B. Berasategi_:🇬🇧 I was not able to contact the auth
 
 ### Campi elettromagnetici
 
-*   Appunti di _Lorenzo Perlo_ e _Alessandro Perna_ - [Cartella](https://mega.nz/folder/YkhClASa#x_uoPjlGKTnmuX-r_IevgA) **(\*)**
+*   Appunti di _Lorenzo Perlo_ e _Alessandro Perna_ - [Cartella](https://mega.nz/folder/YkhClASa#x_uoPjlGKTnmuX-r_IevgA) {{< asterisk >}}
 *   Formulario di _Lorenzo Rossi_ - [Repository](https://github.com/lorossi/formulario-campi-elettromagnetici) - [Link diretto](https://github.com/lorossi/formulario-campi-elettromagnetici/raw/master/formulario_campi.pdf) - [Mirror](3/CEM/formulario_campi.pdf)
 *   Appunti di _Andrea Bertazzoni_ - [Download](3/CEM/campiBertazzoni.pdf)
 *   Temi d'esame risolti di _Andreja Marinkovic_ - [Download](3/CEM/campiTemiDEsameMarinkovic.pdf)
@@ -235,7 +235,7 @@ _Note on the notes of B. Berasategi_:🇬🇧 I was not able to contact the auth
 
 ### Elettronica dello stato solido
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/UkBFHYjL#lOHzgWuYxroO8qPBM8DYJA) **(\*)**
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/UkBFHYjL#lOHzgWuYxroO8qPBM8DYJA) {{< asterisk >}}
 *   Appunti incompleti sui casi risolutivi dell'equazione di Schrödinger - [Download](3/ESS/schrodinger.pdf) - [Sorgenti LaTeX](3/ESS/schrodinger.tex)
 *   Formulario di _Lorenzo Rossi_ - [Repository](https://github.com/lorossi/formulario-stato-solido) - [Link diretto](https://github.com/lorossi/formulario-stato-solido/raw/master/formulario-elettronica-dello-stato-solido.pdf) - [Mirror](3/ESS/formulario-elettronica-dello-stato-solido.pdf)
 *   Appunti di _Mattia Marinoni_ - [Download](3/ESS/appuntiMarinoni.pdf)
@@ -243,7 +243,7 @@ _Note on the notes of B. Berasategi_:🇬🇧 I was not able to contact the auth
 
 ### Optoelettronica
 
-*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/4so2WSLT#mz8ZNMKP3FTHZ4VB7UFIhg) **(\*)**
+*   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/4so2WSLT#mz8ZNMKP3FTHZ4VB7UFIhg) {{< asterisk >}}
 *   Formulario di _Lorenzo Rossi_ e raccolta di domande di teoria - [Download](https://github.com/lorossi/formulario-optoelettronica/raw/master/formulario-optoelettronica.pdf) - [Mirror](3/Optoelettronica/formularioRossiOpto.pdf) - [Repository](https://github.com/lorossi/formulario-optoelettronica)
 *   Appunti di _Andrea Al Muktash_ - [Download](3/Optoelettronica/optoelettronicaAlMuktash.pdf)
 
@@ -285,13 +285,13 @@ First year
 
 *   Course notes by _Andrea Bertazzoni_ - [Download](4/Analog/AnalogCircuitDesign-Bertazzoni.pdf)
 *   Summaries for the oral exam by _Leonardo Sera_ (_questions 1-32_) - [Download](4/Analog/ACD_Summaries_Sera.pdf)
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1EHAdoGCdYNnAqupD2ju8tO2S0vs1d0OL) **(\*)**
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1EHAdoGCdYNnAqupD2ju8tO2S0vs1d0OL) {{< asterisk >}}
 *   Oral questions complete notes by _Giacomo Tombolan_ - [Download](4/Analog/AnalogCircuitDesign_TOMBOLAN.pdf)
 
 ### MEMS and Microsensors
 
 *   Course notes written in Latex by _Francesco Lenzi & Donato Carlo Giorgio_ - [Download](4/MEMS/MEMS_and_Microsensors.pdf)
-*   Course notes and formulary by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1rBTR7KC1rNfscHHJlDm7ZIyfFny1-2YM) **(\*)**
+*   Course notes and formulary by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1rBTR7KC1rNfscHHJlDm7ZIyfFny1-2YM) {{< asterisk >}}
 
 ### Electron Devices
 
@@ -301,19 +301,19 @@ First year
 
 *   Course notes by _Francesco Forestieri_ - [Theory](4/ElectronicSystems/ES_Theory_Forestieri.zip) - [Exercises](4/ElectronicSystems/ES_Exercises_Forestieri.zip)
 *   Course notes by _Luca Colombo_ - [Download](4/ElectronicSystems/ElectronicSystems.pdf)
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1RIdzefSzCJRy1k41KNpi7umDvHbOc3Cc) **(\*)**
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1RIdzefSzCJRy1k41KNpi7umDvHbOc3Cc) {{< asterisk >}}
 
 ### Signal Recovery
 
 *   Solutions of the tutorials by _Simone Guglielmino_ - [Folder](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/4/SignalRecovery/TutorialsTranscripts) - [Download](4/SignalRecovery/TutorialsTranscripts/SRTranscripts.zip)
 *   Course notes by _Luca Colombo_ - [Download](4/SignalRecovery/SignalRecovery.pdf)
 *   Cheat sheet by _Giacomo Tombolan_ - [Download](4/SignalRecovery/TOMBOLAN_SR_CHEAT_SHEET.pdf)
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1oWAigQAJpLHzZl8WDYJxM7WvihO_sY8T) **(\*)**
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1oWAigQAJpLHzZl8WDYJxM7WvihO_sY8T) {{< asterisk >}}
 
 ### RF Circuit Design
 
 *   Course notes by _Andrea Bertazzoni_ - [Download](4/RFCircuitDesign/RFCircuitDesign-Bertazzoni.pdf)
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/15yBgF_jmEApOPBcul8NRNnyfJOv_r8J0) **(\*)**
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/15yBgF_jmEApOPBcul8NRNnyfJOv_r8J0) {{< asterisk >}}
 *   Oral questions complete notes by _Giacomo Tombolan_ - [Download](4/RFCircuitDesign/RadioFrequencyCircuitDesign_TOMBOLAN.pdf)
 ### Digital Integrated Circuit Design
 
@@ -327,8 +327,8 @@ First year
 
 ### Biochip
 
-*   Course notes on external webiste - [Studwiz](https://www.studwiz.com/notes/polimi/engineering/06-biomedical-engineering/subject-163/index.php) (add them to Prof's slides) **(\*)**
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/18qR8uuJGY1ekr2HxXgdR9YouXcNjTZnu) **(\*)**
+*   Course notes on external webiste - [Studwiz](https://www.studwiz.com/notes/polimi/engineering/06-biomedical-engineering/subject-163/index.php) (add them to Prof's slides) {{< asterisk >}}
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/18qR8uuJGY1ekr2HxXgdR9YouXcNjTZnu) {{< asterisk >}}
 
 &nbsp;
 
@@ -339,7 +339,7 @@ Second year
 
 ### Mixed-Signal Circuit Design
 
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1Dt6Us1RiZQkEG-8oJ6TgEohX7T3i1Dvi) **(\*)**
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1Dt6Us1RiZQkEG-8oJ6TgEohX7T3i1Dvi) {{< asterisk >}}
 *   Oral questions complete notes by _Giacomo Tombolan_ - [Download](5/MixedSignal/MixedSignalCircuitDesign_TOMBOLAN.pdf)
 ### Power Electronics
 
@@ -347,13 +347,13 @@ Second year
 
 ### Microelectronic Technologies
 
-*   Course notes by _Mikel Kumria_ - [Folder](https://drive.google.com/drive/folders/12AprM4BqPXh8qebSwoPI3FGgb9QD1zvW) **(\*)**
+*   Course notes by _Mikel Kumria_ - [Folder](https://drive.google.com/drive/folders/12AprM4BqPXh8qebSwoPI3FGgb9QD1zvW) {{< asterisk >}}
 
 ### Electronic Design For Biomedical Instrumentation
 
 *   Course notes by _Luca Colombo_ - [Download](5/EDFBI/ElectronicsDesign.pdf)
 *   Summary by _Matteo Toia_ - [Download](5/EDFBI/Summary_Toia.pdf)
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1N2Xk5plTNXJkXJJkuynDPz0x7fKjDf3L) **(\*)**
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1N2Xk5plTNXJkXJJkuynDPz0x7fKjDf3L) {{< asterisk >}}
 
 &nbsp;
 
@@ -368,7 +368,7 @@ TAB 1
 
 ### Automation and control in electric and hybrid vehicles
 
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/12r6ir-L7ZYedaiKsd21QZ8aJkXAbbFD8) **(\*)**
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/12r6ir-L7ZYedaiKsd21QZ8aJkXAbbFD8) {{< asterisk >}}
 
 ### Numerical Methods in Microelectronics
 
@@ -377,7 +377,7 @@ TAB 1
 ### Design of Hardware Accelerators
 
 *   Course notes by _Guido Rolle_ - [Notes](TAB1/HardwareAccelerators/HardwareAccelerators.pdf) - [Markdown source](TAB1/HardwareAccelerators/HWACC.md)
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1NLIfOZ-jwgkg6_cyv0STUiMOF6GvWFJT) **(\*)**
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1NLIfOZ-jwgkg6_cyv0STUiMOF6GvWFJT) {{< asterisk >}}
 
 ### Optical Measurements
 
