@@ -91,7 +91,7 @@ Primo anno
 
 *   Formulario di _[Giuseppe Chierchia](https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B4W4yLtAkKPZYjc3ZDdmN2MtMTk0OC00ZTkyLTk1ZDgtOGFhZDg3N2JjYTM5&hl=it)_ - [Mirror](1/AM1/formularioAM1chierchia.pdf) **(\*)**
 *   Dimostrazioni dei teoremi di _Alessio Serraino_ - [Visita](http://serrainoalessio.github.io/math/teoremi_analisi/index.html)
-*   Appunti sulla teoria del primo parziale di _Vito Sciascia_ - [Cartella](1/AM1/PrimoParzialeTeoria/)
+*   Appunti sulla teoria del primo parziale di _Vito Sciascia_ - [Cartella](../static/1/AM1/PrimoParzialeTeoria/)
 
 ### Chimica
 
