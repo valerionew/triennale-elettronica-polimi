@@ -193,15 +193,11 @@ button {
   border-radius: 5px;
 }
 
-*, html {
-  scroll-behavior: smooth !important;
-}
-
 main {
-  animation: fadeInAnimation ease 1.5s;
-  -moz-animation: fadeInAnimation ease 1.5s;
-  -webkit-animation: fadeInAnimation ease 1.5s;
-  -o-animation: fadeInAnimation ease 1.5s;
+  animation: fadeInAnimation ease 1s;
+  -moz-animation: fadeInAnimation ease 1s;
+  -webkit-animation: fadeInAnimation ease 1s;
+  -o-animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   -moz-animation-iteration-count: 1;
