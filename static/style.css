@@ -173,6 +173,7 @@ ul.blog-posts li a:visited {
 
 button {
   cursor: pointer;
+  z-index: 10;
 }
 
 #toggle:hover {
