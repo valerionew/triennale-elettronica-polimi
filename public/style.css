@@ -173,6 +173,7 @@ ul.blog-posts li a:visited {
 
 button {
   cursor: pointer;
+  z-index: 10;
 }
 
 #toggle:hover {
@@ -190,4 +191,54 @@ button {
 
 #submit:hover {
   border-radius: 5px;
+}
+
+main {
+  animation: fadeInAnimation ease 1s;
+  -moz-animation: fadeInAnimation ease 1s;
+  -webkit-animation: fadeInAnimation ease 1s;
+  -o-animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  -moz-animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+  -o-animation-iteration-count: 1;
+  -o-animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+@-moz-keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+@-webkit-keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+@-o-keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
 }
