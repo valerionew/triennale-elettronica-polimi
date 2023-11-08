@@ -41,12 +41,12 @@
 
 <script
   type="module"
-  src="https://cdn.jsdelivr.net/npm/friendly-challenge@0.9.13/widget.module.min.js"
+  src="https://cdn.jsdelivr.net/npm/friendly-challenge@0.9.14/widget.module.min.js"
   async
   defer
 ></script>
 
-<script nomodule src="https://cdn.jsdelivr.net/npm/friendly-challenge@0.9.13/widget.min.js" async defer></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/friendly-challenge@0.9.14/widget.min.js" async defer></script>
 
 
 <script>
@@ -58,7 +58,6 @@
     async function handleSubmit(event) {
 
       event.preventDefault();
-
       var status = document.getElementById("my-form-status");
       var data = new FormData(event.target);
 
@@ -123,4 +122,6 @@
 
 </script>
 
-<noscript><p style="text-align: center;color: aquamarine;">!! You need Javascript for CAPTCHA verification to submit this form !! <br> You can add your file down below via Google Form</p></noscript>
+<noscript>
+  <p style="text-align: center;color: red;">!! You need Javascript for CAPTCHA verification to submit this form !!</p>
+</noscript>
