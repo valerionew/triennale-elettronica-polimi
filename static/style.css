@@ -10,7 +10,8 @@
     --blockquote-color: #222;
     --helptext-color: #777;
     --error-list-color: #eba613;
-    --a-visited-color: #8b6fcb;
+    --a-visited-color: rgb(107, 77, 177);
+    --a-hover-color: blue;
 }
 
 [data-dark-mode] {
@@ -25,7 +26,8 @@
     --blockquote-color: #ccc;
     --helptext-color: #aaa;
     --error-list-color: #eba613;
-    --a-visited-color: #8b6fcb;
+    --a-visited-color: #bba6e7;
+    --a-hover-color: rgb(135, 113, 186);
 }
 
 html {
@@ -165,8 +167,21 @@ ul.blog-posts li a:visited {
     color: var(--a-visited-color);
 }
 
-a:hover {
+a:visited {
     color: var(--a-visited-color);
+}
+
+a:hover {
+    color: var(--a-hover-color);
+}
+
+.asterisk {
+    text-decoration: none !important;
+    color: var(--b-color) !important;
+}
+
+.asterisk:hover {
+    color: grey !important;
 }
 
 button {
