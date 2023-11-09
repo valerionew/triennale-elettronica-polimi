@@ -2,7 +2,8 @@
 <html lang="en-us">
 
 <head>
-	<meta name="generator" content="Hugo 0.119.0">
+	<meta name="generator" content="Hugo 0.120.4">
+  <meta name="color-scheme" content="light">
   <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,6 +24,7 @@ Notes from students on electronics engineering at Politecnico di Milano" />
 
 
 
+
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content=""/>
 <meta name="twitter:description" content="Appunti degli studenti di ingegneria elettronica al Politecnico di Milano
@@ -36,7 +38,39 @@ Notes from students on electronics engineering at Politecnico di Milano">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Electronics engineering at Polimi 📝" />
-  <link rel="stylesheet" href="/style.css" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/style.css" crossorigin="anonymous">
+<script>
+
+  if (localStorage.getItem('dark') == 'true') {
+    document.querySelector('html').toggleAttribute('data-dark-mode');
+  }
+
+  if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+    document.querySelector('html').style.display = "block";
+
+    
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+
+    document.querySelector('html').style.display = 'block';
+
+    let div_button = document.getElementById('div_toggle');
+    div_button.style.display = 'block';
+
+    let switcher = document.getElementById("toggle");
+    switcher.addEventListener("click", () => {
+      if (!localStorage.getItem('dark')) {
+        localStorage.setItem('dark', "true");
+      } else {
+        localStorage.removeItem('dark');
+      }
+      document.querySelector('html').toggleAttribute('data-dark-mode');
+    });
+
+  });
+
+</script>
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170196086-1"></script>
@@ -46,41 +80,15 @@ Notes from students on electronics engineering at Politecnico di Milano">
   function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
   gtag('config', 'UA-170196086-1', { 'anonymize_ip': true });
-  
-</script>
-</head>
-
-<body>
-  <script>0</script><div id="div_toggle" style="display: none; position: relative;">
-    <button id="toggle" style="position: fixed;bottom: 5%;right: 0px;margin-right: 4%;margin-bottom: 0em;">
-        <svg width="2em" height="2em" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink">
-            
-            <title>ic_fluent_dark_theme_24_regular</title>
-            <desc>Created with Sketch.</desc>
-            <g id="🔍-Product-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <g id="ic_fluent_dark_theme_24_regular" fill="#212121" fill-rule="nonzero">
-                    <path
-                        d="M12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12,22 Z M12,20.5 L12,3.5 C16.6944204,3.5 20.5,7.30557963 20.5,12 C20.5,16.6944204 16.6944204,20.5 12,20.5 Z"
-                        id="🎨-Color">
-                    </path>
-                </g>
-            </g>
-        </svg>
-    </button>
-</div>
-
-<script>
-
-    document.addEventListener('DOMContentLoaded', () => {
-        let div_button = document.getElementById('div_toggle');
-        div_button.style.display = 'block';
-    })
 
 </script>
 
 <noscript>
+  <link rel="stylesheet" type="text/css" href="/noscript_style.css" crossorigin="anonymous">
+</noscript>
+</head>
 
+<body><noscript>
     <div style="position: relative;">
         <a href="#fondo">
             <button id="toggle" style="position: fixed;bottom: 5%;right: 0px;margin-right: 4%;margin-bottom: 0em;">
@@ -101,8 +109,36 @@ Notes from students on electronics engineering at Politecnico di Milano">
             </button>
         </a>
     </div>
-
 </noscript>
+
+<div id="div_toggle" style="display: none; position: relative;">
+    <button id="toggle" style="position: fixed;bottom: 5%;right: 0px;margin-right: 4%;margin-bottom: 0em;">
+        <svg width="2em" height="2em" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            
+            <title>ic_fluent_dark_theme_24_regular</title>
+            <desc>Created with Sketch.</desc>
+            <g id="🔍-Product-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="ic_fluent_dark_theme_24_regular" fill="#212121" fill-rule="nonzero">
+                    <path
+                        d="M12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12,22 Z M12,20.5 L12,3.5 C16.6944204,3.5 20.5,7.30557963 20.5,12 C20.5,16.6944204 16.6944204,20.5 12,20.5 Z"
+                        id="🎨-Color">
+                    </path>
+                </g>
+            </g>
+        </svg>
+    </button>
+</div>
+
+<script>
+    if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+
+        let div_button = document.getElementById('div_toggle');
+        div_button.style.display = 'block';
+
+        
+    }
+</script>
 <header><a href="/" class="title">
   <h2>Electronics engineering at Polimi 📝</h2>
 </a>
@@ -235,19 +271,19 @@ Notes from students on electronics engineering at Politecnico di Milano">
 <h2 id="primo-anno">Primo anno</h2>
 <h3 id="analisi-1">Analisi 1</h3>
 <ul>
-<li>Formulario di <em><a href="https://docs.google.com/viewer?a=v&amp;pid=explorer&amp;chrome=true&amp;srcid=0B4W4yLtAkKPZYjc3ZDdmN2MtMTk0OC00ZTkyLTk1ZDgtOGFhZDg3N2JjYTM5&amp;hl=it">Giuseppe Chierchia</a></em> - <a href="1/AM1/formularioAM1chierchia.pdf">Mirror</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Formulario di <em><a href="https://docs.google.com/viewer?a=v&amp;pid=explorer&amp;chrome=true&amp;srcid=0B4W4yLtAkKPZYjc3ZDdmN2MtMTk0OC00ZTkyLTk1ZDgtOGFhZDg3N2JjYTM5&amp;hl=it">Giuseppe Chierchia</a></em> - <a href="1/AM1/formularioAM1chierchia.pdf">Mirror</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li>Dimostrazioni dei teoremi di <em>Alessio Serraino</em> - <a href="http://serrainoalessio.github.io/math/teoremi_analisi/index.html">Visita</a></li>
 <li>Appunti sulla teoria del primo parziale di <em>Vito Sciascia</em> - <a href="https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/1/AM1/PrimoParzialeTeoria/">Cartella</a></li>
 </ul>
 <h3 id="chimica">Chimica</h3>
 <ul>
-<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/Q4hy2Rgb#7iPOP8n_X9mUllrrs1OyyQ">Cartella</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/Q4hy2Rgb#7iPOP8n_X9mUllrrs1OyyQ">Cartella</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li>Tabella riassuntiva <a href="1/Chimica/OMPBenzene.pdf">Orto-Meta-Para orientanti</a></li>
 <li>Appunti di <em>Pietro Giannoccaro</em> - <a href="1/Chimica/appuntiGiannoccaro.pdf">Download</a></li>
 </ul>
 <h3 id="informatica">Informatica</h3>
 <ul>
-<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/doJQxRTK#oP3vuq2p9OQ-wjHXcwDu6Q">Cartella</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/doJQxRTK#oP3vuq2p9OQ-wjHXcwDu6Q">Cartella</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li><a href="1/Informatica/noteVelociFDInformatica.pdf">Appunti generali</a></li>
 <li><a href="1/Informatica/stdio.pdf">Appunti stdio</a></li>
 <li><a href="1/Informatica/stdlib.pdf">Appunti stdlib</a></li>
@@ -255,51 +291,51 @@ Notes from students on electronics engineering at Politecnico di Milano">
 </ul>
 <h3 id="geometria-e-algebra-lineare">Geometria e algebra lineare</h3>
 <ul>
-<li>L&rsquo;arcinoto <a href="http://science.unitn.it/~carrara/ESERCIZIARIO">Eserciziario di geometria di <em>Claretta Carrara</em></a> - <a href="1/GAL/carrara.pdf">Mirror</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
-<li>Estratto dei suggerimenti dell&rsquo;eserciziario di <em>Claretta Carrara</em> <a href="1/GAL/carraraEstratto.pdf">Download</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>L&rsquo;arcinoto <a href="http://science.unitn.it/~carrara/ESERCIZIARIO">Eserciziario di geometria di <em>Claretta Carrara</em></a> - <a href="1/GAL/carrara.pdf">Mirror</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
+<li>Estratto dei suggerimenti dell&rsquo;eserciziario di <em>Claretta Carrara</em> <a href="1/GAL/carraraEstratto.pdf">Download</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li>Appunti sulla teoria del primo parziale di <em>Vito Sciascia</em> - <a href="https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/1/GAL/PrimoParzialeTeoria/">Cartella</a></li>
 </ul>
 <h3 id="fisica-1">Fisica 1</h3>
 <ul>
-<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/QxRm0JCZ#B05MLcw3tU8x4eFMoLGwUA">Cartella</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
-<li>Formulario di <a href="https://sites.google.com/view/giuseppechierchia/materiale-tecnico"><em>Giuseppe Chierchia</em></a> - <a href="1/Fisica1/FormularioFIS1chierchia.pdf">Mirror</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/QxRm0JCZ#B05MLcw3tU8x4eFMoLGwUA">Cartella</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
+<li>Formulario di <a href="https://sites.google.com/view/giuseppechierchia/materiale-tecnico"><em>Giuseppe Chierchia</em></a> - <a href="1/Fisica1/FormularioFIS1chierchia.pdf">Mirror</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 </ul>
 <h3 id="economia">Economia</h3>
 <ul>
-<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/opRGzb4C#6ezLCsyGkJBtRo7L1u8oKQ">Cartella</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/opRGzb4C#6ezLCsyGkJBtRo7L1u8oKQ">Cartella</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 </ul>
 <p> </p>
 <hr>
 <h2 id="secondo-anno">Secondo anno</h2>
 <h3 id="analisi-2">Analisi 2</h3>
 <ul>
-<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/w5hgjDKD#Se9OADU_LmcbxUlFfTzs8Q">Cartella</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
-<li>Formulario di <a href="https://sites.google.com/view/giuseppechierchia/materiale-tecnico"><em>Giuseppe Chierchia</em></a> - <a href="2/AM2/formularioAM2chierchia.pdf">Mirror</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/w5hgjDKD#Se9OADU_LmcbxUlFfTzs8Q">Cartella</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
+<li>Formulario di <a href="https://sites.google.com/view/giuseppechierchia/materiale-tecnico"><em>Giuseppe Chierchia</em></a> - <a href="2/AM2/formularioAM2chierchia.pdf">Mirror</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li><a href="http://www1.mate.polimi.it/~bramanti/corsi/temidesame_analisi2/domande_orali_2019.pdf">Domande tipiche degli orali</a> - <a href="2/AM2/domande_orali_2019.pdf">Mirror</a></li>
 </ul>
 <h3 id="elettromagnetismo-ed-ottica">Elettromagnetismo ed ottica</h3>
 <ul>
 <li>Concetti riassuntivi della teoria del Prof. Laporta - <a href="2/EEO/EEO_ConcettiRiassuntivi_UnicoStampa.pdf">Download</a></li>
-<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/Ah5g1DTQ#jtuBwLooK_87YXFkgsYAUw">Cartella</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
-<li>Rifrazione e riflessione dal principio di fermat <a href="http://www.batmath.it/fisica/fondamenti/rifl_rifr/rifl_rifr.htm">da batmath.it</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
-<li>Formulario di <a href="https://sites.google.com/view/giuseppechierchia/materiale-tecnico"><em>Giuseppe Chierchia</em></a> - <a href="2/EEO/formularioEEOchierchia.pdf">Mirror</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/Ah5g1DTQ#jtuBwLooK_87YXFkgsYAUw">Cartella</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
+<li>Rifrazione e riflessione dal principio di fermat <a href="http://www.batmath.it/fisica/fondamenti/rifl_rifr/rifl_rifr.htm">da batmath.it</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
+<li>Formulario di <a href="https://sites.google.com/view/giuseppechierchia/materiale-tecnico"><em>Giuseppe Chierchia</em></a> - <a href="2/EEO/formularioEEOchierchia.pdf">Mirror</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li>Domande di teoria degli esami - <a href="https://github.com/valerionew/triennale-elettronica-polimi/blob/master/static/2/EEO/domandeTeoria.md">Link</a></li>
 </ul>
 <h3 id="elettrotecnica">Elettrotecnica</h3>
 <ul>
-<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/Ex42mByZ#wD6G5eFB01aDDTVMqzuKXg">Cartella</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/Ex42mByZ#wD6G5eFB01aDDTVMqzuKXg">Cartella</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li>Raccolta di temi d&rsquo;esame a cura di <em>Dino Ghilardi</em> (<em>CC BY-NC-SA 3.0</em>) - <a href="https://damore.faculty.polimi.it/download/temiDEsame.pdf">Link</a> - <a href="2/Elettrotecnica/temiDEsame.pdf">Mirror</a></li>
 <li>Compendio/formulario di <em>Pietro Giannoccaro</em> - <a href="2/Elettrotecnica/formularioGiannoccaro.pdf">Download</a></li>
 </ul>
 <h3 id="fondamenti-di-automatica">Fondamenti di automatica</h3>
 <ul>
-<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/ZsAAVRgK#zqkxEcOdi1VYIzRtDY2rkw">Cartella</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/ZsAAVRgK#zqkxEcOdi1VYIzRtDY2rkw">Cartella</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li>Risposte ad alcune tipiche domande di teoria - <a href="2/FDA/teoria_automatica.pdf">Download</a></li>
 <li>Appunti di <em>Giacomo Tombolan</em> del corso - Download: <a href="2/FDA/appuntiTombolan/1_TOMBOLAN_AUTOMATICA_CORNO_2018.pdf">Parte 1</a> - <a href="2/FDA/appuntiTombolan/33_TOMBOLAN_AUTOMATICA_CORNO_2018.pdf">Parte 2</a> - <a href="2/FDA/appuntiTombolan/61_TOMBOLAN_AUTOMATICA_CORNO_2018.pdf">Parte 3</a></li>
 </ul>
 <h3 id="dispositivi-elettronici">Dispositivi elettronici</h3>
 <ul>
-<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/VhJgVDKA#nQkA2sXq8NXwOcMD0L2LZw">Cartella</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/VhJgVDKA#nQkA2sXq8NXwOcMD0L2LZw">Cartella</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li>Risposte alle domande per la discussione orale - <a href="2/DE/DomandeOrale.pdf">Download</a></li>
 <li>Collezione di esercizi svolti (alcuni sbagliati o incompleti, la maggior parte giusti) - <a href="2/DE/HomeworkS.zip">Download</a></li>
 <li>Formulario di <em>Alessio Serraino</em> - <a href="2/DE/formularioSerraino.pdf">Download</a></li>
@@ -307,13 +343,13 @@ Notes from students on electronics engineering at Politecnico di Milano">
 </ul>
 <h3 id="architetture-dei-calcolatori">Architetture dei calcolatori</h3>
 <ul>
-<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/MhhWHT4D#9UOTcMcP_jEpYdLmhsp6bQ">Cartella</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/MhhWHT4D#9UOTcMcP_jEpYdLmhsp6bQ">Cartella</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li>Appunti di <em>Pietro Giannoccaro</em> - <a href="2/ArchCalc/ArchitettureDeiCalcolatori-PietroGiannoccaro.pdf">Download</a></li>
 <li>Brevi appunti manoscritti - <a href="2/ArchCalc/appuntiArchCalc.pdf">Download</a></li>
 </ul>
 <h3 id="fondamenti-di-elettronica">Fondamenti di elettronica</h3>
 <ul>
-<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/hogSVToa#CCYWLTbUAuxWRKTE5MxOVg">Cartella</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/hogSVToa#CCYWLTbUAuxWRKTE5MxOVg">Cartella</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li>Appunti di lezioni ed esercitazioni di <em>Francesco Bossio</em> - <a href="https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/2/FDE/appuntiBossio">Cartella</a></li>
 <li>Appunti di <em>Giacomo Tombolan</em> del corso - Download <a href="2/FDE/appuntiTombolan/1_TOMBOLAN_FDE_2018_APPUNTI.pdf">Parte 1</a> - <a href="2/FDE/appuntiTombolan/22_TOMBOLAN_FDE_2018_APPUNTI.pdf">Parte 2</a> - <a href="2/FDE/appuntiTombolan/38_TOMBOLAN_FDE_2018_APPUNTI.pdf">Parte 3</a> - <a href="2/FDE/appuntiTombolan/53_TOMBOLAN_FDE_2018_APPUNTI.pdf">Parte 4</a> - <a href="2/FDE/appuntiTombolan/73_TOMBOLAN_FDE_2018_APPUNTI.pdf">Parte 5</a></li>
 <li><a href="https://github.com/valerionew/triennale-elettronica-polimi/blob/master/static/2/FDE/domandeElettronica.md">Alcune domande degli esami orali</a></li>
@@ -323,7 +359,7 @@ Notes from students on electronics engineering at Politecnico di Milano">
 <h2 id="terzo-anno">Terzo anno</h2>
 <h3 id="elettronica-digitale">Elettronica digitale</h3>
 <ul>
-<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/04AkkJia#p4sURbtF3DmMk96W6KEP3w">Cartella</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/04AkkJia#p4sURbtF3DmMk96W6KEP3w">Cartella</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li>VHDL Cheatsheet di <em>Lorenzo Rossi</em> - <a href="3/Digitale/vhdl.pdf">Download</a>
 - <a href="https://github.com/lorossi/appunti-vhdl">Repository</a></li>
 <li>Appunti rapidi di elettronica digitale di <em>Lorenzo Rossi</em> - <a href="3/Digitale/appunti_digitale.pdf">Download</a> - <a href="https://github.com/valerionew/triennale-elettronica-polimi/blob/master/static/3/Digitale/appunti_digitale.tex">Sorgenti LaTeX</a></li>
@@ -332,23 +368,23 @@ Notes from students on electronics engineering at Politecnico di Milano">
 </ul>
 <h3 id="elettronica-analogica">Elettronica analogica</h3>
 <ul>
-<li>Materiale del <em>Prof. Sampietro</em>: <a href="https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html">https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html</a> - <a href="https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/3/Analogica">Mirror</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Materiale del <em>Prof. Sampietro</em>: <a href="https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html">https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html</a> - <a href="https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/3/Analogica">Mirror</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 </ul>
 <h3 id="fondamenti-di-segnali">Fondamenti di segnali</h3>
 <ul>
-<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/Y9xmnBbY#IE30YBzg-g3L6GIx4464mA">Cartella</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/Y9xmnBbY#IE30YBzg-g3L6GIx4464mA">Cartella</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li>Appunti di <em>Andrea Bertazzoni</em> - <a href="3/Segnali/probabilitaBertazzoni.pdf">Probabilità</a> - <a href="3/Segnali/segnaliBertazzoni.pdf">Segnali</a> - <a href="3/Segnali/trasmissioniBertazzoni.pdf">Trasmissioni</a> - <a href="3/Segnali/processiBertazzoni.pdf">Processi</a> (non completo)</li>
 <li>Dispense ed Esercizi svolti <em>proff. Barni e De Rosa</em> - <a href="https://www3.diism.unisi.it/~pozzebon/comunicazioni_elettriche/segnali/dispense/dispense_tds.pdf">Link diretto</a> - <a href="3/Segnali/dispense_tds.pdf">Mirror</a></li>
 <li>Formulario di <em>Lorenzo Rossi</em> - <a href="3/Segnali/20191128_1130_FORMULARIO.pdf">Download</a></li>
-<li>Formulario <em>prof. Prati</em> - <a href="http://home.deib.polimi.it/prati/PwPoint/formularioSegnali.pdf">Link diretto</a> - <a href="3/Segnali/formularioProfPrati.pdf">Mirror</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
-<li>Formulario del <em>prof. Barbagallo</em> - <a href="https://www.unirc.it/documentazione/materiale_didattico/599_2009_200_5021.pdf">Link diretto</a> - <a href="3/Segnali/formularioBarbagallo.pdf">Mirror</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
-<li>Appunti di <em>B. Berasategi</em> <strong>in inglese</strong> <em>(Notes by B. Berasategi <strong>in English</strong>)</em> - <a href="3/Segnali/notesBerasategi_eng.pdf">Download</a> <strong>(↓)</strong></li>
+<li>Formulario <em>prof. Prati</em> - <a href="http://home.deib.polimi.it/prati/PwPoint/formularioSegnali.pdf">Link diretto</a> - <a href="3/Segnali/formularioProfPrati.pdf">Mirror</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
+<li>Formulario del <em>prof. Barbagallo</em> - <a href="https://www.unirc.it/documentazione/materiale_didattico/599_2009_200_5021.pdf">Link diretto</a> - <a href="3/Segnali/formularioBarbagallo.pdf">Mirror</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
+<li>&#x26a0;&#xfe0f; Appunti di <em>B. Berasategi</em> <strong>in inglese</strong> <em>(Notes by B. Berasategi <strong>in English</strong>)</em> - <a href="3/Segnali/notesBerasategi_eng.pdf">Download</a> &#x26a0;&#xfe0f;</li>
 </ul>
-<p><em>Nota su appunti di B. Berasategi</em>: 🇮🇹 Non sono riuscito a mettermi in contatto con l&rsquo;autore per chiedere il permesso di pubblicazione. Per ora l&rsquo;ho condiviso perché mi sembra un ottimo lavoro e, dal fatto che ha dato ai docenti il permesso di diffonderlo, ho supposto che non ci siano problemi. Per qualsiasi problema, vedere la sezione <a href="/report-a-copyright-violation/">Report</a></p>
-<p><em>Note on the notes of B. Berasategi</em>:🇬🇧 I was not able to contact the author to ask for permission to publish. For now I shared it because it seems to me an excellent work and, from the fact that he gave the teachers permission to spread it, I assumed there are no problems. For any problem, see the <a href="/report-a-copyright-violation/">Report</a> section</p>
+<p>🇮🇹   <em>Nota su appunti di B. Berasategi</em>: Non sono riuscito a mettermi in contatto con l&rsquo;autore per chiedere il permesso di pubblicazione. Per ora l&rsquo;ho condiviso perché mi sembra un ottimo lavoro e, dal fatto che ha dato ai docenti il permesso di diffonderlo, ho supposto che non ci siano problemi. Per qualsiasi problema, vedere la sezione <a href="/report-a-copyright-violation/">Report</a>.</p>
+<p>🇬🇧   <em>Note on the notes of B. Berasategi</em>: I was not able to contact the author to ask for permission to publish. For now I shared it because it seems to me an excellent work and, from the fact that he gave the teachers permission to spread it, I assumed there are no problems. For any problem, see the <a href="/report-a-copyright-violation/">Report</a> section.</p>
 <h3 id="calcolo-numerico">Calcolo numerico</h3>
 <ul>
-<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/ZkpiGY6L#PmtUCNVhu_5XDsVj5rogBg">Cartella</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/ZkpiGY6L#PmtUCNVhu_5XDsVj5rogBg">Cartella</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li>Laboratori: <a href="https://github.com/valerionew/calcolo_numerico">https://github.com/valerionew/calcolo_numerico</a></li>
 </ul>
 <h3 id="microcontrollori">Microcontrollori</h3>
@@ -360,7 +396,7 @@ Notes from students on electronics engineering at Politecnico di Milano">
 </ul>
 <h3 id="campi-elettromagnetici">Campi elettromagnetici</h3>
 <ul>
-<li>Appunti di <em>Lorenzo Perlo</em> e <em>Alessandro Perna</em> - <a href="https://mega.nz/folder/YkhClASa#x_uoPjlGKTnmuX-r_IevgA">Cartella</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Appunti di <em>Lorenzo Perlo</em> e <em>Alessandro Perna</em> - <a href="https://mega.nz/folder/YkhClASa#x_uoPjlGKTnmuX-r_IevgA">Cartella</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li>Formulario di <em>Lorenzo Rossi</em> - <a href="https://github.com/lorossi/formulario-campi-elettromagnetici">Repository</a> - <a href="https://github.com/lorossi/formulario-campi-elettromagnetici/raw/master/formulario_campi.pdf">Link diretto</a> - <a href="3/CEM/formulario_campi.pdf">Mirror</a></li>
 <li>Appunti di <em>Andrea Bertazzoni</em> - <a href="3/CEM/campiBertazzoni.pdf">Download</a></li>
 <li>Temi d&rsquo;esame risolti di <em>Andreja Marinkovic</em> - <a href="3/CEM/campiTemiDEsameMarinkovic.pdf">Download</a></li>
@@ -372,7 +408,7 @@ Notes from students on electronics engineering at Politecnico di Milano">
 </ul>
 <h3 id="elettronica-dello-stato-solido">Elettronica dello stato solido</h3>
 <ul>
-<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/UkBFHYjL#lOHzgWuYxroO8qPBM8DYJA">Cartella</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/UkBFHYjL#lOHzgWuYxroO8qPBM8DYJA">Cartella</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li>Appunti incompleti sui casi risolutivi dell&rsquo;equazione di Schrödinger - <a href="3/ESS/schrodinger.pdf">Download</a> - <a href="3/ESS/schrodinger.tex">Sorgenti LaTeX</a></li>
 <li>Formulario di <em>Lorenzo Rossi</em> - <a href="https://github.com/lorossi/formulario-stato-solido">Repository</a> - <a href="https://github.com/lorossi/formulario-stato-solido/raw/master/formulario-elettronica-dello-stato-solido.pdf">Link diretto</a> - <a href="3/ESS/formulario-elettronica-dello-stato-solido.pdf">Mirror</a></li>
 <li>Appunti di <em>Mattia Marinoni</em> - <a href="3/ESS/appuntiMarinoni.pdf">Download</a></li>
@@ -380,7 +416,7 @@ Notes from students on electronics engineering at Politecnico di Milano">
 </ul>
 <h3 id="optoelettronica">Optoelettronica</h3>
 <ul>
-<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/4so2WSLT#mz8ZNMKP3FTHZ4VB7UFIhg">Cartella</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Appunti di <em>Lorenzo Perlo</em> - <a href="https://mega.nz/folder/4so2WSLT#mz8ZNMKP3FTHZ4VB7UFIhg">Cartella</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li>Formulario di <em>Lorenzo Rossi</em> e raccolta di domande di teoria - <a href="https://github.com/lorossi/formulario-optoelettronica/raw/master/formulario-optoelettronica.pdf">Download</a> - <a href="3/Optoelettronica/formularioRossiOpto.pdf">Mirror</a> - <a href="https://github.com/lorossi/formulario-optoelettronica">Repository</a></li>
 <li>Appunti di <em>Andrea Al Muktash</em> - <a href="3/Optoelettronica/optoelettronicaAlMuktash.pdf">Download</a></li>
 </ul>
@@ -411,13 +447,13 @@ Notes from students on electronics engineering at Politecnico di Milano">
 <ul>
 <li>Course notes by <em>Andrea Bertazzoni</em> - <a href="4/Analog/AnalogCircuitDesign-Bertazzoni.pdf">Download</a></li>
 <li>Summaries for the oral exam by <em>Leonardo Sera</em> (<em>questions 1-32</em>) - <a href="4/Analog/ACD_Summaries_Sera.pdf">Download</a></li>
-<li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/1EHAdoGCdYNnAqupD2ju8tO2S0vs1d0OL">Folder</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/1EHAdoGCdYNnAqupD2ju8tO2S0vs1d0OL">Folder</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li>Oral questions complete notes by <em>Giacomo Tombolan</em> - <a href="4/Analog/AnalogCircuitDesign_TOMBOLAN.pdf">Download</a></li>
 </ul>
 <h3 id="mems-and-microsensors">MEMS and Microsensors</h3>
 <ul>
 <li>Course notes written in Latex by <em>Francesco Lenzi &amp; Donato Carlo Giorgio</em> - <a href="4/MEMS/MEMS_and_Microsensors.pdf">Download</a></li>
-<li>Course notes and formulary by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/1rBTR7KC1rNfscHHJlDm7ZIyfFny1-2YM">Folder</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Course notes and formulary by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/1rBTR7KC1rNfscHHJlDm7ZIyfFny1-2YM">Folder</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 </ul>
 <h3 id="electron-devices">Electron Devices</h3>
 <ul>
@@ -427,19 +463,19 @@ Notes from students on electronics engineering at Politecnico di Milano">
 <ul>
 <li>Course notes by <em>Francesco Forestieri</em> - <a href="4/ElectronicSystems/ES_Theory_Forestieri.zip">Theory</a> - <a href="4/ElectronicSystems/ES_Exercises_Forestieri.zip">Exercises</a></li>
 <li>Course notes by <em>Luca Colombo</em> - <a href="4/ElectronicSystems/ElectronicSystems.pdf">Download</a></li>
-<li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/1RIdzefSzCJRy1k41KNpi7umDvHbOc3Cc">Folder</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/1RIdzefSzCJRy1k41KNpi7umDvHbOc3Cc">Folder</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 </ul>
 <h3 id="signal-recovery">Signal Recovery</h3>
 <ul>
 <li>Solutions of the tutorials by <em>Simone Guglielmino</em> - <a href="https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/4/SignalRecovery/TutorialsTranscripts">Folder</a> - <a href="4/SignalRecovery/TutorialsTranscripts/SRTranscripts.zip">Download</a></li>
 <li>Course notes by <em>Luca Colombo</em> - <a href="4/SignalRecovery/SignalRecovery.pdf">Download</a></li>
 <li>Cheat sheet by <em>Giacomo Tombolan</em> - <a href="4/SignalRecovery/TOMBOLAN_SR_CHEAT_SHEET.pdf">Download</a></li>
-<li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/1oWAigQAJpLHzZl8WDYJxM7WvihO_sY8T">Folder</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/1oWAigQAJpLHzZl8WDYJxM7WvihO_sY8T">Folder</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 </ul>
 <h3 id="rf-circuit-design">RF Circuit Design</h3>
 <ul>
 <li>Course notes by <em>Andrea Bertazzoni</em> - <a href="4/RFCircuitDesign/RFCircuitDesign-Bertazzoni.pdf">Download</a></li>
-<li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/15yBgF_jmEApOPBcul8NRNnyfJOv_r8J0">Folder</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/15yBgF_jmEApOPBcul8NRNnyfJOv_r8J0">Folder</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li>Oral questions complete notes by <em>Giacomo Tombolan</em> - <a href="4/RFCircuitDesign/RadioFrequencyCircuitDesign_TOMBOLAN.pdf">Download</a></li>
 </ul>
 <h3 id="digital-integrated-circuit-design">Digital Integrated Circuit Design</h3>
@@ -454,15 +490,15 @@ Notes from students on electronics engineering at Politecnico di Milano">
 </ul>
 <h3 id="biochip">Biochip</h3>
 <ul>
-<li>Course notes on external webiste - <a href="https://www.studwiz.com/notes/polimi/engineering/06-biomedical-engineering/subject-163/index.php">Studwiz</a> (add them to Prof&rsquo;s slides) <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
-<li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/18qR8uuJGY1ekr2HxXgdR9YouXcNjTZnu">Folder</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Course notes on external webiste - <a href="https://www.studwiz.com/notes/polimi/engineering/06-biomedical-engineering/subject-163/index.php">Studwiz</a> (add them to Prof&rsquo;s slides) <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
+<li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/18qR8uuJGY1ekr2HxXgdR9YouXcNjTZnu">Folder</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 </ul>
 <p> </p>
 <hr>
 <h2 id="second-year">Second year</h2>
 <h3 id="mixed-signal-circuit-design">Mixed-Signal Circuit Design</h3>
 <ul>
-<li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/1Dt6Us1RiZQkEG-8oJ6TgEohX7T3i1Dvi">Folder</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/1Dt6Us1RiZQkEG-8oJ6TgEohX7T3i1Dvi">Folder</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 <li>Oral questions complete notes by <em>Giacomo Tombolan</em> - <a href="5/MixedSignal/MixedSignalCircuitDesign_TOMBOLAN.pdf">Download</a></li>
 </ul>
 <h3 id="power-electronics">Power Electronics</h3>
@@ -471,13 +507,13 @@ Notes from students on electronics engineering at Politecnico di Milano">
 </ul>
 <h3 id="microelectronic-technologies">Microelectronic Technologies</h3>
 <ul>
-<li>Course notes by <em>Mikel Kumria</em> - <a href="https://drive.google.com/drive/folders/12AprM4BqPXh8qebSwoPI3FGgb9QD1zvW">Folder</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Course notes by <em>Mikel Kumria</em> - <a href="https://drive.google.com/drive/folders/12AprM4BqPXh8qebSwoPI3FGgb9QD1zvW">Folder</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 </ul>
 <h3 id="electronic-design-for-biomedical-instrumentation">Electronic Design For Biomedical Instrumentation</h3>
 <ul>
 <li>Course notes by <em>Luca Colombo</em> - <a href="5/EDFBI/ElectronicsDesign.pdf">Download</a></li>
 <li>Summary by <em>Matteo Toia</em> - <a href="5/EDFBI/Summary_Toia.pdf">Download</a></li>
-<li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/1N2Xk5plTNXJkXJJkuynDPz0x7fKjDf3L">Folder</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/1N2Xk5plTNXJkXJJkuynDPz0x7fKjDf3L">Folder</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 </ul>
 <p> </p>
 <hr>
@@ -488,7 +524,7 @@ Notes from students on electronics engineering at Politecnico di Milano">
 </ul>
 <h3 id="automation-and-control-in-electric-and-hybrid-vehicles">Automation and control in electric and hybrid vehicles</h3>
 <ul>
-<li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/12r6ir-L7ZYedaiKsd21QZ8aJkXAbbFD8">Folder</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/12r6ir-L7ZYedaiKsd21QZ8aJkXAbbFD8">Folder</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 </ul>
 <h3 id="numerical-methods-in-microelectronics">Numerical Methods in Microelectronics</h3>
 <ul>
@@ -497,7 +533,7 @@ Notes from students on electronics engineering at Politecnico di Milano">
 <h3 id="design-of-hardware-accelerators">Design of Hardware Accelerators</h3>
 <ul>
 <li>Course notes by <em>Guido Rolle</em> - <a href="TAB1/HardwareAccelerators/HardwareAccelerators.pdf">Notes</a> - <a href="TAB1/HardwareAccelerators/HWACC.md">Markdown source</a></li>
-<li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/1NLIfOZ-jwgkg6_cyv0STUiMOF6GvWFJT">Folder</a> <strong><a href="#extra" style="text-decoration: none; color: inherit;">(*)</a></strong></li>
+<li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/1NLIfOZ-jwgkg6_cyv0STUiMOF6GvWFJT">Folder</a> <strong><a href="#extra" class="asterisk">(*)</a></strong></li>
 </ul>
 <h3 id="optical-measurements">Optical Measurements</h3>
 <ul>
@@ -609,71 +645,21 @@ The notes are in the same language in which the course is delivered.<br>
   <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
 </footer>
 
-  <noscript>
-  <link rel="stylesheet" href="/noscript_style.css" crossorigin="anonymous">
-
-  <p id="fondo" style="text-align: center;color: aquamarine;">!! To change between dark and light theme you need Javascript !!</p>
-</noscript>
-
-<script>
-
-  document.addEventListener("DOMContentLoaded", () => {
-
-    var switcher = document.getElementById("toggle");
-
-    switcher.addEventListener("click", () => {
-
-      if (localStorage.getItem('darkMode') === null) {
-
-        localStorage.setItem("darkMode", "true");
-
-        document.styleSheets[0].cssRules[23].media.mediaText =
-          "(prefers-color-scheme: dark)";
-
-      } else {
-
-        document.styleSheets[0].cssRules[23].media.mediaText =
-          "(prefers-color-scheme: light)";
-
-        setTimeout(function () {
-          localStorage.removeItem("darkMode");
-        }, 100);
-
-      }
-    });
-
-    if (localStorage.getItem("darkMode")) {
-
-      document.styleSheets[0].cssRules[23].media.mediaText =
-        "(prefers-color-scheme: dark)";
-
-    } else {
-
-      document.styleSheets[0].cssRules[23].media.mediaText =
-        "(prefers-color-scheme: light)";
-
-    }
-  });
+  <script>
 
   const flagemojiToPNG = (flag) => {
-
     var countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt()).map(char => String.fromCharCode(char - 127397).toLowerCase()).join('')
     return "<img src='https://flagcdn.com/24x18/" + countryCode + ".png'>"
-
   }
 
   var reg = new RegExp('(?:\ud83c[\udde6-\uddff]){2}', 'g');
-
   document.body.innerHTML = document.body.innerHTML.replaceAll(reg, flagemojiToPNG);
 
-
-  document.addEventListener('DOMContentLoaded', () => {
-
-    document.body.style.visibility = "visible";
-
-  })
-
 </script>
+
+<noscript>
+  <p id="fondo" style="text-align: center;color: red;">!! To change between dark and light theme you need Javascript !!</p>
+</noscript>
 </body>
 
 </html>

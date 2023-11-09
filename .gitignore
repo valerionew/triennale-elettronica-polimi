@@ -5,3 +5,6 @@ public/4
 public/5
 public/TAB1
 public/TAB2
+public/*.css
+public/*.svg
+public/*.ico
