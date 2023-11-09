@@ -29,6 +29,7 @@
 }
 
 html {
+    background-color: var(--body-background-color) !important;
     display: none;
 }
 
@@ -38,7 +39,7 @@ body {
     padding: 20px;
     max-width: 720px;
     text-align: left;
-    background-color: var(--body-background-color);
+    background-color: var(--body-background-color) !important;
     word-wrap: break-word;
     overflow-wrap: break-word;
     line-height: 1.5;
