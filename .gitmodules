@@ -1,1 +1,4 @@
 
+[submodule "themes/tito-bearblog"]
+	path = themes/tito-bearblog
+	url = https://github.com/TIT8/hugo-bearblog.git
