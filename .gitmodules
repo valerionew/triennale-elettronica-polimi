@@ -1,6 +1,1 @@
-[submodule "themes/hugo-bearblog-patch"]
-	path = themes/hugo-bearblog-patch
-	url = https://github.com/TIT8/hugo-bearblog.git
-[submodule "themes/hugo-bearblog-patch2"]
-	path = themes/hugo-bearblog-patch2
-	url = https://github.com/TIT8/hugo-bearblog.git
+
