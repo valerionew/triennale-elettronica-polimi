@@ -1,15 +1,51 @@
+:root {
+    --body-background-color: #fff;
+    --body-color: #333;
+    --b-color: #222;
+    --a-color: #3273dc;
+    --input-color: #444;
+    --input-background-color: #fff;
+    --code-background-color: #f2f2f2;
+    --precode-color: #222;
+    --blockquote-color: #222;
+    --helptext-color: #777;
+    --error-list-color: #eba613;
+    --a-visited-color: rgb(107, 77, 177);
+    --a-hover-color: blue;
+}
+
+[data-dark-mode] {
+    --body-background-color: #333;
+    --body-color: #ddd;
+    --b-color: #eee;
+    --a-color: #8cc2dd;
+    --input-color: #ddd;
+    --input-background-color: #252525;
+    --code-background-color: #777;
+    --precode-color: #ddd;
+    --blockquote-color: #ccc;
+    --helptext-color: #aaa;
+    --error-list-color: #eba613;
+    --a-visited-color: #bba6e7;
+    --a-hover-color: rgb(135, 113, 186);
+}
+
+html {
+    background-color: var(--body-background-color) !important;
+    display: none;
+}
+
 body {
-  visibility: hidden;
-  font-family: Verdana, sans-serif;
-  margin: auto;
-  padding: 20px;
-  max-width: 720px;
-  text-align: left;
-  background-color: #fff;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  line-height: 1.5;
-  color: #444;
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: var(--body-background-color) !important;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--body-color);
 }
 
 h1,
@@ -20,225 +56,206 @@ h5,
 h6,
 strong,
 b {
-  color: #222;
+    color: var(--b-color);
 }
 
 a {
-  color: #3273dc;
-  /*color: #ff5e6c;*/
+    color: var(--a-color);
+    /*color: #ff5e6c;*/
 }
 
 .title {
-  text-decoration: none;
-  border: 0;
-  text-align: center;
+    text-decoration: none;
+    border: 0;
+    text-align: center;
 }
 
 .title span {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 nav a {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 textarea {
-  width: 100%;
-  font-size: 16px;
+    width: 100%;
+    font-size: 16px;
+    background-color: var(--input-background-color);
+    color: var(--input-color);
 }
 
 input {
-  font-size: 16px;
+    font-size: 16px;
+    background-color: var(--input-background-color);
+    color: var(--input-color);
 }
 
 content {
-  line-height: 1.6;
+    line-height: 1.6;
 }
 
 table {
-  width: 100%;
+    width: 100%;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 code {
-  padding: 2px 5px;
-  background-color: #f2f2f2;
+    padding: 2px 5px;
+    background-color: var(--code-background-color);
 }
 
 pre code {
-  color: #222;
-  display: block;
-  padding: 20px;
-  white-space: pre-wrap;
-  font-size: 14px;
-  overflow-x: auto;
+    color: var(--precode-color);
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    overflow-x: auto;
 }
 
 div.highlight pre {
-  background-color: initial;
-  color: initial;
+    background-color: initial;
+    color: initial;
 }
 
 div.highlight code {
-  background-color: unset;
-  color: unset;
+    background-color: unset;
+    color: unset;
 }
 
 blockquote {
-  border-left: 1px solid #999;
-  color: #222;
-  padding-left: 20px;
-  font-style: italic;
+    border-left: 1px solid #999;
+    color: var(--blockquote-color);
+    padding-left: 20px;
+    font-style: italic;
 }
 
 footer {
-  padding: 25px;
-  text-align: center;
+    padding: 25px;
+    text-align: center;
 }
 
 .helptext {
-  color: #777;
-  font-size: small;
+    color: var(--helptext-color);
+    font-size: small;
 }
 
 .errorlist {
-  color: #eba613;
-  font-size: small;
+    color: var(--error-list-color);
+    font-size: small;
 }
 
 /* blog posts */
 ul.blog-posts {
-  list-style-type: none;
-  padding: unset;
+    list-style-type: none;
+    padding: unset;
 }
 
 ul.blog-posts li {
-  display: flex;
+    display: flex;
 }
 
 ul.blog-posts li span {
-  flex: 0 0 130px;
+    flex: 0 0 130px;
 }
 
 ul.blog-posts li a:visited {
-  color: #8b6fcb;
+    color: var(--a-visited-color);
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #333;
-    color: #ddd;
-  }
+a:visited {
+    color: var(--a-visited-color);
+}
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  strong,
-  b {
-    color: #eee;
-  }
+a:hover {
+    color: var(--a-hover-color);
+}
 
-  a {
-    color: #8cc2dd;
-  }
+.asterisk {
+    text-decoration: none !important;
+    color: var(--b-color) !important;
+}
 
-  code {
-    background-color: #777;
-  }
-
-  pre code {
-    color: #ddd;
-  }
-
-  blockquote {
-    color: #ccc;
-  }
-
-  textarea,
-  input {
-    background-color: #252525;
-    color: #ddd;
-  }
-
-  .helptext {
-    color: #aaa;
-  }
+.asterisk:hover {
+    color: grey !important;
 }
 
 button {
-  cursor: pointer;
-  z-index: 10;
+    cursor: pointer;
+    z-index: 10;
 }
 
 #toggle:hover {
-  border-radius: 5px;
+    border-radius: 5px;
 }
 
 #goup:hover {
-  border-radius: 5px;
+    border-radius: 5px;
 }
 
 #submit {
-  width: 7em;
-  height: 2.5em;
+    width: 7em;
+    height: 2.5em;
 }
 
 #submit:hover {
-  border-radius: 5px;
+    border-radius: 5px;
 }
 
 main {
-  animation: fadeInAnimation ease 1s;
-  -moz-animation: fadeInAnimation ease 1s;
-  -webkit-animation: fadeInAnimation ease 1s;
-  -o-animation: fadeInAnimation ease 1s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  -moz-animation-iteration-count: 1;
-  -webkit-animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-  -o-animation-iteration-count: 1;
-  -o-animation-fill-mode: forwards;
+    animation: fadeInAnimation ease 0.5s;
+    -moz-animation: fadeInAnimation ease 0.5s;
+    -webkit-animation: fadeInAnimation ease 0.5s;
+    -o-animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-iteration-count: 1;
+    -o-animation-fill-mode: forwards;
 }
 
 @keyframes fadeInAnimation {
-  0% {
-      opacity: 0;
-  }
-  100% {
-      opacity: 1;
-   }
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @-moz-keyframes fadeInAnimation {
-  0% {
-      opacity: 0;
-  }
-  100% {
-      opacity: 1;
-   }
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @-webkit-keyframes fadeInAnimation {
-  0% {
-      opacity: 0;
-  }
-  100% {
-      opacity: 1;
-   }
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 @-o-keyframes fadeInAnimation {
-  0% {
-      opacity: 0;
-  }
-  100% {
-      opacity: 1;
-   }
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

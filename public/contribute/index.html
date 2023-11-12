@@ -2,6 +2,7 @@
 <html lang="en-us">
 
 <head>
+  <meta name="color-scheme" content="light">
   <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,6 +27,7 @@ Se non hai familiarità con gli strumenti, mettiti in contatto con noi attravers
 
 
 
+
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Participate"/>
 <meta name="twitter:description" content="Participate 🇮🇹 È semplicissimo contribuire a questa raccolta di materiale.
@@ -43,7 +45,39 @@ Se non hai familiarità con gli strumenti, mettiti in contatto con noi attravers
 <meta itemprop="keywords" content="" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
-  <link rel="stylesheet" href="/style.css" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/style.css" crossorigin="anonymous">
+<script>
+
+  if (localStorage.getItem('dark') == 'true') {
+    document.querySelector('html').toggleAttribute('data-dark-mode');
+  }
+
+  if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+    document.querySelector('html').style.display = "block";
+
+    
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+
+    document.querySelector('html').style.display = 'block';
+
+    let div_button = document.getElementById('div_toggle');
+    div_button.style.display = 'block';
+
+    let switcher = document.getElementById("toggle");
+    switcher.addEventListener("click", () => {
+      if (!localStorage.getItem('dark')) {
+        localStorage.setItem('dark', "true");
+      } else {
+        localStorage.removeItem('dark');
+      }
+      document.querySelector('html').toggleAttribute('data-dark-mode');
+    });
+
+  });
+
+</script>
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170196086-1"></script>
@@ -53,41 +87,15 @@ Se non hai familiarità con gli strumenti, mettiti in contatto con noi attravers
   function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
   gtag('config', 'UA-170196086-1', { 'anonymize_ip': true });
-  
-</script>
-</head>
-
-<body>
-  <script>0</script><div id="div_toggle" style="display: none; position: relative;">
-    <button id="toggle" style="position: fixed;bottom: 5%;right: 0px;margin-right: 4%;margin-bottom: 0em;">
-        <svg width="2em" height="2em" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink">
-            
-            <title>ic_fluent_dark_theme_24_regular</title>
-            <desc>Created with Sketch.</desc>
-            <g id="🔍-Product-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <g id="ic_fluent_dark_theme_24_regular" fill="#212121" fill-rule="nonzero">
-                    <path
-                        d="M12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12,22 Z M12,20.5 L12,3.5 C16.6944204,3.5 20.5,7.30557963 20.5,12 C20.5,16.6944204 16.6944204,20.5 12,20.5 Z"
-                        id="🎨-Color">
-                    </path>
-                </g>
-            </g>
-        </svg>
-    </button>
-</div>
-
-<script>
-
-    document.addEventListener('DOMContentLoaded', () => {
-        let div_button = document.getElementById('div_toggle');
-        div_button.style.display = 'block';
-    })
 
 </script>
 
 <noscript>
+  <link rel="stylesheet" type="text/css" href="/noscript_style.css" crossorigin="anonymous">
+</noscript>
+</head>
 
+<body><noscript>
     <div style="position: relative;">
         <a href="#fondo">
             <button id="toggle" style="position: fixed;bottom: 5%;right: 0px;margin-right: 4%;margin-bottom: 0em;">
@@ -108,8 +116,36 @@ Se non hai familiarità con gli strumenti, mettiti in contatto con noi attravers
             </button>
         </a>
     </div>
-
 </noscript>
+
+<div id="div_toggle" style="display: none; position: relative;">
+    <button id="toggle" style="position: fixed;bottom: 5%;right: 0px;margin-right: 4%;margin-bottom: 0em;">
+        <svg width="2em" height="2em" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            
+            <title>ic_fluent_dark_theme_24_regular</title>
+            <desc>Created with Sketch.</desc>
+            <g id="🔍-Product-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="ic_fluent_dark_theme_24_regular" fill="#212121" fill-rule="nonzero">
+                    <path
+                        d="M12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12,22 Z M12,20.5 L12,3.5 C16.6944204,3.5 20.5,7.30557963 20.5,12 C20.5,16.6944204 16.6944204,20.5 12,20.5 Z"
+                        id="🎨-Color">
+                    </path>
+                </g>
+            </g>
+        </svg>
+    </button>
+</div>
+
+<script>
+    if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+
+        let div_button = document.getElementById('div_toggle');
+        div_button.style.display = 'block';
+
+        
+    }
+</script>
 <header><a href="/" class="title">
   <h2>Electronics engineering at Polimi 📝</h2>
 </a>
@@ -152,71 +188,21 @@ If you own material for which you hold the rights and you would like to make it 
   <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
 </footer>
 
-  <noscript>
-  <link rel="stylesheet" href="/noscript_style.css" crossorigin="anonymous">
-
-  <p id="fondo" style="text-align: center;color: aquamarine;">!! To change between dark and light theme you need Javascript !!</p>
-</noscript>
-
-<script>
-
-  document.addEventListener("DOMContentLoaded", () => {
-
-    var switcher = document.getElementById("toggle");
-
-    switcher.addEventListener("click", () => {
-
-      if (localStorage.getItem('darkMode') === null) {
-
-        localStorage.setItem("darkMode", "true");
-
-        document.styleSheets[0].cssRules[23].media.mediaText =
-          "(prefers-color-scheme: dark)";
-
-      } else {
-
-        document.styleSheets[0].cssRules[23].media.mediaText =
-          "(prefers-color-scheme: light)";
-
-        setTimeout(function () {
-          localStorage.removeItem("darkMode");
-        }, 100);
-
-      }
-    });
-
-    if (localStorage.getItem("darkMode")) {
-
-      document.styleSheets[0].cssRules[23].media.mediaText =
-        "(prefers-color-scheme: dark)";
-
-    } else {
-
-      document.styleSheets[0].cssRules[23].media.mediaText =
-        "(prefers-color-scheme: light)";
-
-    }
-  });
+  <script>
 
   const flagemojiToPNG = (flag) => {
-
     var countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt()).map(char => String.fromCharCode(char - 127397).toLowerCase()).join('')
     return "<img src='https://flagcdn.com/24x18/" + countryCode + ".png'>"
-
   }
 
   var reg = new RegExp('(?:\ud83c[\udde6-\uddff]){2}', 'g');
-
   document.body.innerHTML = document.body.innerHTML.replaceAll(reg, flagemojiToPNG);
 
-
-  document.addEventListener('DOMContentLoaded', () => {
-
-    document.body.style.visibility = "visible";
-
-  })
-
 </script>
+
+<noscript>
+  <p id="fondo" style="text-align: center;color: red;">!! To change between dark and light theme you need Javascript !!</p>
+</noscript>
 </body>
 
 </html>
