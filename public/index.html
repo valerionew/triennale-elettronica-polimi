@@ -37,13 +37,15 @@ Notes from students on electronics engineering at Politecnico di Milano"/>
 Notes from students on electronics engineering at Politecnico di Milano">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
+  <script>
+    if (localStorage.getItem('dark') == 'true') {
+      document.querySelector('html').toggleAttribute('data-dark-mode');
+    }
+  </script>
+
   <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Electronics engineering at Polimi 📝" />
   <link rel="stylesheet" type="text/css" href="/style.css" crossorigin="anonymous">
 <script>
-
-  if (localStorage.getItem('dark') == 'true') {
-    document.querySelector('html').toggleAttribute('data-dark-mode');
-  }
 
   if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
     document.querySelector('html').style.display = "block";
