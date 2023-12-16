@@ -8,5 +8,11 @@ enableEmoji = true
 
 [params]
 favicon = "favicon.ico"
+favicon_apple = "apple-touch-icon.png"
+favicon_32 = "favicon-32x32.png"
+favicon_16 = "favicon-16x16.png"
+favicon_android_192 = "android-chrome-192x192.png"
+favicon_android_512 = "android-chrome-512x512.png"
+manifest = "site.webmanifest"
 description = "Appunti degli studenti di ingegneria elettronica al Politecnico di Milano\nNotes from students on electronics engineering at Politecnico di Milano"
 
