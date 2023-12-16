@@ -8,3 +8,5 @@ public/TAB2
 public/*.css
 public/*.svg
 public/*.ico
+public/*.png
+public/site.webmanifest
