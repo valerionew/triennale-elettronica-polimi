@@ -71,6 +71,7 @@ _🇬🇧 &nbsp;Compilation of copyright-free or redistributable materials, bene
     - [Sensor Systems](#sensor-systems)
     - [RF Systems](#rf-systems)
     - [Photonic Devices](#photonic-devices)
+    - [Quantum Circuits And Devices](#quantum-circuits-and-devices)
 
 - [Extra](#extra)
 
@@ -419,7 +420,7 @@ TAB 2
 
 ### Quantum Circuits and Devices
 
-*   Course notes by _Mauro Monti_ - [Direct Link](https://drive.google.com/file/d/1juohowMw1eNr-tuFn7feHGRmyFgLpjll/view?usp=sharing) - [Mirror](TAB2/QuantumCircuitsDevices/NotesDownloadLink_QCD) {{< asterisk >}}
+*   Course notes by _Mauro Monti_ - [Direct Link](https://drive.google.com/file/d/1juohowMw1eNr-tuFn7feHGRmyFgLpjll/view?usp=sharing) - [Mirror](TAB2/QuantumCircuitsAndDevices/NotesDownloadLink_QCD.rtf) {{< asterisk >}}
    
 &nbsp;
 
