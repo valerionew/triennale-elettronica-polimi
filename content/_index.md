@@ -417,6 +417,10 @@ TAB 2
 
 *   Course notes by _Tommaso Dezuanni_ - [Download](TAB2/PhotonicDevices/notes_of_photonics_devices.pdf)
 
+### Quantum Circuits and Devices
+
+*   Course notes by _Mauro Monti_ - [Direct Link](https://drive.google.com/file/d/1juohowMw1eNr-tuFn7feHGRmyFgLpjll/view?usp=sharing) - [Mirror](TAB2/QuantumCircuitsDevices/NotesDownloadLink_QCD) {{< asterisk >}}
+   
 &nbsp;
 
 * * *
