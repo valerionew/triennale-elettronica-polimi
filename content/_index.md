@@ -420,7 +420,7 @@ TAB 2
 
 ### Quantum Circuits and Devices
 
-*   Course notes by _Mauro Monti_ - [Direct Link](https://drive.google.com/file/d/1juohowMw1eNr-tuFn7feHGRmyFgLpjll/view?usp=sharing) - [Mirror](TAB2/QuantumCircuitsAndDevices/NotesDownloadLink_QCD.rtf) {{< asterisk >}}
+*   Course notes by _Mauro Monti_ - Part 1 [Download](TAB2/QuantumCircuitDevices/LecturesNotes_QuantumCircuits_Part1.pdf) - Part 2 [Download](TAB2/QuantumCircuitDevices/LecturesNotes_QuantumCircuits_Part2.pdf)
    
 &nbsp;
 
