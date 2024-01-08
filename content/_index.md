@@ -71,7 +71,7 @@ _🇬🇧 &nbsp;Compilation of copyright-free or redistributable materials, bene
     - [Sensor Systems](#sensor-systems)
     - [RF Systems](#rf-systems)
     - [Photonic Devices](#photonic-devices)
-    - [Quantum Circuits And Devices](#quantum-circuits-and-devices)
+    - [Quantum Circuits and Devices](#quantum-circuits-and-devices)
 
 - [Extra](#extra)
 
