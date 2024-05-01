@@ -6,19 +6,19 @@
           <div class="input-group-addon">
             <i class="fa fa-user"></i>
           </div>
-          <input id="name" name="name" placeholder="Please enter your name" maxlength="50" type="text" required="required" class="form-control">
+          <input id="name" name="name" placeholder="Please enter your name" maxlength="50" minlength="3" type="text" required="required" class="form-control">
         </div>
       </div>
     </div>
     &nbsp;
     <div class="form-group row">
-      <label for="email" class="col-4 col-form-label">E-mail address</label>
+      <label for="email" class="col-4 col-form-label">Your contact info (email, phone number, Telegram link)</label>
       <div class="col-8">
         <div class="input-group">
           <div class="input-group-addon">
             <i class="fa fa-envelope"></i>
           </div>
-          <input id="email" name="email" placeholder="Your e-mail address" maxlength="50" type="email" required="required" class="form-control">
+          <input id="email" name="email" placeholder="Type you contact info" maxlength="50" minlength="4" type="text" required="required" class="form-control">
         </div>
       </div>
     </div>
@@ -26,7 +26,7 @@
     <div class="form-group row">
       <label for="message" class="col-4 col-form-label">Message</label>
       <div class="col-8">
-        <textarea id="message" name="message" cols="40" rows="10" required="required" class="form-control" placeholder="Max 1000 character (here links to external resources)" maxlength="1000" spellcheck="true"></textarea>
+        <textarea id="message" name="message" cols="40" rows="10" required="required" minlength="5" class="form-control" placeholder="Max 1000 character (here links to external resources)" maxlength="1000" spellcheck="true"></textarea>
       </div>
     </div>
     <div class="frc-captcha" data-sitekey="FCMTGCV10AMHV9QE"></div>
