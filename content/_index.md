@@ -287,13 +287,13 @@ First year
 
 *   Course notes by _Andrea Bertazzoni_ - [Download](4/Analog/AnalogCircuitDesign-Bertazzoni.pdf)
 *   Summaries for the oral exam by _Leonardo Sera_ (_questions 1-32_) - [Download](4/Analog/ACD_Summaries_Sera.pdf)
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1EHAdoGCdYNnAqupD2ju8tO2S0vs1d0OL) {{< asterisk >}}
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1EHAdoGCdYNnAqupD2ju8tO2S0vs1d0OL) {{< asterisk >}} - [Mirror (notes)](4/Analog/compressed-AnalogDesign-MattiaAmadori.pdf) - [Mirror (recap)](4/Analog/AnalogRiassunto-MattiaAmadori.pdf)
 *   Oral questions complete notes by _Giacomo Tombolan_ - [Download](4/Analog/AnalogCircuitDesign_TOMBOLAN.pdf)
 
 ### MEMS and Microsensors
 
 *   Course notes written in Latex by _Francesco Lenzi & Donato Carlo Giorgio_ - [Download](4/MEMS/MEMS_and_Microsensors.pdf)
-*   Course notes and formulary by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1rBTR7KC1rNfscHHJlDm7ZIyfFny1-2YM) {{< asterisk >}}
+*   Course notes and formulas by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1rBTR7KC1rNfscHHJlDm7ZIyfFny1-2YM) {{< asterisk >}} - [Mirror (notes)](4/MEMS/compressed-MEMS-MattiaAmadori.pdf) - [Mirror (formulas)](4/MEMS/FormularioMEMS-MattiaAmadori.pdf)
 
 ### Electron Devices
 
@@ -301,21 +301,21 @@ First year
 
 ### Electronic Systems
 
-*   Course notes by _Francesco Forestieri_ - [Theory](4/ElectronicSystems/ES_Theory_Forestieri.zip) - [Exercises](4/ElectronicSystems/ES_Exercises_Forestieri.zip)
+*   Course notes by _Francesco Forestieri_ - [Theory](4/ElectronicSystems/ES_notes_theory_Forestieri.pdf) - [Exercises](4/ElectronicSystems/ES_notes_exercise_Forestieri.pdf) - [Summary](4/ElectronicSystems/ES_notes_summaries_Forestieri.pdf) - [Oral questions](4/ElectronicSystems/ES_Possible_Oral_Questions_Forestieri.pdf)
 *   Course notes by _Luca Colombo_ - [Download](4/ElectronicSystems/ElectronicSystems.pdf)
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1RIdzefSzCJRy1k41KNpi7umDvHbOc3Cc) {{< asterisk >}}
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1RIdzefSzCJRy1k41KNpi7umDvHbOc3Cc) {{< asterisk >}} - [Mirror (folder)](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/4/ElectronicSystems/SlidesAmadori)
 
 ### Signal Recovery
 
 *   Solutions of the tutorials by _Simone Guglielmino_ - [Folder](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/4/SignalRecovery/TutorialsTranscripts) - [Download](4/SignalRecovery/TutorialsTranscripts/SRTranscripts.zip)
 *   Course notes by _Luca Colombo_ - [Download](4/SignalRecovery/SignalRecovery.pdf)
 *   Cheat sheet by _Giacomo Tombolan_ - [Download](4/SignalRecovery/TOMBOLAN_SR_CHEAT_SHEET.pdf)
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1oWAigQAJpLHzZl8WDYJxM7WvihO_sY8T) {{< asterisk >}}
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1oWAigQAJpLHzZl8WDYJxM7WvihO_sY8T) {{< asterisk >}} - [Mirror](4/SignalRecovery/compressed-SignalRecovery-MattiaAmadori.pdf)
 
 ### RF Circuit Design
 
 *   Course notes by _Andrea Bertazzoni_ - [Download](4/RFCircuitDesign/RFCircuitDesign-Bertazzoni.pdf)
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/15yBgF_jmEApOPBcul8NRNnyfJOv_r8J0) {{< asterisk >}}
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/15yBgF_jmEApOPBcul8NRNnyfJOv_r8J0) {{< asterisk >}} - [Mirror (notes)](4/RFCircuitDesign/compressed-RFCircuitDesign-MattiaAmadori.pdf)
 *   Oral questions complete notes by _Giacomo Tombolan_ - [Download](4/RFCircuitDesign/RadioFrequencyCircuitDesign_TOMBOLAN.pdf)
 ### Digital Integrated Circuit Design
 
@@ -330,7 +330,7 @@ First year
 ### Biochip
 
 *   Course notes on external webiste - [Studwiz](https://www.studwiz.com/notes/polimi/engineering/06-biomedical-engineering/subject-163/index.php) (add them to Prof's slides) {{< asterisk >}}
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/18qR8uuJGY1ekr2HxXgdR9YouXcNjTZnu) {{< asterisk >}}
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/18qR8uuJGY1ekr2HxXgdR9YouXcNjTZnu) {{< asterisk >}} - [Mirror (notes)](4/Biochip/compressed-Biochip-MattiaAmadori.pdf) - [Mirror ("with notes")](4/Biochip/compressed-BiochipWithNotes-MattiaAmadori.pdf)
 
 &nbsp;
 
@@ -341,7 +341,7 @@ Second year
 
 ### Mixed-Signal Circuit Design
 
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1Dt6Us1RiZQkEG-8oJ6TgEohX7T3i1Dvi) {{< asterisk >}}
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1Dt6Us1RiZQkEG-8oJ6TgEohX7T3i1Dvi) {{< asterisk >}} - [Mirror](5/MixedSignal/compressed-MixedSignals-MattiaAmadori.pdf)
 *   Oral questions complete notes by _Giacomo Tombolan_ - [Download](5/MixedSignal/MixedSignalCircuitDesign_TOMBOLAN.pdf)
 ### Power Electronics
 
@@ -349,13 +349,13 @@ Second year
 
 ### Microelectronic Technologies
 
-*   Course notes by _Mikel Kumria_ - [Folder](https://drive.google.com/drive/folders/12AprM4BqPXh8qebSwoPI3FGgb9QD1zvW) {{< asterisk >}}
+*   Course notes by _Mikel Kumria_ - [Folder](https://drive.google.com/drive/folders/12AprM4BqPXh8qebSwoPI3FGgb9QD1zvW) {{< asterisk >}} - [Mirror (notes)](5/MicroelectronicTechnologies/compressed-MicrotechNotes-MikelKumria.pdf) - [Mirror (index)](5/MicroelectronicTechnologies/MicrotechIndex-MikelKumria.pdf) - [Mirror (contents)](5/MicroelectronicTechnologies/MicrotechContents-MikelKumria.pdf)
 
 ### Electronic Design For Biomedical Instrumentation
 
 *   Course notes by _Luca Colombo_ - [Download](5/EDFBI/ElectronicsDesign.pdf)
 *   Summary by _Matteo Toia_ - [Download](5/EDFBI/Summary_Toia.pdf)
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1N2Xk5plTNXJkXJJkuynDPz0x7fKjDf3L) {{< asterisk >}}
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1N2Xk5plTNXJkXJJkuynDPz0x7fKjDf3L) {{< asterisk >}} - [Mirror](5/EDFBI/compressed-EDFBI-MattiaAmadori.pdf)
 
 &nbsp;
 
@@ -370,7 +370,7 @@ TAB 1
 
 ### Automation and control in electric and hybrid vehicles
 
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/12r6ir-L7ZYedaiKsd21QZ8aJkXAbbFD8) {{< asterisk >}}
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/12r6ir-L7ZYedaiKsd21QZ8aJkXAbbFD8) {{< asterisk >}} - [Mirror](TAB1/AutomationControlElectricVehicles/compressed-AutomationandControlinVehicles-MattiaAmadori.pdf) - [Mirror (suspension)](TAB1/AutomationControlElectricVehicles/compressed-Suspension-MattiaAmadori.pdf)
 
 ### Numerical Methods in Microelectronics
 
