@@ -287,7 +287,7 @@ First year
 
 *   Course notes by _Andrea Bertazzoni_ - [Download](4/Analog/AnalogCircuitDesign-Bertazzoni.pdf)
 *   Summaries for the oral exam by _Leonardo Sera_ (_questions 1-32_) - [Download](4/Analog/ACD_Summaries_Sera.pdf)
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1EHAdoGCdYNnAqupD2ju8tO2S0vs1d0OL) {{< asterisk >}} - [Mirror (notes)](4/Analog/compressed-AnalogDesign-MattiaAmadori.pdf) - [Mirror (recap)](4/Analog/AnalogRiassunto-MattiaAmadori.pdf)
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1EHAdoGCdYNnAqupD2ju8tO2S0vs1d0OL) {{< asterisk >}} - [Mirror (notes)](4/Analog/compressed-AnalogDesign-MattiaAmadori.pdf) - [Mirror (recap)](4/Analog/compressed-AnalogRiassunto-MattiaAmadori.pdf)
 *   Oral questions complete notes by _Giacomo Tombolan_ - [Download](4/Analog/AnalogCircuitDesign_TOMBOLAN.pdf)
 
 ### MEMS and Microsensors
@@ -370,7 +370,7 @@ TAB 1
 
 ### Automation and control in electric and hybrid vehicles
 
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/12r6ir-L7ZYedaiKsd21QZ8aJkXAbbFD8) {{< asterisk >}} - [Mirror](TAB1/AutomationControlElectricVehicles/compressed-AutomationandControlinVehicles-MattiaAmadori.pdf) - [Mirror (suspension)](TAB1/AutomationControlElectricVehicles/compressed-Suspension-MattiaAmadori.pdf)
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/12r6ir-L7ZYedaiKsd21QZ8aJkXAbbFD8) {{< asterisk >}} - [Mirror](TAB1/AutomationVehicles/compressed-AutomationandControlinVehicles-MattiaAmadori.pdf) - [Mirror (suspension)](TAB1/AutomationVehicles/compressed-Suspension-MattiaAmadori.pdf)
 
 ### Numerical Methods in Microelectronics
 
