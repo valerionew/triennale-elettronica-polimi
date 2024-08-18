@@ -17,6 +17,7 @@ You can do it down below or open an issue on [Github](https://github.com/valerio
 _Down below you can also send your notes directly_.
 
 * * *
+
 ### E-mail us
 
 {{< contact >}}

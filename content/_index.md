@@ -417,6 +417,7 @@ TAB 2
 ### Photonic Devices
 
 *   Course notes by _Tommaso Dezuanni_ - [Download](TAB2/PhotonicDevices/notes_of_photonics_devices.pdf)
+*   Course notes by _Lorenzo Perlo_ - [Download](TAB2/PhotonicDevices/photonic_devices_notes_Lorenzo_Perlo.pdf)
 
 ### Quantum Circuits and Devices
 

@@ -9,8 +9,7 @@
 - Both [bachelor](https://www.polimi.it/corsi/corsi-di-laurea/1/2023-ing-ind-inf-1-livord-270-mi-357-ingegneria-elettronica) (italian) and [master](https://www.polimi.it/en/programmes/laurea-magistrale-equivalent-to-master-of-science/M/2022-ing-ind-inf-magord-270-mi-476-electronics-engineering-ingegneria-elettronica) (english) of science :nerd_face:
 - Built with [Hugo](https://gohugo.io/) and hosted on [Github Pages](https://pages.github.com/) and [Netlify](https://www.netlify.com/)
 - [Bearblog](https://github.com/janraasch/hugo-bearblog) theme (slightly modified)
-- HTML form to send questions to maintainers (through an [API written in Go](https://github.com/TIT8/go-api)) :email:
-- Google form to send files to maintainers (through the same [API written in Go](https://github.com/TIT8/go-api))
+- HTML and Google forms to send questions and files to maintainers (through an [API written in Go](https://github.com/TIT8/go-api)) :email:
 - Dark and light mode :sun_with_face:/:last_quarter_moon_with_face:  
 - Love for electronics :heart:   
 
