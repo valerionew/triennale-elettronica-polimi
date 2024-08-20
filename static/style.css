@@ -197,6 +197,11 @@ button {
     border-radius: 5px;
 }
 
+.add {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
 #submit {
     width: 7em;
     height: 2.5em;

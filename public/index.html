@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-	<meta name="generator" content="Hugo 0.132.2">
+	<meta name="generator" content="Hugo 0.133.0">
   <meta name="color-scheme" content="light">
   <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
@@ -80,6 +80,8 @@ Primo anno Analisi 1 Chimica Informatica Geometria e algebra lineare Fisica 1 Ec
     div_button.style.display = 'block';
 
     let switcher = document.getElementById("toggle");
+    switcher.style.display = 'block';
+    setTimeout(() => {switcher.classList.add("add");}, 100);
     switcher.addEventListener("click", () => {
       if (!localStorage.getItem('dark')) {
         localStorage.setItem('dark', "true");
@@ -132,8 +134,8 @@ Primo anno Analisi 1 Chimica Informatica Geometria e algebra lineare Fisica 1 Ec
     </div>
 </noscript>
 
-<div id="div_toggle" style="display: none; position: relative;">
-    <button id="toggle" style="position: fixed;bottom: 5%;right: 0px;margin-right: 4%;margin-bottom: 0em;">
+<div id="div_toggle" style="display: none;position: relative;">
+    <button id="toggle" style="display: none;opacity: 0;visibility: hidden;transition: all 0.8s ease-in-out;position: fixed;bottom: 5%;right: 0px;margin-right: 4%;margin-bottom: 0em;">
         <svg width="2em" height="2em" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
             
@@ -178,7 +180,7 @@ Primo anno Analisi 1 Chimica Informatica Geometria e algebra lineare Fisica 1 Ec
 </header>
   <main>
 <hr>
-<h2 id="hahahugoshortcode4s0hbhb"><p style="text-align: center;">Appunti 🇮🇹 &nbsp;-&nbsp; Notes 🇬🇧</p></h2>
+<h2 id="hahahugoshortcode1s0hbhb"><p style="text-align: center;">Appunti 🇮🇹 &nbsp;-&nbsp; Notes 🇬🇧</p></h2>
 <p><em>🇮🇹  Raccolta di materiali privi di copyright o ridistribuibili utili per studiare Ingegneria Elettronica al <a href="https://www.polimi.it/">Politecnico di Milano</a>, sia per la <strong>laurea triennale</strong> che per la <strong>laurea magistrale</strong></em></p>
 <p><em>🇬🇧  Compilation of copyright-free or redistributable materials, beneficial for studying Electronics Engineering at <a href="https://www.polimi.it/en">Politecnico di Milano</a>, encompassing both <strong>bachelor&rsquo;s</strong> and <strong>master&rsquo;s degrees</strong>.</em></p>
 <p> </p>
@@ -609,7 +611,7 @@ The notes are in the same language in which the course is delivered.<br>
 <p> </p>
 <hr>
 <div id="div_goup" style="position: relative;">
-    <button id="goup" onclick="topFunction()" style="display: none; position: fixed;bottom: 5%;right: 0px;margin-right: 4%;margin-bottom: 4em;">
+    <button id="goup" onclick="topFunction()" style="display: none;visibility: hidden;opacity: 0;transition: all 0.6s ease-in-out;position: fixed;bottom: 5%;right: 0px;margin-right: 4%;margin-bottom: 4em;">
         <svg class="svg-icon"
             style="width: 2em; height: 2em; vertical-align: middle; fill: currentColor; overflow: hidden;"
             viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -624,6 +626,7 @@ The notes are in the same language in which the course is delivered.<br>
     document.addEventListener('DOMContentLoaded', () => {
 
         let goup = document.getElementById("goup");
+        setTimeout(() => {goup.style.display = "block";}, 200);
 
         window.onscroll = function () { scrollFunction() };
 
@@ -635,9 +638,9 @@ The notes are in the same language in which the course is delivered.<br>
 
     function scrollFunction() {
         if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500 || window.scrollY > 500) {
-            goup.style.display = "block";
+            goup.classList.add("add");
         } else {
-            goup.style.display = "none";
+            goup.classList.remove("add");
         }
     }
 
