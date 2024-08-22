@@ -35,6 +35,10 @@
 html {
     background-color: var(--body-background-color) !important;
     display: none;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
 }
 
 body {
@@ -48,6 +52,10 @@ body {
     overflow-wrap: break-word;
     line-height: 1.5;
     color: var(--body-color);
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
 }
 
 h1,
@@ -59,10 +67,18 @@ h6,
 strong,
 b {
     color: var(--b-color);
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
 }
 
 a {
     color: var(--a-color);
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
     /*color: #ff5e6c;*/
 }
 
@@ -85,12 +101,20 @@ textarea {
     font-size: 16px;
     background-color: var(--input-background-color);
     color: var(--input-color);
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
 }
 
 input {
     font-size: 16px;
     background-color: var(--input-background-color);
     color: var(--input-color);
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
 }
 
 content {
@@ -108,6 +132,10 @@ img {
 code {
     padding: 2px 5px;
     background-color: var(--code-background-color);
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
 }
 
 pre code {
@@ -117,6 +145,10 @@ pre code {
     white-space: pre-wrap;
     font-size: 14px;
     overflow-x: auto;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
 }
 
 div.highlight pre {
@@ -134,6 +166,10 @@ blockquote {
     color: var(--blockquote-color);
     padding-left: 20px;
     font-style: italic;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
 }
 
 footer {
@@ -144,11 +180,19 @@ footer {
 .helptext {
     color: var(--helptext-color);
     font-size: small;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
 }
 
 .errorlist {
     color: var(--error-list-color);
     font-size: small;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
 }
 
 /* blog posts */
@@ -167,19 +211,35 @@ ul.blog-posts li span {
 
 ul.blog-posts li a:visited {
     color: var(--a-visited-color);
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
 }
 
 a:visited {
     color: var(--a-visited-color);
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
 }
 
 a:hover {
     color: var(--a-hover-color);
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
 }
 
 .asterisk {
     text-decoration: none !important;
     color: var(--b-color) !important;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
 }
 
 .asterisk:hover {
