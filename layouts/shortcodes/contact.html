@@ -26,15 +26,16 @@
     <div class="form-group row">
       <label for="message" class="col-4 col-form-label">Message</label>
       <div class="col-8">
-        <textarea id="message" name="message" cols="40" rows="10" required="required" minlength="5" class="form-control" placeholder="Max 1000 character (here links to external resources)" maxlength="1000" spellcheck="true"></textarea>
+        <textarea id="message" name="message" cols="40" rows="10" required="required" minlength="6" class="form-control" placeholder="Max 1000 character (here links to external resources)" maxlength="1000" spellcheck="true"></textarea>
       </div>
     </div>
     <div class="frc-captcha" data-sitekey="FCMTGCV10AMHV9QE"></div>
     <div>&nbsp;</div>
-    <div class="form-group row">
-      <div class="offset-4 col-8">
+    <div class="form-group row" style="width: fit-content;">
+      <div class="offset-4 col-8" style="float: left;">
         <button name="submit" type="submit" id="submit" class="btn btn-primary">Submit</button>
       </div>
+      <div id="loading"></div>
     </div>
     <p id="my-form-status"></p>
   </form>
@@ -58,8 +59,13 @@
     async function handleSubmit(event) {
 
       event.preventDefault();
+
+      const loader = document.querySelector("#loading");
+      loader.classList.add("display");
       var status = document.getElementById("my-form-status");
       var data = new FormData(event.target);
+      var text_msg = "";
+      var text_color = "";
 
       fetch(event.target.action, {
         method: form.method,
@@ -71,8 +77,8 @@
       }).then(response => {
         if (response.ok) {
 
-          status.innerHTML = "Thanks for your submission! 📨";
-          status.style.color = "#19F509";
+          text_msg = "Thanks for your submission! 📨";
+          text_color = "#119f07";
           form.reset();
           friendlyChallenge.autoWidget.reset();
 
@@ -82,13 +88,13 @@
 
             if (Object.hasOwn(data, 'errors')) {
 
-              status.innerHTML = data["errors"].map(error => error["message"]).join(", ");
-              status.style.color = '#d00';
+              text_msg = data["errors"].map(error => error["message"]).join(", ");
+              text_color = '#d07';
 
             } else {
 
-              status.innerHTML = "Oops! There was a problem submitting your form. ❌";
-              status.style.color = '#d00';
+              text_msg = "Oops! Wrong response received, maybe not submitted.";
+              text_color = '#d50';
 
             }
           })
@@ -98,10 +104,19 @@
         }
       }).catch(error => {
 
-        status.innerHTML = "Oops! There was a problem submitting your form. ❌";
-        status.style.color = '#d00';
+        text_msg = "Oops! There was an error while fetching the API. ❌";
+        text_color = '#d07';
 
       });
+      
+      setTimeout(() => {loader.classList.remove("display");}, 2200);
+      setTimeout(() => {
+        status.innerHTML = text_msg;
+        status.style.color = text_color;
+        status.classList.add("arrived");
+      }, 2800);
+      setTimeout(() => {status.classList.remove("arrived");}, 16000);
+      setTimeout(() => {status.innerHTML = "";}, 17000);
     }
 
     var host = window.location.host;

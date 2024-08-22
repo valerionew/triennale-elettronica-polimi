@@ -1,17 +1,18 @@
 :root {
-    --body-background-color: #fff;
-    --body-color: #333;
+    --body-background-color: rgb(240, 236, 236);
+    --body-color: #000;
     --b-color: #222;
     --a-color: #3273dc;
-    --input-color: #444;
+    --input-color: #201f1f;
     --input-background-color: #fff;
     --code-background-color: #f2f2f2;
     --precode-color: #222;
     --blockquote-color: #222;
-    --helptext-color: #777;
+    --helptext-color: #646363;
     --error-list-color: #eba613;
     --a-visited-color: rgb(107, 77, 177);
     --a-hover-color: blue;
+    --load-color-1: #000;
 }
 
 [data-dark-mode] {
@@ -28,6 +29,7 @@
     --error-list-color: #eba613;
     --a-visited-color: #bba6e7;
     --a-hover-color: rgb(135, 113, 186);
+    --load-color-1: #fff;
 }
 
 html {
@@ -190,11 +192,45 @@ button {
 }
 
 #toggle:hover {
-    border-radius: 5px;
+    border-radius: 11px !important;
 }
 
 #goup:hover {
-    border-radius: 5px;
+    border-radius: 11px !important;
+}
+
+#my-form-status {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    font-size: large;
+    font-weight: 400;
+    width: fit-content;
+    margin-top: 3em;
+    transition: all 2s;
+}
+
+#my-form-status.arrived {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+}
+
+#loading {
+    width: 1.4rem;
+    height: 0;
+    border: 0.2rem solid var(--load-color-1);
+    border-top: 0.2rem solid var(--body-background-color);
+    border-radius: 100%;
+    margin-left: 2rem;
+    float: right;
+    visibility: hidden;
+    animation: spin 0.5s infinite linear;
+}
+
+#loading.display {
+    visibility: visible;
+    height: 1.4rem;
 }
 
 .add {
@@ -203,8 +239,9 @@ button {
 }
 
 #submit {
-    width: 7em;
+    width: 6em;
     height: 2.5em;
+    font-size: medium;
 }
 
 #submit:hover {
@@ -223,6 +260,15 @@ main {
     -webkit-animation-fill-mode: forwards;
     -o-animation-iteration-count: 1;
     -o-animation-fill-mode: forwards;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes fadeInAnimation {
