@@ -411,6 +411,13 @@ button {
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
+    background-color: #38387f;
+    color: white;
+    border-color: #000;
+    border-width: 0.1em;
+    border-radius: 0.5em;
+    border-style: solid;
+    font-weight: 700;
 }
 
 main {
