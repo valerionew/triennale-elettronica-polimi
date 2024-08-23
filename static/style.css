@@ -1,5 +1,5 @@
 :root {
-    --body-background-color: rgb(240, 236, 236);
+    --body-background-color: #ededed;
     --body-color: #000;
     --b-color: #222;
     --a-color: #3273dc;
@@ -10,14 +10,15 @@
     --blockquote-color: #222;
     --helptext-color: #646363;
     --error-list-color: #eba613;
-    --a-visited-color: rgb(107, 77, 177);
+    --a-visited-color: #6b4db1;
     --a-hover-color: blue;
     --load-color-1: #000;
+    --placeholder-color: #3a3939;
 }
 
 [data-dark-mode] {
     --body-background-color: #333;
-    --body-color: #ddd;
+    --body-color: #e8e8e8;
     --b-color: #eee;
     --a-color: #8cc2dd;
     --input-color: #ddd;
@@ -28,34 +29,50 @@
     --helptext-color: #aaa;
     --error-list-color: #eba613;
     --a-visited-color: #bba6e7;
-    --a-hover-color: rgb(135, 113, 186);
+    --a-hover-color: #725ca7;
     --load-color-1: #fff;
+    --placeholder-color: #898888;
 }
 
 html {
     background-color: var(--body-background-color) !important;
     display: none;
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 body {
     font-family: Verdana, sans-serif;
     margin: auto;
-    padding: 20px;
-    max-width: 720px;
+    padding: 1em;
+    max-width: 50em;
     text-align: left;
     background-color: var(--body-background-color) !important;
     word-wrap: break-word;
     overflow-wrap: break-word;
     line-height: 1.5;
     color: var(--body-color);
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+    li {
+        margin-left: -1em;
+    }
+    ul {
+        margin-left: -0.2em;
+    }
+}
+
+@media only screen and (max-width: 920px) and (min-width: 600px){
+    body {
+        padding: 2.2em;
+    }
 }
 
 h1,
@@ -67,18 +84,18 @@ h6,
 strong,
 b {
     color: var(--b-color);
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 a {
     color: var(--a-color);
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
     /*color: #ff5e6c;*/
 }
 
@@ -97,24 +114,68 @@ nav a {
 }
 
 textarea {
-    width: 100%;
+    width: 95%;
     font-size: 16px;
+    border-width: 0.1em;
+    border-radius: 0.5em;
+    border-color: #000;
+    padding: 0.5em;
     background-color: var(--input-background-color);
     color: var(--input-color);
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 input {
+    border-radius: 0.5em;
+    border-width: 0.1em;
+    border-color: #000;
+    padding: 0.5em;
     font-size: 16px;
+    max-width: 20em;
+
     background-color: var(--input-background-color);
     color: var(--input-color);
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+input::placeholder {
+    color: var(--placeholder-color);
+    font-size: 95%;
+}
+
+input::-moz-placeholder {
+    color: var(--placeholder-color);
+    opacity: 1;
+    font-size: 85%;
+}
+
+input::-webkit-input-placeholder {
+    color: var(--placeholder-color);
+    opacity: 1;
+    font-size: 95%;
+}
+
+textarea::placeholder {
+    color: var(--placeholder-color);
+    font-size: 90%;
+}
+
+textarea::-moz-placeholder {
+    color: var(--placeholder-color);
+    opacity: 1;
+    font-size: 85%;
+}
+
+textarea::-webkit-input-placeholder {
+    color: var(--placeholder-color);
+    opacity: 1;
+    font-size: 90%;
 }
 
 content {
@@ -132,10 +193,10 @@ img {
 code {
     padding: 2px 5px;
     background-color: var(--code-background-color);
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 pre code {
@@ -145,10 +206,10 @@ pre code {
     white-space: pre-wrap;
     font-size: 14px;
     overflow-x: auto;
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 div.highlight pre {
@@ -166,10 +227,10 @@ blockquote {
     color: var(--blockquote-color);
     padding-left: 20px;
     font-style: italic;
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 footer {
@@ -180,19 +241,19 @@ footer {
 .helptext {
     color: var(--helptext-color);
     font-size: small;
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 .errorlist {
     color: var(--error-list-color);
     font-size: small;
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 /* blog posts */
@@ -211,35 +272,27 @@ ul.blog-posts li span {
 
 ul.blog-posts li a:visited {
     color: var(--a-visited-color);
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 a:visited {
     color: var(--a-visited-color);
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
 }
 
 a:hover {
     color: var(--a-hover-color);
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
 }
 
 .asterisk {
     text-decoration: none !important;
     color: var(--b-color) !important;
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 .asterisk:hover {
@@ -251,12 +304,50 @@ button {
     z-index: 10;
 }
 
-#toggle:hover {
-    border-radius: 11px !important;
+#toggle {
+    border-style: solid;
+    background-color: white;
+    border-color: #000;
+    border-width: 0.1em;
+    padding: auto;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 0.275rem;
+    padding-bottom: 0.1rem;
+    overflow: hidden;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
-#goup:hover {
-    border-radius: 11px !important;
+#goup {
+    border-width: 0.1em;
+    border-style: solid;
+    background-color: white;
+    border-color: #000;
+    border-radius: 0.5em;
+    padding: auto;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    padding-top: 0.275rem;
+    padding-bottom: 0.1rem;
+}
+
+@media (hover: hover) and (pointer: fine){
+
+    #toggle:hover {
+        border-radius: 2.5em !important;
+    }
+
+    #goup:hover {
+        border-radius: 2.5em !important;
+    }
+
+    #submit:hover {
+        border-radius: 3em !important;
+    }
+
 }
 
 #my-form-status {
@@ -308,10 +399,12 @@ button {
     width: 6em;
     height: 2.5em;
     font-size: medium;
-}
-
-#submit:hover {
-    border-radius: 5px;
+    border-radius: 0.5em;
+    overflow: hidden !important;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 main {
