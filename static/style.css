@@ -14,6 +14,7 @@
     --a-hover-color: blue;
     --load-color-1: #000;
     --placeholder-color: #3a3939;
+    --hr-border-color: black;
 }
 
 [data-dark-mode] {
@@ -32,6 +33,7 @@
     --a-hover-color: #725ca7;
     --load-color-1: #fff;
     --placeholder-color: #898888;
+    --hr-border-color: white;
 }
 
 html {
@@ -88,6 +90,10 @@ b {
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
+}
+
+hr {
+    border: 0.05em solid var(--hr-border-color);
 }
 
 a {
