@@ -10,11 +10,11 @@ weight = -2
 
 🇮🇹 &nbsp;**Condividi eventuali problemi col sito o tue idee**.  
 Puoi farlo via email qui sotto o via [Github](https://github.com/valerionew/triennale-elettronica-polimi/issues/new). {{< alternative_it >}}  
-_Qui sotto puoi anche mandare direttamente i tuoi appunti_.
+_[Qui](#send-us-directly-your-files-open_file_folder), invece, puoi anche mandare direttamente i tuoi appunti_.
 
 🇬🇧 &nbsp;**Feel free to share any issues with the website or your ideas**.  
 You can do it down below or open an issue on [Github](https://github.com/valerionew/triennale-elettronica-polimi/issues/new). {{< alternative_en >}}  
-_Down below you can also send your notes directly_.
+_[Here](#send-us-directly-your-files-open_file_folder), instead, you can also send your notes directly_.
 
 * * *
 
@@ -22,11 +22,13 @@ _Down below you can also send your notes directly_.
 
 {{< contact >}}
 
-&nbsp;
+* * *
 
-### 🇮🇹 &nbsp;Se hai dei file di appunti, aggiungili [qui](https://forms.gle/3rZG2ZZquvATsZiAA).
+### Send us directly your files :open_file_folder:
 
-### 🇬🇧 &nbsp;If you have file notes, please upload them [here](https://forms.gle/3rZG2ZZquvATsZiAA). 
+🇮🇹 &nbsp;Se hai dei file di appunti, caricali [qui](https://forms.gle/3rZG2ZZquvATsZiAA).
+
+🇬🇧 &nbsp;If you have file notes, please upload them [here](https://forms.gle/3rZG2ZZquvATsZiAA). 
 
 &nbsp;
 

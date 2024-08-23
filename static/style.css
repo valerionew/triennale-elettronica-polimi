@@ -288,10 +288,6 @@ a:visited {
     color: var(--a-visited-color);
 }
 
-a:hover {
-    color: var(--a-hover-color);
-}
-
 .asterisk {
     text-decoration: none !important;
     color: var(--b-color) !important;
@@ -342,6 +338,10 @@ button {
 
 @media (hover: hover) and (pointer: fine){
 
+    a:hover {
+        color: var(--a-hover-color);
+    }
+
     #toggle:hover {
         border-radius: 2.5em !important;
     }
@@ -359,11 +359,14 @@ button {
 #my-form-status {
     visibility: hidden;
     opacity: 0;
-    height: 0;
-    font-size: large;
-    font-weight: 400;
+    height: auto;
+    max-height: 0;
+    font-size: larger;
+    font-weight: 600;
     width: fit-content;
-    margin-top: 3em;
+    margin-top: 3.3em;
+    margin-bottom: 1.5em;
+    margin-left: 0.5em;
     transition: all 2s;
     -moz-transition: all 2s;
     -webkit-transition: all 2s;
@@ -373,16 +376,18 @@ button {
 #my-form-status.arrived {
     visibility: visible;
     opacity: 1;
-    height: auto;
+    max-height: 20em;
 }
 
 #loading {
     width: 1.4rem;
-    height: 0;
+    height: 1.4rem;
+    max-height: 0;
     border: 0.2rem solid var(--load-color-1);
     border-top: 0.2rem solid var(--body-background-color);
     border-radius: 100%;
     margin-left: 2rem;
+    margin-top: 0.3em;
     float: right;
     visibility: hidden;
     animation: spin 0.5s infinite linear;
@@ -393,7 +398,7 @@ button {
 
 #loading.display {
     visibility: visible;
-    height: 1.4rem;
+    max-height: 2rem;
 }
 
 .add {
