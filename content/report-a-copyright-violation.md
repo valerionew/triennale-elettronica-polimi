@@ -4,8 +4,6 @@ menu = "main"
 weight = -1
 +++
 
----
-
 ## 🇬🇧 &nbsp;Report a copyright violation
 
 [{{< copyright >}}](https://github.com/valerionew/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)

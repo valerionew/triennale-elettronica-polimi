@@ -4,8 +4,6 @@ menu = "main"
 weight = -3
 +++
 
-* * *
-
 ## Licenses
 
 🇮🇹 &nbsp;Il materiale presente in questa pagina è stato prodotto dall'[autore](https://github.com/valerionew) o contribuito a questa raccolta dai rispettivi autori, fatto salvo per le risorse contrassegnate con **(\*)**.  

@@ -4,8 +4,6 @@ menu = "main"
 weight = -2
 +++
 
-* * *
-
 ## Support
 
 🇮🇹 &nbsp;**Condividi con noi problemi del sito, appunti o tue idee**.  
@@ -28,9 +26,11 @@ weight = -2
 
 ### Send us directly your files :open_file_folder:
 
-🇮🇹 &nbsp;Se hai dei file di appunti, caricali [qui](https://forms.gle/3rZG2ZZquvATsZiAA).
+🇮🇹 &nbsp;Se hai dei file di appunti, caricali **[qui](https://forms.gle/3rZG2ZZquvATsZiAA)**.   
+:heavy_exclamation_mark: Mi raccomando, i file devono poter essere aperti da chiunque (**formato pdf o zip** di pdf sono perfetti) e che siano piccoli, **massimo 5GB** (ma per favore meno di 1GB sarebbe meglio).
 
-🇬🇧 &nbsp;If you have file notes, please upload them [here](https://forms.gle/3rZG2ZZquvATsZiAA). 
+🇬🇧 &nbsp;If you have file notes, please upload them **[here](https://forms.gle/3rZG2ZZquvATsZiAA)**.   
+:heavy_exclamation_mark: Please make sure the files can be opened by anyone (**PDF format or zip** of PDFs are perfect) and that they are small, a **maximum of 5GB** (but preferably less than 1GB would be better).
 
 &nbsp;
 

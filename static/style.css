@@ -15,6 +15,10 @@
     --load-color-1: #000;
     --placeholder-color: #3a3939;
     --hr-border-color: black;
+    --slider-color: rgb(50, 49, 49); 
+    --before-color: white;
+    --svg1-color: white;
+    --svg2-color: rgb(244, 175, 2);
 }
 
 [data-dark-mode] {
@@ -34,6 +38,10 @@
     --load-color-1: #fff;
     --placeholder-color: #898888;
     --hr-border-color: white;
+    --slider-color: black;
+    --before-color: white;
+    --svg1-color: rgb(16, 18, 154);
+    --svg2-color: white;
 }
 
 html {
@@ -62,6 +70,98 @@ body {
     -o-transition: all 0.5s;
 }
 
+.div_switch {
+    display: flex;
+    position: fixed;
+    bottom: 5%;
+    right: 0;
+    margin-right: 3.5%;
+    z-index: 10;
+}
+
+.sup {
+    display: inline-block;
+    position: relative;
+}
+
+.div_switch input {
+    display: none;
+}      
+
+.div_switch .slider {
+    background-color: var(--slider-color);
+    width: 5em;
+    cursor: pointer;
+    height: 2.5em;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 5em;
+    border: 0.1em solid var(--slider-color);
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.div_switch .slider::before {
+    content: '';
+    background-color: var(--before-color);
+    position: absolute;
+    width: 2.2em;
+    height: 2.2em;
+    bottom: 0.25em;
+    right: 0.25em;
+    border-radius: 5em;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.slider .svg1 {
+    position: absolute;
+    cursor: pointer;
+    pointer-events: none;
+    width: 1.8em;
+    height: 1.8em;
+    bottom: 0.4em;
+    right: 3em;
+    fill: var(--svg1-color);
+    transition: fill 0.4s;
+    -moz-transition: fill 0.4s;
+    -webkit-transition: fill 0.4s;
+    -o-transition: fill 0.4s;
+}
+
+.slider .svg2 {
+    position: absolute;
+    cursor: pointer;
+    pointer-events: none;
+    width: 1.5em;
+    height: 1.5em;
+    bottom: 0.6em;
+    right: 0.6em;
+    fill: var(--svg2-color);
+    transition: fill 0.4s;
+    -moz-transition: fill 0.4s;
+    -webkit-transition: fill 0.4s;
+    -o-transition: fill 0.4s;
+}
+
+input:checked + .slider::before {
+    transform: translateX(-2.5em);
+    -moz-transform: translateX(-2.5em);
+    -webkit-transform: translateX(-2.5em);
+    -o-transform: translateX(-2.5em);
+    background-color: var(--before-color);
+}
+
+input:checked + .slider {
+    background-color: var(--slider-color);
+}
+
 @media only screen and (max-width: 600px) {
     li {
         margin-left: -1em;
@@ -74,6 +174,9 @@ body {
 @media only screen and (max-width: 920px) and (min-width: 600px){
     body {
         padding: 2.2em;
+    }
+    #goup {
+        margin-bottom: 15%;
     }
 }
 
@@ -328,7 +431,7 @@ button {
     border-style: solid;
     background-color: white;
     border-color: #000;
-    border-radius: 0.5em;
+    border-radius: 1em;
     padding: auto;
     padding-left: 0.7rem;
     padding-right: 0.7rem;
@@ -347,7 +450,8 @@ button {
     }
 
     #goup:hover {
-        border-radius: 2.5em !important;
+        border-radius: 4em !important;
+        background-color: #989696;
     }
 
     #submit:hover {
@@ -364,7 +468,7 @@ button {
     font-size: larger;
     font-weight: 600;
     width: fit-content;
-    margin-top: 3.3em;
+    margin-top: 3.5em;
     margin-bottom: 1.5em;
     margin-left: 0.5em;
     transition: all 2s;
@@ -426,13 +530,14 @@ button {
 }
 
 main {
-    animation: fadeInAnimation ease 0.5s;
-    -moz-animation: fadeInAnimation ease 0.5s;
-    -webkit-animation: fadeInAnimation ease 0.5s;
-    -o-animation: fadeInAnimation ease 0.5s;
+    animation: fadeInAnimation ease 0.6s;
+    -moz-animation: fadeInAnimation ease 0.6s;
+    -webkit-animation: fadeInAnimation ease 0.6s;
+    -o-animation: fadeInAnimation ease 0.6s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     -moz-animation-iteration-count: 1;
+    -moz-animation-fill-mode: forwards;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-fill-mode: forwards;
     -o-animation-iteration-count: 1;

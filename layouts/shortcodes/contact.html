@@ -21,7 +21,7 @@
     </div>
     <div class="form-group row" style="margin-top: 0.5em;">
       <div class="col-8">
-        <textarea id="message" name="message" cols="45" rows="10" required="required" minlength="6" class="form-control" placeholder="Type your message&#10;Max 1000 character&#10;You can put here links to external resources&#10; For sending files, use the form below" maxlength="1000" spellcheck="true"></textarea>
+        <textarea id="message" name="message" cols="45" rows="10" required="required" minlength="6" class="form-control" placeholder="Type your message&#10;Max 1000 character&#10;You can put here links to external resources&#10;For sending files, use the form below" maxlength="1000" spellcheck="true"></textarea>
       </div>
     </div>
     <div class="frc-captcha" style="transition: all 0.5s;margin-top: 0.2em;width: 2em;border-radius: 0.5em;border: 0.1em solid black !important;" data-sitekey="FCMTGCV10AMHV9QE"></div>
@@ -51,10 +51,11 @@
 
   var inputs = document.getElementsByTagName('input');
   for(let i=0; i<inputs.length; i++){
+      if(inputs[i].type === "checkbox"){continue};
       inputs[i].setAttribute('size',inputs[i].getAttribute('placeholder').length);
   }
 
-  if (localStorage.getItem('dark') == 'true') {
+  if (localStorage.getItem('theme') == 'dark') {
     document.querySelector('.frc-captcha').classList.add("dark");
   }
 
@@ -146,13 +147,13 @@
 
     form.addEventListener("submit", handleSubmit);
 
-    var toggle = document.querySelector("#toggle").addEventListener("click", () => {
-      if (localStorage.getItem('dark') == 'true') {
+    var toggle = document.querySelector("#toggle").addEventListener("change", () => {
+      if (localStorage.getItem('theme') === 'dark') {
         document.querySelector('.frc-captcha').classList.add("dark");
       } else {
         document.querySelector('.frc-captcha').classList.remove("dark");
       }
-    });
+    }, false);
 
   })
 

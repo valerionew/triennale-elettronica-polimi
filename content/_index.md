@@ -1,4 +1,4 @@
-* * *
+
 ## {{< subtitle >}}
 
 _🇮🇹 &nbsp;Raccolta di materiali privi di copyright o ridistribuibili utili per studiare Ingegneria Elettronica al [Politecnico di Milano](https://www.polimi.it/), sia per la **laurea triennale** che per la **laurea magistrale**_
@@ -435,10 +435,12 @@ Extra
 
 🇮🇹 &nbsp; **(\*)**  è spiegato [qui]({{< ref "licenses.md#external-links" >}}).  
 Gli appunti sono nella stessa lingua in cui viene erogato il corso.  
+Sei hai appunti da condividere, [questa sezione]({{< ref "contribute.md" >}}) fa per te.   
 ***Buono studio 💪***
 
 🇬🇧 &nbsp; **(\*)** explained [here]({{< ref "licenses.md#external-links" >}}).  
-The notes are in the same language in which the course is delivered.  
+The notes are in the same language in which the course is delivered.    
+If you want to share your notes, [this section]({{< ref "contribute.md" >}}) is for you.   
 ***Good study 🤓***
 
 &nbsp;

@@ -52,37 +52,43 @@ In generale, il materiale prodotto dall’autore e presente nella raccolta ed è
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <script>
-    if (localStorage.getItem('dark') == 'true') {
-      document.querySelector('html').toggleAttribute('data-dark-mode');
+    if (localStorage.getItem('theme') === 'dark') {
+      document.documentElement.toggleAttribute('data-dark-mode');
     }
   </script>
 
   <link rel="stylesheet" type="text/css" href="/style.css" crossorigin="anonymous">
 <script>
 
-  if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
-    document.querySelector('html').style.display = "block";
-
-    
-  }
-
   document.addEventListener("DOMContentLoaded", () => {
+
+    let switcher = document.querySelector(".div_switch input");
+    const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+    if (currentTheme) {
+        if (currentTheme === 'dark') {
+            switcher.checked = true;
+        }
+    }
 
     document.querySelector('html').style.display = 'block';
 
     let div_button = document.getElementById('div_toggle');
     div_button.style.display = 'block';
 
-    let switcher = document.getElementById("toggle");
-    switcher.addEventListener("click", () => {
-      if (!localStorage.getItem('dark')) {
-        localStorage.setItem('dark', "true");
-      } else {
-        localStorage.removeItem('dark');
-      }
-      document.querySelector('html').toggleAttribute('data-dark-mode');
-    });
+    
 
+
+    switcher.addEventListener("change", switch_func, false);
+
+    function switch_func(e) {
+      document.documentElement.toggleAttribute('data-dark-mode');
+      if (e.target.checked) {
+          localStorage.setItem('theme', 'dark');
+      }
+      else {
+          localStorage.setItem('theme', 'light');
+      }   
+    }
   });
 
 </script>
@@ -126,23 +132,20 @@ In generale, il materiale prodotto dall’autore e presente nella raccolta ed è
     </div>
 </noscript>
 
-<div id="div_toggle" style="display: none; position: relative;">
-    <button id="toggle" style="position: fixed;bottom: 5%;right: 0px;margin-right: 5%;margin-bottom: 0.5em;border-radius: 0.5em;border-style: solid;">
-        <svg width="2em" height="2em" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink">
-            
-            <title>ic_fluent_dark_theme_24_regular</title>
-            <desc>Created with Sketch.</desc>
-            <g id="🔍-Product-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <g id="ic_fluent_dark_theme_24_regular" fill="#212121" fill-rule="nonzero">
-                    <path
-                        d="M12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12,22 Z M12,20.5 L12,3.5 C16.6944204,3.5 20.5,7.30557963 20.5,12 C20.5,16.6944204 16.6944204,20.5 12,20.5 Z"
-                        id="🎨-Color" fill="black">
-                    </path>
-                </g>
-            </g>
-        </svg>
-    </button>
+
+
+<div class="div_switch" id="div_toggle" style="display: none;">
+    <label class="sup">
+        <input type="checkbox" id="toggle">
+        <div class="slider">
+            <svg class="svg1" version="2" width="1.5em" height="1.5em" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                <path d="M440.14,302.07c-20.52,81-93.9,140.93-181.28,140.93c-103.28,0-187-83.72-187-187s83.72-187,187-187    c2.77,0,5.54,0.06,8.28,0.18c-32.11,26.65-52.55,66.85-52.55,111.83c0,80.22,65.03,145.25,145.25,145.25    C389.52,326.27,417.14,317.36,440.14,302.07z"/>
+            </svg>
+            <svg class="svg2" width="2em" height="2em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"/>
+            </svg>
+        </div>
+    </label>
 </div>
 
 <script>
@@ -150,6 +153,9 @@ In generale, il materiale prodotto dall’autore e presente nella raccolta ed è
 
         let div_button = document.getElementById('div_toggle');
         div_button.style.display = 'block';
+
+        let toggle = document.querySelector(".sup");
+        toggle.style.display = "none";
 
         
     }
@@ -170,11 +176,11 @@ In generale, il materiale prodotto dall’autore e presente nella raccolta ed è
 
 </nav>
 </header>
+  <hr>
   <main>
 
 <content>
-  <hr>
-<h2 id="licenses">Licenses</h2>
+  <h2 id="licenses">Licenses</h2>
 <p>🇮🇹  Il materiale presente in questa pagina è stato prodotto dall&rsquo;<a href="https://github.com/valerionew">autore</a> o contribuito a questa raccolta dai rispettivi autori, fatto salvo per le risorse contrassegnate con <strong>(*)</strong>.<br>
 In generale, il materiale prodotto dall&rsquo;autore e presente nella raccolta ed è da intendersi rilasciato sotto <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">licenza Creative Commons BY-NC-SA 4.0</a>.</p>
 <p>🇬🇧  The material present in this page has been prepared by the <a href="https://github.com/valerionew">author</a> or contributed to this collection by the respective authors, except for the resources marked by <strong>(*)</strong>.<br>
@@ -204,6 +210,22 @@ In general, except otherwise specified, the author&rsquo;s material and the othe
 
   var reg = new RegExp('(?:\ud83c[\udde6-\uddff]){2}', 'g');
   document.body.innerHTML = document.body.innerHTML.replaceAll(reg, flagemojiToPNG);
+
+
+  if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+    let toggle_label = document.querySelector(".sup");
+    toggle_label.style.display = "inline-block";
+
+    let switcher = document.querySelector(".div_switch input");
+    const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+    if (currentTheme) {
+        if (currentTheme === 'dark') {
+            switcher.checked = true;
+        }
+    }
+    
+    document.querySelector('html').style.display = "block";
+  }
 
 </script>
 
