@@ -1,5 +1,5 @@
-<div class="div_goup" id="div_goup" style="position: fixed;bottom: 8%;right: 4%;margin-bottom: 2.5em;">
-    <button id="goup" onclick="topFunction()" style="display: none;visibility: hidden;opacity: 0;overflow: hidden;transition: opacity 0.6s ease-in-out,visibility 0.6s ease-in-out,border-radius 0.5s;-moz-transition: opacity 0.6s ease-in-out,visibility 0.6s ease-in-out,border-radius 0.5s;-webkit-transition: opacity 0.6s ease-in-out,visibility 0.6s ease-in-out,border-radius 0.5s;-o-transition: opacity 0.6s ease-in-out,visibility 0.6s ease-in-out,border-radius 0.5s;z-index:11;">
+<div class="div_goup" id="div_goup" style="position: fixed;bottom: 5em;right: 4%;margin-bottom: 1.2em;">
+    <button id="goup" ontouchstart="" tabindex="1" onclick="topFunction()" style="display: none;">
         <svg class="svg-icon"
             style="width: 2em; height: 2em; vertical-align: middle; fill: currentColor; overflow: hidden;"
             viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -11,10 +11,15 @@
 
 <script>
 
+    var tim = 0;
+
     document.addEventListener('DOMContentLoaded', () => {
 
         let goup = document.getElementById("goup");
         setTimeout(() => {goup.style.display = "block";}, 200);
+        goup.onfocus = (e) => {
+            tim = window.setTimeout(() => {e.preventDefault(); goup.blur();}, 2000);
+        };
 
         window.onscroll = function () { scrollFunction() };
 
@@ -33,9 +38,11 @@
     }
 
     function topFunction() {
+        window.clearTimeout(tim);
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
         window.scrollY = 0;
+        setTimeout(() => {document.querySelector("#goup").blur();}, 600);
     }
 
 </script>

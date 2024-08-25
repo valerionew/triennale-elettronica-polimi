@@ -185,7 +185,7 @@ Primo anno Analisi 1 Chimica Informatica Geometria e algebra lineare Fisica 1 Ec
 </header>
   <hr>
   <main>
-<h2 id="hahahugoshortcode1s0hbhb"><p style="text-align: center;">Appunti 🇮🇹 &nbsp;-&nbsp; Notes 🇬🇧</p></h2>
+<h2 id="hahahugoshortcode4s0hbhb"><p style="text-align: center;">Appunti 🇮🇹 &nbsp;-&nbsp; Notes 🇬🇧</p></h2>
 <p><em>🇮🇹  Raccolta di materiali privi di copyright o ridistribuibili utili per studiare Ingegneria Elettronica al <a href="https://www.polimi.it/">Politecnico di Milano</a>, sia per la <strong>laurea triennale</strong> che per la <strong>laurea magistrale</strong></em></p>
 <p><em>🇬🇧  Compilation of copyright-free or redistributable materials, beneficial for studying Electronics Engineering at <a href="https://www.polimi.it/en">Politecnico di Milano</a>, encompassing both <strong>bachelor&rsquo;s</strong> and <strong>master&rsquo;s degrees</strong>.</em></p>
 <p> </p>
@@ -617,8 +617,8 @@ If you want to share your notes, <a href="/contribute/">this section</a> is for 
 <em><strong>Good study 🤓</strong></em></p>
 <p> </p>
 <hr>
-<div class="div_goup" id="div_goup" style="position: fixed;bottom: 8%;right: 4%;margin-bottom: 2.5em;">
-    <button id="goup" onclick="topFunction()" style="display: none;visibility: hidden;opacity: 0;overflow: hidden;transition: opacity 0.6s ease-in-out,visibility 0.6s ease-in-out,border-radius 0.5s;-moz-transition: opacity 0.6s ease-in-out,visibility 0.6s ease-in-out,border-radius 0.5s;-webkit-transition: opacity 0.6s ease-in-out,visibility 0.6s ease-in-out,border-radius 0.5s;-o-transition: opacity 0.6s ease-in-out,visibility 0.6s ease-in-out,border-radius 0.5s;z-index:11;">
+<div class="div_goup" id="div_goup" style="position: fixed;bottom: 5em;right: 4%;margin-bottom: 1.2em;">
+    <button id="goup" ontouchstart="" tabindex="1" onclick="topFunction()" style="display: none;">
         <svg class="svg-icon"
             style="width: 2em; height: 2em; vertical-align: middle; fill: currentColor; overflow: hidden;"
             viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -630,10 +630,15 @@ If you want to share your notes, <a href="/contribute/">this section</a> is for 
 
 <script>
 
+    var tim = 0;
+
     document.addEventListener('DOMContentLoaded', () => {
 
         let goup = document.getElementById("goup");
         setTimeout(() => {goup.style.display = "block";}, 200);
+        goup.onfocus = (e) => {
+            tim = window.setTimeout(() => {e.preventDefault(); goup.blur();}, 2000);
+        };
 
         window.onscroll = function () { scrollFunction() };
 
@@ -652,9 +657,11 @@ If you want to share your notes, <a href="/contribute/">this section</a> is for 
     }
 
     function topFunction() {
+        window.clearTimeout(tim);
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
         window.scrollY = 0;
+        setTimeout(() => {document.querySelector("#goup").blur();}, 600);
     }
 
 </script>

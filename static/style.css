@@ -51,6 +51,10 @@ html {
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 body {
@@ -73,10 +77,11 @@ body {
 .div_switch {
     display: flex;
     position: fixed;
-    bottom: 5%;
+    bottom: 2.2em;
     right: 0;
     margin-right: 3.5%;
     z-index: 10;
+    -webkit-tap-highlight-color: transparent !important;
 }
 
 .sup {
@@ -175,8 +180,11 @@ input:checked + .slider {
     body {
         padding: 2.2em;
     }
+    .div_switch {
+        margin-bottom: -0.5em;
+    }
     #goup {
-        margin-bottom: 15%;
+        margin-bottom: -0.5em;
     }
 }
 
@@ -205,6 +213,7 @@ a {
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
+    -webkit-tap-highlight-color: transparent !important;
     /*color: #ff5e6c;*/
 }
 
@@ -427,6 +436,9 @@ button {
 }
 
 #goup {
+    visibility: hidden;
+    opacity: 0;
+    overflow: hidden;
     border-width: 0.1em;
     border-style: solid;
     background-color: white;
@@ -437,6 +449,11 @@ button {
     padding-right: 0.7rem;
     padding-top: 0.275rem;
     padding-bottom: 0.1rem;
+    transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    -webkit-tap-highlight-color: transparent !important;
 }
 
 @media (hover: hover) and (pointer: fine){
@@ -450,14 +467,29 @@ button {
     }
 
     #goup:hover {
-        border-radius: 4em !important;
+        border-radius: 10em !important;
         background-color: #989696;
+    }
+
+    #goup:hover path {
+        fill: blue;
     }
 
     #submit:hover {
         border-radius: 3em !important;
     }
 
+}
+
+#goup:focus {
+    transform: scale(0.7,0.7);
+    -moz-transform: scale(0.7,0.7);
+    -webkit-transform: scale(0.7,0.7);
+    -o-transform: scale(0.7,0.7);
+}
+
+#goup:focus path {
+    fill: blue;
 }
 
 #my-form-status {
