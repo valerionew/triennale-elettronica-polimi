@@ -56,6 +56,10 @@ Se hai del materiale di cui possiedi i diritti e lo vorresti rendere disponibile
   <link rel="stylesheet" type="text/css" href="/style.css" crossorigin="anonymous">
 <script>
 
+  if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+    document.querySelector('html').style.display = "block";
+  }
+
   document.addEventListener("DOMContentLoaded", () => {
 
     let switcher = document.querySelector(".div_switch input");
@@ -132,7 +136,7 @@ Se hai del materiale di cui possiedi i diritti e lo vorresti rendere disponibile
 
 <div class="div_switch" id="div_toggle" style="display: none;">
     <label class="sup">
-        <input type="checkbox" id="toggle">
+        <input type="checkbox" autocomplete='off' id="toggle">
         <div class="slider">
             <svg class="svg1" version="2" width="1.5em" height="1.5em" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                 <path d="M440.14,302.07c-20.52,81-93.9,140.93-181.28,140.93c-103.28,0-187-83.72-187-187s83.72-187,187-187    c2.77,0,5.54,0.06,8.28,0.18c-32.11,26.65-52.55,66.85-52.55,111.83c0,80.22,65.03,145.25,145.25,145.25    C389.52,326.27,417.14,317.36,440.14,302.07z"/>
@@ -149,9 +153,6 @@ Se hai del materiale di cui possiedi i diritti e lo vorresti rendere disponibile
 
         let div_button = document.getElementById('div_toggle');
         div_button.style.display = 'block';
-
-        let toggle = document.querySelector(".sup");
-        toggle.style.display = "none";
 
         
     }
@@ -210,8 +211,6 @@ If you own material for which you hold the rights and you would like to make it 
 
 
   if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
-    let toggle_label = document.querySelector(".sup");
-    toggle_label.style.display = "inline-block";
 
     let switcher = document.querySelector(".div_switch input");
     const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
@@ -220,8 +219,7 @@ If you own material for which you hold the rights and you would like to make it 
             switcher.checked = true;
         }
     }
-    
-    document.querySelector('html').style.display = "block";
+  
   }
 
 </script>
