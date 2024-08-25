@@ -52,10 +52,13 @@ Via contact form: You can also report violations by sending us a message. Please
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <script>
-    if(!!window.performance && window.performance.navigation.type == 2)
-    {
-      window.location.reload(true);
-    }
+    window.addEventListener("pageshow", () => {
+      var perfEntries = performance.getEntriesByType("navigation");
+      for (var i = 0; i < perfEntries.length; i++) {
+          if(perfEntries[i].type==="back_forward"){location.reload(true);}
+      }
+    });
+
     if(localStorage.getItem('theme') != null){
       if (localStorage.getItem('theme') === 'dark') {
         document.documentElement.toggleAttribute('data-dark-mode');
