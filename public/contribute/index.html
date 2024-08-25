@@ -50,7 +50,7 @@ Se hai del materiale di cui possiedi i diritti e lo vorresti rendere disponibile
   <script>
     if(!!window.performance && window.performance.navigation.type == 2)
     {
-      setTimeout(function(){window.location.reload();},0);
+      window.location.reload(true);
     }
     if(localStorage.getItem('theme') != null){
       if (localStorage.getItem('theme') === 'dark') {

@@ -54,7 +54,7 @@ In generale, il materiale prodotto dall’autore e presente nella raccolta ed è
   <script>
     if(!!window.performance && window.performance.navigation.type == 2)
     {
-      setTimeout(function(){window.location.reload();},0);
+      window.location.reload(true);
     }
     if(localStorage.getItem('theme') != null){
       if (localStorage.getItem('theme') === 'dark') {

@@ -49,7 +49,7 @@ Notes from students on electronics engineering at Politecnico di Milano">
   <script>
     if(!!window.performance && window.performance.navigation.type == 2)
     {
-      setTimeout(function(){window.location.reload();},0);
+      window.location.reload(true);
     }
     if(localStorage.getItem('theme') != null){
       if (localStorage.getItem('theme') === 'dark') {
