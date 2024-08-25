@@ -52,8 +52,16 @@ Via contact form: You can also report violations by sending us a message. Please
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <script>
-    if (localStorage.getItem('theme') === 'dark') {
-      document.documentElement.toggleAttribute('data-dark-mode');
+    if(!!window.performance && window.performance.navigation.type == 2)
+    {
+      setTimeout(function(){window.location.reload();},0);
+    }
+    if(localStorage.getItem('theme') != null){
+      if (localStorage.getItem('theme') === 'dark') {
+        document.documentElement.toggleAttribute('data-dark-mode');
+      }
+    } else {
+      localStorage.setItem("theme", "light");
     }
   </script>
 
