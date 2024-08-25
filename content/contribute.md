@@ -8,11 +8,11 @@ weight = -4
 
 🇮🇹 &nbsp;**È semplicissimo contribuire a questa raccolta di materiale.**  
 Se hai del materiale di cui possiedi i diritti e lo vorresti rendere disponibile a tutti, o se conosci delle risorse utili che credi vadano linkate in questa pagina sentiti libero di aprire una pull request su **[Github](https://github.com/valerionew/triennale-elettronica-polimi)**. :star_struck:     
-:question: **Se non sai proprio da dove partire**, dai un'occhiata alla nostra [wiki](https://github.com/valerionew/triennale-elettronica-polimi/wiki/How-to-add-new-notes#welcome-to-the-wiki-contributor) per capire come puoi contribuire oppure mettiti in contatto con noi [aprendo una issue](https://github.com/valerionew/triennale-elettronica-polimi/issues) o via **[email]({{< ref "contact.md#e-mail-us" >}})** e sarà un piacere aiutarti.    
+:question: **Se non sai proprio da dove partire**, dai un'occhiata alla **nostra [wiki](https://github.com/valerionew/triennale-elettronica-polimi/wiki/How-to-add-new-notes#welcome-to-the-wiki-contributor)** per capire come puoi contribuire oppure mettiti in contatto con noi [aprendo una issue](https://github.com/valerionew/triennale-elettronica-polimi/issues) o via **[email]({{< ref "contact.md#e-mail-us" >}})** e sarà un piacere aiutarti.    
 
 🇬🇧 &nbsp;**It is very very easy to contribute to this webiste.**  
 If you own material for which you hold the rights and you would like to make it available to everyone, or if you know of useful resources that should be added to this page, feel free to open a pull request on **[Github](https://github.com/valerionew/triennale-elettronica-polimi)**. :star_struck:         
-:question: **If you don't know where to start**, take a look at our [wiki](https://github.com/valerionew/triennale-elettronica-polimi/wiki/How-to-add-new-notes#welcome-to-the-wiki-contributor) to know how you can contribute or you can get in touch with us by [opening an issue](https://github.com/valerionew/triennale-elettronica-polimi/issues) or via **[email]({{< ref "contact.md#e-mail-us" >}})** and we'll be pleased to assist you.  
+:question: **If you don't know where to start**, take a look at **our [wiki](https://github.com/valerionew/triennale-elettronica-polimi/wiki/How-to-add-new-notes#welcome-to-the-wiki-contributor)** to know how you can contribute or you can get in touch with us by [opening an issue](https://github.com/valerionew/triennale-elettronica-polimi/issues) or via **[email]({{< ref "contact.md#e-mail-us" >}})** and we'll be pleased to assist you.  
 
 * * *
 
