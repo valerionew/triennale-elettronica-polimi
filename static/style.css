@@ -15,16 +15,16 @@
     --load-color-1: #000;
     --placeholder-color: #3a3939;
     --hr-border-color: black;
-    --slider-color: rgb(50, 49, 49); 
+    --slider-color: rgb(58, 58, 58); 
     --before-color: white;
     --svg1-color: white;
-    --svg2-color: rgb(244, 175, 2);
+    --svg2-color: rgb(195, 140, 0);
 }
 
 [data-dark-mode] {
-    --body-background-color: #333;
-    --body-color: #e8e8e8;
-    --b-color: #eee;
+    --body-background-color: #2b2b2b;
+    --body-color: #ffffff;
+    --b-color: #ffffff;
     --a-color: #8cc2dd;
     --input-color: #ddd;
     --input-background-color: #252525;
@@ -468,7 +468,7 @@ button {
 
     #goup:hover {
         border-radius: 10em !important;
-        background-color: #989696;
+        background-color: #a3a3a3;
     }
 
     #goup:hover path {
@@ -482,10 +482,10 @@ button {
 }
 
 #goup:focus {
-    transform: scale(0.7,0.7);
-    -moz-transform: scale(0.7,0.7);
-    -webkit-transform: scale(0.7,0.7);
-    -o-transform: scale(0.7,0.7);
+    transform: scale(0.8,0.8);
+    -moz-transform: scale(0.8,0.8);
+    -webkit-transform: scale(0.8,0.8);
+    -o-transform: scale(0.8,0.8);
 }
 
 #goup:focus path {
