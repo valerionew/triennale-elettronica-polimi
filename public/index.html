@@ -59,13 +59,14 @@ Primo anno Analisi 1 Chimica Informatica Geometria e algebra lineare Fisica 1 Ec
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <script>
+    window.addEventListener('unload', function(){});
+    window.addEventListener('beforeunload', function(){});
     window.addEventListener("pagehide", (e) => {
       if(e.persisted){
         setTimeout(() => {
           location.reload();
         }, 0);
-      }
-    }, false)
+    }})
 
     if(localStorage.getItem('theme') != null){
       if (localStorage.getItem('theme') === 'dark') {
