@@ -4,6 +4,7 @@
 <head>
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="black">
+  <meta http-equiv="cache-control" content="no-cache" />
   <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -52,12 +53,13 @@ Via contact form: You can also report violations by sending us a message. Please
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <script>
-    window.addEventListener("pageshow", () => {
-      var perfEntries = performance.getEntriesByType("navigation");
-      for (var i = 0; i < perfEntries.length; i++) {
-          if(perfEntries[i].type==="back_forward"){location.reload(true);}
+    window.addEventListener("pagehide", (e) => {
+      if(e.persisted){
+        setTimeout(() => {
+          location.reload();
+        }, 0);
       }
-    });
+    }, false)
 
     if(localStorage.getItem('theme') != null){
       if (localStorage.getItem('theme') === 'dark') {
