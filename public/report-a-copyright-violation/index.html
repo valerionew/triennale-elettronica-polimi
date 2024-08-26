@@ -53,14 +53,35 @@ Via contact form: You can also report violations by sending us a message. Please
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <script>
-    window.addEventListener('unload', function(){});
-    window.addEventListener('beforeunload', function(){});
-    window.addEventListener("pagehide", (e) => {
-      if(e.persisted){
-        setTimeout(() => {
-          location.reload();
-        }, 0);
-    }})
+    var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+    if(isSafari){ 
+      window.addEventListener("pageshow", (event) => {
+        if (event.persisted) {
+          if((localStorage.getItem("theme")=="dark" && !document.documentElement.hasAttribute("data-dark-mode")) || (localStorage.getItem("theme")!="dark" && document.documentElement.hasAttribute("data-dark-mode"))){
+            document.documentElement.style.display = "none";
+            location.reload(); 
+          }
+          setTimeout(() => {
+            let switcher = document.querySelector(".div_switch input");
+            const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+            if (currentTheme) {
+                if (currentTheme == 'dark') {
+                  switcher.checked = true;
+                }
+            }
+          }, 0)
+        }
+      });
+    } else {
+      window.addEventListener('unload', function(){});
+      window.addEventListener('beforeunload', function(){});
+      window.addEventListener("pagehide", (e) => {
+        if(e.persisted){
+          setTimeout(() => {
+            location.reload();
+          }, 0);
+      }})
+    }
 
     if(localStorage.getItem('theme') != null){
       if (localStorage.getItem('theme') === 'dark') {
