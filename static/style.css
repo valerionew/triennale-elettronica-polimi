@@ -280,7 +280,7 @@ nav a {
     text-decoration: underline;
     text-decoration-style: dotted;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--a-color) !important;
     font-size: larger;
     padding: 0.2em;
