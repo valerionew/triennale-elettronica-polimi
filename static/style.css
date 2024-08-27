@@ -19,13 +19,14 @@
     --before-color: white;
     --svg1-color: white;
     --svg2-color: rgb(195, 140, 0);
+    --goup-hover-color: rgb(222, 217, 217);
 }
 
 [data-dark-mode] {
-    --body-background-color: #2b2b2b;
+    --body-background-color: #2d2d2d;
     --body-color: #ffffff;
     --b-color: #ffffff;
-    --a-color: #8cc2dd;
+    --a-color: #a1d2eb;
     --input-color: #ddd;
     --input-background-color: #252525;
     --code-background-color: #777;
@@ -33,8 +34,8 @@
     --blockquote-color: #ccc;
     --helptext-color: #aaa;
     --error-list-color: #eba613;
-    --a-visited-color: #bba6e7;
-    --a-hover-color: #725ca7;
+    --a-visited-color: #c0ade8;
+    --a-hover-color: #7a67a8;
     --load-color-1: #fff;
     --placeholder-color: #898888;
     --hr-border-color: white;
@@ -42,6 +43,7 @@
     --before-color: white;
     --svg1-color: rgb(16, 18, 154);
     --svg2-color: white;
+    --goup-hover-color: rgb(207, 207, 207);
 }
 
 html {
@@ -174,6 +176,23 @@ input:checked + .slider {
     ul {
         margin-left: -0.2em;
     }
+    nav a {
+        padding: 0.2em;
+    }
+    #e-mail-us {
+        scroll-margin-top: 5.2em !important;
+    }
+    input {
+        max-width: 93% !important;
+    }
+    nav a {
+        font-size: 17px !important;
+    }
+    @-moz-document url-prefix() {
+        nav a {
+            font-size: 16px !important;
+        }
+    }
 }
 
 @media only screen and (max-width: 920px) and (min-width: 600px){
@@ -185,6 +204,11 @@ input:checked + .slider {
     }
     #goup {
         margin-bottom: -0.5em;
+    }
+    @-moz-document url-prefix() {
+        nav a {
+            font-size: 16px !important;
+        }
     }
 }
 
@@ -227,12 +251,52 @@ a {
     font-weight: 400;
 }
 
+#e-mail-us {
+    scroll-margin-top: 3.6em;
+}
+
+.sticky-header {
+    background-color: var(--body-background-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    padding-top: 0.5em;
+}
+
+.sticky-header nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0.6em;
+}
+
 nav a {
-    margin-right: 10px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    color: var(--a-color) !important;
+    font-size: larger;
+    padding: 0.2em;
+    transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -o-transition: all 0.6s;
+}
+
+.active {
+    background-color: #04AA6D;
+    color: white !important;
+    border-radius: 0.5em;
 }
 
 textarea {
-    width: 95%;
+    width: 93%;
     font-size: 16px;
     border-width: 0.1em;
     border-radius: 0.5em;
@@ -253,7 +317,6 @@ input {
     padding: 0.5em;
     font-size: 16px;
     max-width: 20em;
-
     background-color: var(--input-background-color);
     color: var(--input-color);
     transition: all 0.5s;
@@ -270,7 +333,7 @@ input::placeholder {
 input::-moz-placeholder {
     color: var(--placeholder-color);
     opacity: 1;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 input::-webkit-input-placeholder {
@@ -287,7 +350,7 @@ textarea::placeholder {
 textarea::-moz-placeholder {
     color: var(--placeholder-color);
     opacity: 1;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 textarea::-webkit-input-placeholder {
@@ -449,10 +512,10 @@ button {
     padding-right: 0.7rem;
     padding-top: 0.275rem;
     padding-bottom: 0.1rem;
-    transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -webkit-transition: all 0.6s;
-    -o-transition: all 0.6s;
+    transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
     -webkit-tap-highlight-color: transparent !important;
 }
 
@@ -468,7 +531,7 @@ button {
 
     #goup:hover {
         border-radius: 10em !important;
-        background-color: #a3a3a3;
+        background-color: var(--goup-hover-color);
     }
 
     #goup:hover path {

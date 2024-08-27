@@ -7,6 +7,7 @@
   <meta http-equiv="cache-control" content="no-cache" />
   <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
+  <meta name="view-transition" content="same-origin">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="darkreader-lock">
 <link rel="shortcut icon" href="/favicon.ico" /> 
@@ -55,7 +56,10 @@ Se hai del materiale di cui possiedi i diritti e lo vorresti rendere disponibile
         if (event.persisted) {
           if((localStorage.getItem("theme")=="dark" && !document.documentElement.hasAttribute("data-dark-mode")) || (localStorage.getItem("theme")!="dark" && document.documentElement.hasAttribute("data-dark-mode"))){
             document.documentElement.style.display = "none";
-            location.reload(); 
+            document.documentElement.toggleAttribute("data-dark-mode");
+            setTimeout(() => {
+              document.documentElement.style.display = "block";
+            }, 0);
           }
           setTimeout(() => {
             let switcher = document.querySelector(".div_switch input");
@@ -65,7 +69,7 @@ Se hai del materiale di cui possiedi i diritti e lo vorresti rendere disponibile
                   switcher.checked = true;
                 }
             }
-          }, 0)
+          }, 60);
         }
       });
     } else {
@@ -103,6 +107,18 @@ Se hai del materiale di cui possiedi i diritti e lo vorresti rendere disponibile
         if (currentTheme === 'dark') {
             switcher.checked = true;
         }
+    }
+
+    if(location.href.includes('') && !location.href.includes('contact') && !location.href.includes('contribute') && !location.href.includes('licenses') && !location.href.includes('copyright')){
+      document.querySelector('.sticky-header nav a').classList.add("active");
+    } else if(location.href.includes('contribute')){
+      document.querySelector(".sticky-header nav a#a1").classList.add("active");
+    } else if(location.href.includes('licenses')){
+      document.querySelector(".sticky-header nav a#a2").classList.add("active");
+    } else if(location.href.includes('contact')){
+      document.querySelector(".sticky-header nav a#a3").classList.add("active");
+    } else if(location.href.includes('copyright')){
+      document.querySelector(".sticky-header nav a#a4").classList.add("active");
     }
 
     document.querySelector('html').style.display = 'block';
@@ -192,23 +208,28 @@ Se hai del materiale di cui possiedi i diritti e lo vorresti rendere disponibile
         
     }
 </script>
-<header><a href="/" class="title">
-  <h2>Electronics engineering at Polimi 📝</h2>
-</a>
-<nav><a href="/">Home</a>
+<a href="/" class="title">
+    <h2>Electronics engineering at Polimi 📝</h2>
+  </a>
+  <header class="sticky-header"><nav><a href="/">Home</a>
 
-<a href="/contribute/">Participate</a>
 
-<a href="/licenses/">Licences</a>
 
-<a href="/contact/">Support</a>
+<a id="a1" href="/contribute/">Participate</a>
 
-<a href="/report-a-copyright-violation/">Report a copyright violation</a>
+
+<a id="a2" href="/licenses/">Licences</a>
+
+
+<a id="a3" href="/contact/">Support</a>
+
+
+<a id="a4" href="/report-a-copyright-violation/">Report a copyright violation</a>
 
 
 </nav>
+<hr>
 </header>
-  <hr>
   <main>
 
 <content>

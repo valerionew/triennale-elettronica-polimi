@@ -18,7 +18,7 @@
         let goup = document.getElementById("goup");
         setTimeout(() => {goup.style.display = "block";}, 200);
         goup.onfocus = (e) => {
-            tim = window.setTimeout(() => {e.preventDefault(); goup.blur();}, 2000);
+            tim = window.setTimeout(() => {e.preventDefault(); goup.blur();}, 1200);
         };
 
         window.onscroll = function () { scrollFunction() };
@@ -38,10 +38,10 @@
     }
 
     function topFunction() {
+        const y = document.getElementById("table-of-contents").offsetTop;
+        const offset = document.querySelector(".sticky-header").offsetHeight;
         window.clearTimeout(tim);
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-        window.scrollY = 0;
+        window.scrollTo({top:y-offset-10});
         setTimeout(() => {document.querySelector("#goup").blur();}, 600);
     }
 

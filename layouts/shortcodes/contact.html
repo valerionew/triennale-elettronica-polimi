@@ -61,8 +61,13 @@
 
   document.addEventListener('DOMContentLoaded', () => {
 
-    let main = document.querySelector('html');
-    main.style.scrollBehavior = 'smooth';
+    document.querySelectorAll('a[href="#send-us-directly-your-files-open_file_folder"]').forEach((a) => a.addEventListener("click", (e) => {
+      e.preventDefault();
+      document.documentElement.style.scrollBehavior = "smooth";
+      const y = document.getElementById("send-us-directly-your-files-open_file_folder").offsetTop;
+      const offset = document.querySelector(".sticky-header").offsetHeight;
+      window.scrollTo({top:y-offset-10, behavior:"smooth"});
+    }))
 
     var timeout = null;
     var form = document.getElementById("form");
