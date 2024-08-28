@@ -707,6 +707,7 @@ If you want to share your notes, <a href="/contribute/">this section</a> is for 
 
 
     function scrollFunction() {
+        document.documentElement.style.scrollBehavior = 'smooth';
         if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000 || window.scrollY > 1000) {
             goup.classList.add("add");
         } else {
