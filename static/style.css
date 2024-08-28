@@ -179,7 +179,7 @@ input:checked + .slider {
     nav a {
         padding: 0.2em;
     }
-    #e-mail-us {
+    h1[id], h2[id], h3[id], h4[id] {
         scroll-margin-top: 5.2em !important;
     }
     input {
@@ -251,7 +251,7 @@ a {
     font-weight: 400;
 }
 
-#e-mail-us {
+h1[id], h2[id], h3[id], h4[id] {
     scroll-margin-top: 3.6em;
 }
 

@@ -12,8 +12,12 @@
 <script>
 
     var tim = 0;
+    document.addEventListener("click", () => {
+        document.documentElement.style.scrollBehavior = 'smooth';
+    })
 
     document.addEventListener('DOMContentLoaded', () => {
+
 
         let goup = document.getElementById("goup");
         setTimeout(() => {goup.style.display = "block";}, 200);
@@ -22,9 +26,6 @@
         };
 
         window.onscroll = function () { scrollFunction() };
-
-        let main = document.querySelector('html');
-        main.style.scrollBehavior = 'smooth';
 
     })
 
