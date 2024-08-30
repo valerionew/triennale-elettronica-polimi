@@ -58,6 +58,7 @@ _🇬🇧 &nbsp;Compilation of copyright-free or redistributable materials, bene
       - [Power Electronics](#power-electronics)
       - [Microelectronic Technologies](#microelectronic-technologies)
       - [Electronic Design For Biomedical Instrumentation](#electronic-design-for-biomedical-instrumentation)
+      - [Radiation Detection Systems](#radiation-detection-systems)
   - [TAB 1](#tab-1)
     - [Advanced optics and lasers](#advanced-optics-and-lasers)
     - [Automation and control in electric and hibryd vechicles](#automation-and-control-in-electric-and-hybrid-vehicles)
@@ -356,6 +357,10 @@ Second year
 *   Course notes by _Luca Colombo_ - [Download](5/EDFBI/ElectronicsDesign.pdf)
 *   Summary by _Matteo Toia_ - [Download](5/EDFBI/Summary_Toia.pdf)
 *   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1N2Xk5plTNXJkXJJkuynDPz0x7fKjDf3L) {{< asterisk >}} - [Mirror](5/EDFBI/compressed-EDFBI-MattiaAmadori.pdf)
+
+### Radiation Detection Systems
+
+*   Course notes by _Leonardo Airoldi_ - [Download](5/RadiationDetectionSystems/RadDetSys_Leonardo_Airoldi.pdf)
 
 &nbsp;
 

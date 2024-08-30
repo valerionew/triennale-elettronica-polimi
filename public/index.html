@@ -56,10 +56,20 @@ Primo anno Analisi 1 Chimica Informatica Geometria e algebra lineare Fisica 1 Ec
 🇬🇧 Compilation of copyright-free or redistributable materials, beneficial for studying Electronics Engineering at Politecnico di Milano, encompassing both bachelor’s and master’s degrees.
 Table of contents Laurea triennale (Bachelor’s degree) 🇮🇹
 Primo anno Analisi 1 Chimica Informatica Geometria e algebra lineare Fisica 1 Economia Secondo anno Analisi 2 Elettromagnetismo ed ottica Elettrotecnica Fondamenti di automatica Dispositivi elettronici Architetture dei calcolatori Fondamenti di elettronica Terzo anno Elettronica digitale Elettronica analogica Fondamenti di segnali Calcolo numerico Microcontrollori Campi elettromagnetici Macchine elettriche Elettronica dello stato solido Optoelettronica Elementi di analisi funzionale e trasformate Master of science (Laurea magistrale) 🇬🇧">
-  <meta itemprop="wordCount" content="1708">
+  <meta itemprop="wordCount" content="1721">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <script>
+    window.addEventListener("pageshow", () => {
+      if (window.location.hash) {
+          setTimeout(function () {
+              var hash = window.location.hash;
+              window.location.hash = "";
+              window.location.hash = hash;
+          }, 200);
+      }
+    }, false);
+
     var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
     if(isSafari){ 
       window.addEventListener("pageshow", (event) => {
@@ -242,7 +252,7 @@ Primo anno Analisi 1 Chimica Informatica Geometria e algebra lineare Fisica 1 Ec
 <hr>
 </header>
   <main>
-<h2 id="hahahugoshortcode3s0hbhb"><p style="text-align: center;">Appunti 🇮🇹 &nbsp;-&nbsp; Notes 🇬🇧</p></h2>
+<h2 id="hahahugoshortcode4s0hbhb"><p style="text-align: center;">Appunti 🇮🇹 &nbsp;-&nbsp; Notes 🇬🇧</p></h2>
 <p><em>🇮🇹  Raccolta di materiali privi di copyright o ridistribuibili utili per studiare Ingegneria Elettronica al <a href="https://www.polimi.it/">Politecnico di Milano</a>, sia per la <strong>laurea triennale</strong> che per la <strong>laurea magistrale</strong></em></p>
 <p><em>🇬🇧  Compilation of copyright-free or redistributable materials, beneficial for studying Electronics Engineering at <a href="https://www.polimi.it/en">Politecnico di Milano</a>, encompassing both <strong>bachelor&rsquo;s</strong> and <strong>master&rsquo;s degrees</strong>.</em></p>
 <p> </p>
@@ -319,6 +329,7 @@ Primo anno Analisi 1 Chimica Informatica Geometria e algebra lineare Fisica 1 Ec
 <li><a href="#power-electronics">Power Electronics</a></li>
 <li><a href="#microelectronic-technologies">Microelectronic Technologies</a></li>
 <li><a href="#electronic-design-for-biomedical-instrumentation">Electronic Design For Biomedical Instrumentation</a></li>
+<li><a href="#radiation-detection-systems">Radiation Detection Systems</a></li>
 </ul>
 </li>
 </ol>
@@ -601,6 +612,10 @@ Primo anno Analisi 1 Chimica Informatica Geometria e algebra lineare Fisica 1 Ec
 <li>Summary by <em>Matteo Toia</em> - <a href="5/EDFBI/Summary_Toia.pdf">Download</a></li>
 <li>Course notes by <em>Mattia Amadori</em> - <a href="https://drive.google.com/drive/folders/1N2Xk5plTNXJkXJJkuynDPz0x7fKjDf3L">Folder</a> <strong><a href="#extra" class="asterisk">(*)</a></strong> - <a href="5/EDFBI/compressed-EDFBI-MattiaAmadori.pdf">Mirror</a></li>
 </ul>
+<h3 id="radiation-detection-systems">Radiation Detection Systems</h3>
+<ul>
+<li>Course notes by <em>Leonardo Airoldi</em> - <a href="5/RadiationDetectionSystems/RadDetSys_Leonardo_Airoldi.pdf">Download</a></li>
+</ul>
 <p> </p>
 <hr>
 <h2 id="tab-1">TAB 1</h2>
@@ -694,7 +709,6 @@ If you want to share your notes, <a href="/contribute/">this section</a> is for 
 
     document.addEventListener('DOMContentLoaded', () => {
 
-
         let goup = document.getElementById("goup");
         setTimeout(() => {goup.style.display = "block";}, 200);
         goup.onfocus = (e) => {
@@ -720,6 +734,7 @@ If you want to share your notes, <a href="/contribute/">this section</a> is for 
         const offset = document.querySelector(".sticky-header").offsetHeight;
         window.clearTimeout(tim);
         window.scrollTo({top:y-offset-10});
+        window.location.hash = "#table-of-contents";
         setTimeout(() => {document.querySelector("#goup").blur();}, 600);
     }
 

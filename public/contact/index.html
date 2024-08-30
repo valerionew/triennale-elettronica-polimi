@@ -62,6 +62,16 @@
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <script>
+    window.addEventListener("pageshow", () => {
+      if (window.location.hash) {
+          setTimeout(function () {
+              var hash = window.location.hash;
+              window.location.hash = "";
+              window.location.hash = hash;
+          }, 200);
+      }
+    }, false);
+
     var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
     if(isSafari){ 
       window.addEventListener("pageshow", (event) => {
@@ -327,6 +337,7 @@
       const y = document.getElementById("send-us-directly-your-files-open_file_folder").offsetTop;
       const offset = document.querySelector(".sticky-header").offsetHeight;
       window.scrollTo({top:y-offset-10, behavior:"smooth"});
+      window.location.hash = "#send-us-directly-your-files-open_file_folder";
     }))
 
     var timeout = null;

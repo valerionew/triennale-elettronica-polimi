@@ -54,6 +54,16 @@ In generale, il materiale prodotto dall’autore e presente nella raccolta ed è
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <script>
+    window.addEventListener("pageshow", () => {
+      if (window.location.hash) {
+          setTimeout(function () {
+              var hash = window.location.hash;
+              window.location.hash = "";
+              window.location.hash = hash;
+          }, 200);
+      }
+    }, false);
+
     var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
     if(isSafari){ 
       window.addEventListener("pageshow", (event) => {

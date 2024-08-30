@@ -18,7 +18,6 @@
 
     document.addEventListener('DOMContentLoaded', () => {
 
-
         let goup = document.getElementById("goup");
         setTimeout(() => {goup.style.display = "block";}, 200);
         goup.onfocus = (e) => {
@@ -44,6 +43,7 @@
         const offset = document.querySelector(".sticky-header").offsetHeight;
         window.clearTimeout(tim);
         window.scrollTo({top:y-offset-10});
+        window.location.hash = "#table-of-contents";
         setTimeout(() => {document.querySelector("#goup").blur();}, 600);
     }
 
