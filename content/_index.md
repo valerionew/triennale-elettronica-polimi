@@ -73,6 +73,7 @@ _🇬🇧 &nbsp;Compilation of copyright-free or redistributable materials, bene
     - [RF Systems](#rf-systems)
     - [Photonic Devices](#photonic-devices)
     - [Quantum Circuits and Devices](#quantum-circuits-and-devices)
+    - [Microwave Engineering](#microwave-engineering)
 
 - [Extra](#extra)
 
@@ -430,7 +431,8 @@ TAB 2
 
 ### Microwave Engineering
 
-*   Course notes by _Michelangelo Burattini_ - [Download](TAB2/MicrowaveEngineering/microwave_burattini.pdf)   
+*   Course notes by _Michelangelo Burattini_ - [Download](TAB2/MicrowaveEngineering/microwave_burattini.pdf)  
+
 &nbsp;
 
 * * *
