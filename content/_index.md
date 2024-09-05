@@ -403,6 +403,7 @@ TAB 1
 
 *   Questions asked at the oral exam by _Mattia Marinoni_ - [Download](TAB1/SolidStatePhysicsA/domandeSSPAMarinoni.docx)
 *   Course notes by _Mattia Marinoni_ - Download: [part 1](TAB1/SolidStatePhysicsA/appuntiSSPAParte1Marinoni.pdf) - [part 2](TAB1/SolidStatePhysicsA/appuntiSSPAParte2Marinoni.pdf)
+*   Couse notes by _Michelangelo Burattini_ - [Download](TAB1/SolidStatePhysicsA/solid_state_burattini.pdf)
 
 ### Quantum Communications
 
