@@ -289,8 +289,9 @@ First year
 
 *   Course notes by _Andrea Bertazzoni_ - [Download](4/Analog/AnalogCircuitDesign-Bertazzoni.pdf)
 *   Summaries for the oral exam by _Leonardo Sera_ (_questions 1-32_) - [Download](4/Analog/ACD_Summaries_Sera.pdf)
-*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1EHAdoGCdYNnAqupD2ju8tO2S0vs1d0OL) {{< asterisk >}} - [Mirror (notes)](4/Analog/compressed-AnalogDesign-MattiaAmadori.pdf) - [Mirror (recap)](4/Analog/compressed-AnalogRiassunto-MattiaAmadori.pdf)
-*   Oral questions complete notes by _Giacomo Tombolan_ - [Download](4/Analog/AnalogCircuitDesign_TOMBOLAN.pdf)
+*   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1EHAdoGCdYNnAqupD2ju8tO2S0vs1d0OL) {{< asterisk >}} - [Mirror (notes)](4/Analog/compressed-AnalogDesign-MattiaAmadori.pdf) - [Mirror (recap)](4/Analog/compressed-AnalogRiassunto-MattiaAmadori.pdf)  
+*   Oral questions complete notes by _Giacomo Tombolan_ - [Download](4/Analog/AnalogCircuitDesign_TOMBOLAN.pdf)   
+*   Course notes by _Michelangelo Burattini_ - [Download](4/Analog/analog_burattini.pdf)
 
 ### MEMS and Microsensors
 
@@ -299,7 +300,8 @@ First year
 
 ### Electron Devices
 
-*   Course notes by _Mattia Marinoni_ - [Download](4/ElectronDevices/appuntiEDMarinoni.pdf)
+*   Course notes by _Mattia Marinoni_ - [Download](4/ElectronDevices/appuntiEDMarinoni.pdf)   
+*   Course notes by _Michelangelo Burattini_ - [Download](4/ElectronDevices/electron_burattini.pdf)
 
 ### Electronic Systems
 
@@ -319,6 +321,7 @@ First year
 *   Course notes by _Andrea Bertazzoni_ - [Download](4/RFCircuitDesign/RFCircuitDesign-Bertazzoni.pdf)
 *   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/15yBgF_jmEApOPBcul8NRNnyfJOv_r8J0) {{< asterisk >}} - [Mirror (notes)](4/RFCircuitDesign/compressed-RFCircuitDesign-MattiaAmadori.pdf)
 *   Oral questions complete notes by _Giacomo Tombolan_ - [Download](4/RFCircuitDesign/RadioFrequencyCircuitDesign_TOMBOLAN.pdf)
+
 ### Digital Integrated Circuit Design
 
 *   Course notes by _Luca Colombo_ - [Download](4/DICD/DigitalIntegratedCircuitDesign.pdf)
@@ -345,6 +348,7 @@ Second year
 
 *   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1Dt6Us1RiZQkEG-8oJ6TgEohX7T3i1Dvi) {{< asterisk >}} - [Mirror](5/MixedSignal/compressed-MixedSignals-MattiaAmadori.pdf)
 *   Oral questions complete notes by _Giacomo Tombolan_ - [Download](5/MixedSignal/MixedSignalCircuitDesign_TOMBOLAN.pdf)
+
 ### Power Electronics
 
 *   Course notes by _Luca Colombo_ - [Download](5/PowerElectronics/PowerElectronics.pdf)
