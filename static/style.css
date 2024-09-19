@@ -288,7 +288,6 @@ _::-webkit-full-page-media, _:future, :root h1[id], h2[id], h3[id], h4[id] {
 
 nav a {
     text-decoration: underline;
-    text-decoration-style: dotted;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
     color: var(--a-color) !important;
