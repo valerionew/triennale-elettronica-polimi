@@ -702,7 +702,7 @@ function createExportWrapper(name) {
 // include: runtime_exceptions.js
 // end include: runtime_exceptions.js
 var wasmBinaryFile;
-  wasmBinaryFile = "/lib/gs-worker.wasm";
+  wasmBinaryFile = "../lib/gs-worker.wasm";
   // if (!isDataURI(wasmBinaryFile)) {
   //   wasmBinaryFile = locateFile(wasmBinaryFile);
   // }
