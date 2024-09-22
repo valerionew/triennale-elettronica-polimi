@@ -10,3 +10,4 @@ public/*.svg
 public/*.ico
 public/*.png
 public/site.webmanifest
+public/lib/*

@@ -185,6 +185,9 @@ input:checked + .slider {
     input {
         max-width: 93% !important;
     }
+    #filein {
+        max-width: 90% !important;
+    }
     nav a {
         font-size: 17px !important;
     }
@@ -549,7 +552,7 @@ button {
         fill: blue;
     }
 
-    #submit:hover {
+    #submit:hover, #filesub:hover, #afile:hover {
         border-radius: 3em !important;
     }
 
@@ -589,7 +592,7 @@ button {
     max-height: 20em;
 }
 
-#loading {
+#loading, #loading2 {
     width: 1.4rem;
     height: 1.4rem;
     max-height: 0;
@@ -606,9 +609,24 @@ button {
     -o-animation: spin 0.5s infinite linear;
 }
 
-#loading.display {
+#loading2 {
+    margin-top: 1.3em;
+    margin-left: 1.3em !important;
+    margin-bottom: 0.6em;
+}
+
+#thanks {
+    margin-bottom: 2.2em;
+}
+
+#loading.display, #loading2.display {
     visibility: visible;
     max-height: 2rem;
+}
+
+#flexfile, #flexload {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .add {
@@ -616,7 +634,7 @@ button {
     visibility: visible !important;
 }
 
-#submit {
+#submit, #filesub {
     width: 6em;
     height: 2.5em;
     font-size: medium;
@@ -633,6 +651,31 @@ button {
     border-radius: 0.5em;
     border-style: solid;
     font-weight: 700;
+}
+
+#filesub {
+    margin-left: 0.8em;
+    margin-top: 1.5em;
+}
+
+#afile {
+    border: 0.1em solid #000;
+    padding: 0.5em;
+    width: fit-content;
+    border-radius: 0.5em;
+    color: white;
+    font-size: medium;
+    font-weight: 550 !important;
+    background-color: #38387f;
+    margin-top: 1em;
+    margin-bottom: 0.6em;
+    text-decoration: none;
+}
+
+#filein {
+    margin-top: 1em;
+    padding: 1em;
+    border: 0.1em solid black;
 }
 
 main {

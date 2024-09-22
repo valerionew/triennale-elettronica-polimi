@@ -34,6 +34,24 @@
     <p id="my-form-status"></p>
   </form>
 
+  <hr>
+  <h3 id="compress-your-pdf">Compress your PDF</h3>
+  <p>🇮🇹 &nbsp; Comprimi i tuoi appunti mantenendo alta la qualità. Avviene tutto nel tuo browser, nessun server esterno riceverà il tuo PDF, garantendo così la privacy e costi zero. Tieni presente che più il file è grande e più sarà lunga l'operazione (il tool è in grado di passare da 100 MB a 30-50MB dai nostri test, ma in più di 20 minuti a volte!). Dunque lascialo lavorare in background e prenditi un caffè.</p>
+  <p>❗&nbsp;<b>NON CAMBIARE/RICARICARE LA PAGINA MENTRE IL TOOL LAVORA IN BACKGROUND.</b> Nel frattempo, puoi comunque mandarci messaggi dal form sopra e usare le altre tab del browser come sempre.</p>
+  <p>🇬🇧 &nbsp; Compress your notes while maintaining high quality. All processing happens within your browser, with no server involved, ensuring privacy and no cost. Keep in mind that the larger the file, the longer the compression will take. Based on our tests, the tool can compress files from 100MB to 30-50MB, but this process can sometimes take over 20 minutes. So, let it run in the background while you take a coffee.</p>
+  <p>❗&nbsp;<b>DO NOT CHANGE OR REFRESH THE PAGE WHILE THE TOOL IS WORKING IN THE BACKGROUND.</b> In the meantime, you can always send us messages using the form above and continue using other browser tabs as usual.</p>
+  <form id="formfile">
+    <div id="flexfile">
+      <input class="file" id="filein" type="file" accept="application/pdf"> 
+      <button type="submit" id="filesub" class="file" style="visibility: hidden;opacity: 0;" disabled>Submit</button>
+    </div>
+    <div id="flexload">
+      <a style="display: none;" id="afile" target="_blank">Download</a>
+      <div id="loading2"></div>
+    </div>
+  </form>
+  <p id="thanks">🥳 &nbsp;<b>This feature exists because of the work done by <a href="https://meyer-laurent.com/" target="_blank">Laurent Meyer</a>.</b> You can read more about how it works <a href="https://meyer-laurent.com/playing-around-webassembly-and-ghostscript" target="_blank">here</a>.</p>
+
 <script
   type="module"
   src="https://cdn.jsdelivr.net/npm/friendly-challenge@0.9.16/widget.module.min.js"
@@ -47,11 +65,97 @@
   <link rel="stylesheet" href="{{ relURL "noscript_smooth.css" }}" crossorigin="anonymous">
 </noscript>
 
+<script type="module">
+  import {_GSPS2PDF} from "{{ relURL "lib/worker-init.js"}}";
+
+  const filein = document.querySelector("#filein");
+  const filesub = document.querySelector("#filesub");
+  const formfile = document.querySelector("#formfile");
+  const afile = document.querySelector("#afile");
+  const loader2 = document.querySelector("#loading2");
+
+  function loadPDFData(response, filename) {
+    return new Promise((resolve, reject) => {
+      const xhr = new XMLHttpRequest();
+      xhr.open("GET", response);
+      xhr.responseType = "arraybuffer";
+      xhr.onload = async function (e) {
+        const re = e.currentTarget.response;
+        window.URL.revokeObjectURL(response);
+        const blob = new Blob([re], {type: "application/pdf"});
+        const pdfURL = window.URL.createObjectURL(blob);
+        const size = re.byteLength;
+        resolve({pdfURL, size});
+      };
+      xhr.send();
+    });
+  }
+
+  async function compressPDF(pdf, filename) {
+    const dataObject = { psDataURL: pdf };
+    loader2.classList.add("display");
+    const element = await _GSPS2PDF(dataObject);
+    const {pdfURL, size} = await loadPDFData(element, filename);
+    console.log(size);
+    formfile.reset();
+    afile.setAttribute("href", pdfURL);
+    afile.setAttribute("download", minFilename(filename));
+    afile.style.display = "block";
+    pdfURLs = pdfURL;
+  }
+
+  const minFilename = (filename) => filename.replace(".pdf", "-min.pdf");
+  var file, url;
+  var pdfURLs;
+  var start = 0;
+
+  filein.addEventListener("change", (event) => {
+    file = event.target.files[0];
+    console.log(file.size);
+    filesub.disabled = false;
+    filesub.style.visibility = "visible";
+    filesub.style.opacity = "1";
+  })
+
+  filesub.addEventListener("click", async function(event) {
+    event.preventDefault();
+    if(!start){
+      filesub.disabled = true;
+      filein.disabled = true;
+      filesub.style.visibility = "hidden";
+      filesub.style.opacity = "0";
+      start = 1;
+      url = window.URL.createObjectURL(file);
+      await compressPDF(url, file.name);
+      loader2.classList.remove("display");
+      return false;
+    } else {
+      afile.style.display = "none";
+      window.URL.revokeObjectURL(pdfURLs);
+      filein.disabled = false;
+      filesub.style.visibility = "hidden";
+      filesub.style.opacity = "0";
+      filesub.disabled = true;
+      setTimeout(() => {filesub.textContent = "Submit";}, 1500);
+      start = 0;
+    }
+  })
+
+  afile.addEventListener("click", (e) => {
+    filesub.textContent = "Restart";
+    filesub.disabled = false;
+    filesub.style.visibility = "visible";
+    filesub.style.opacity = "1";
+    return false;
+  })
+</script>
+
 <script>
 
   var inputs = document.getElementsByTagName('input');
   for(let i=0; i<inputs.length; i++){
       if(inputs[i].type === "checkbox"){continue};
+      if(inputs[i].getAttribute("class") == "file"){continue};
       inputs[i].setAttribute('size',inputs[i].getAttribute('placeholder').length);
   }
 
