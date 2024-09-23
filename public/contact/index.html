@@ -422,12 +422,12 @@ You can do it down below &#x2b07;&#xfe0f; or open an issue on <a href="https://g
       url = window.URL.createObjectURL(file);
       await compressPDF(url, file.name);
       check = 1;
-      loader2.classList.remove("display");
+      setTimeout(() => {loader2.classList.remove("display");}, 0);
       loader2.style.order = 3;
       afile.style.order = 1;
       setTimeout(() => {
         afile.style.display = "block";
-      }, 200)
+      }, 200);
       setTimeout(() => {
         afile.style.visibility = "visible";
         afile.style.opacity = "1";
