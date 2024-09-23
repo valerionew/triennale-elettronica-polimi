@@ -37,15 +37,13 @@
   <hr>
   <h3 id="compress-your-pdf">Compress your PDF</h3>
   <p>🇮🇹 &nbsp; Comprimi i tuoi appunti mantenendo alta la qualità. Avviene tutto nel tuo browser, nessun server esterno riceverà il tuo PDF, garantendo così la privacy e costi zero. Tieni presente che più il file è grande e più sarà lunga l'operazione (il tool è in grado di passare da 100 MB a 30-50MB dai nostri test, ma in più di 20 minuti a volte!). Dunque lascialo lavorare in background e prenditi un caffè.</p>
-  <p>❗&nbsp;<b>NON CAMBIARE/RICARICARE LA PAGINA MENTRE IL TOOL LAVORA IN BACKGROUND.</b> Nel frattempo, puoi comunque mandarci messaggi dal form sopra e usare le altre tab del browser come sempre.</p>
+  <p>❗&nbsp;<b>NON RICARICARE LA PAGINA MENTRE IL TOOL LAVORA IN BACKGROUND.</b> Nel frattempo, puoi comunque mandarci messaggi dai form e usare le altre tab del browser come sempre.</p>
   <p>🇬🇧 &nbsp; Compress your notes while maintaining high quality. All processing happens within your browser, with no server involved, ensuring privacy and no cost. Keep in mind that the larger the file, the longer the compression will take. Based on our tests, the tool can compress files from 100MB to 30-50MB, but this process can sometimes take over 20 minutes. So, let it run in the background while you take a coffee.</p>
-  <p>❗&nbsp;<b>DO NOT CHANGE OR REFRESH THE PAGE WHILE THE TOOL IS WORKING IN THE BACKGROUND.</b> In the meantime, you can always send us messages using the form above and continue using other browser tabs as usual.</p>
+  <p>❗&nbsp;<b>DO NOT REFRESH THE PAGE WHILE THE TOOL IS WORKING IN THE BACKGROUND.</b> In the meantime, you can always send us messages using the forms and continue using other browser tabs as usual.</p>
   <form id="formfile">
     <div id="flexfile">
       <input class="file" id="filein" type="file" accept="application/pdf"> 
       <button type="submit" id="filesub" class="file" style="visibility: hidden;opacity: 0;" disabled>Submit</button>
-    </div>
-    <div id="flexload">
       <a style="display: none;" id="afile" target="_blank">Download</a>
       <div id="loading2"></div>
     </div>
@@ -93,14 +91,12 @@
 
   async function compressPDF(pdf, filename) {
     const dataObject = { psDataURL: pdf };
-    loader2.classList.add("display");
     const element = await _GSPS2PDF(dataObject);
     const {pdfURL, size} = await loadPDFData(element, filename);
     console.log(size);
     formfile.reset();
     afile.setAttribute("href", pdfURL);
     afile.setAttribute("download", minFilename(filename));
-    afile.style.display = "block";
     pdfURLs = pdfURL;
   }
 
@@ -108,6 +104,7 @@
   var file, url;
   var pdfURLs;
   var start = 0;
+  var check = 0;
 
   filein.addEventListener("change", (event) => {
     file = event.target.files[0];
@@ -122,30 +119,63 @@
     if(!start){
       filesub.disabled = true;
       filein.disabled = true;
+      filesub.display = "none";
       filesub.style.visibility = "hidden";
       filesub.style.opacity = "0";
+      setTimeout(() => {
+        filesub.style.order = 2;
+        loader2.style.order = 1;
+        if(!check){
+          setTimeout(() => {
+            loader2.classList.add("display");
+          }, 250);
+        } else {
+          check = 0;
+        }
+      }, 660);
       start = 1;
       url = window.URL.createObjectURL(file);
       await compressPDF(url, file.name);
+      check = 1;
       loader2.classList.remove("display");
+      loader2.style.order = 3;
+      afile.style.order = 1;
+      setTimeout(() => {
+        afile.style.display = "block";
+      }, 200)
+      setTimeout(() => {
+        afile.style.visibility = "visible";
+        afile.style.opacity = "1";
+      }, 600);
       return false;
     } else {
-      afile.style.display = "none";
-      window.URL.revokeObjectURL(pdfURLs);
-      filein.disabled = false;
       filesub.style.visibility = "hidden";
       filesub.style.opacity = "0";
       filesub.disabled = true;
-      setTimeout(() => {filesub.textContent = "Submit";}, 1500);
+      afile.style.visibility = "hidden";
+      afile.style.opacity = "0";
+      setTimeout(() => {
+        filesub.style.order = 1;
+        afile.style.order = 3;
+        loader2.style.order = 2;
+      }, 600);
+      filein.disabled = false;
+      window.URL.revokeObjectURL(pdfURLs);
+      setTimeout(() => {filesub.textContent = "Submit";}, 1400);
       start = 0;
+      check = 0;
     }
   })
 
   afile.addEventListener("click", (e) => {
+    loader2.style.order = 3;
     filesub.textContent = "Restart";
     filesub.disabled = false;
-    filesub.style.visibility = "visible";
-    filesub.style.opacity = "1";
+    filesub.style.display = "block";
+    setTimeout(() => {
+      filesub.style.visibility = "visible";
+      filesub.style.opacity = "1";
+    }, 200);
     return false;
   })
 </script>

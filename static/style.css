@@ -196,6 +196,13 @@ input:checked + .slider {
             font-size: 16px !important;
         }
     }
+    #flexfile {
+        margin-bottom: 1.6em !important;
+    }
+    #filesub {
+        margin-top: 1.5em !important;
+        margin-bottom: 0.5em !important;
+    }
 }
 
 @media only screen and (max-width: 920px) and (min-width: 600px){
@@ -610,9 +617,10 @@ button {
 }
 
 #loading2 {
-    margin-top: 1.3em;
-    margin-left: 1.3em !important;
-    margin-bottom: 0.6em;
+    margin-top: 1.8em;
+    margin-left: 1.6em !important;
+    margin-bottom: 0.3em;
+    order: 2;
 }
 
 #thanks {
@@ -624,9 +632,11 @@ button {
     max-height: 2rem;
 }
 
-#flexfile, #flexload {
+#flexfile {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 2em;
 }
 
 .add {
@@ -656,26 +666,38 @@ button {
 #filesub {
     margin-left: 0.8em;
     margin-top: 1.5em;
+    order: 1;
 }
 
 #afile {
     border: 0.1em solid #000;
-    padding: 0.5em;
+    padding: 0.4em;
+    height: 1.8em;
     width: fit-content;
     border-radius: 0.5em;
     color: white;
     font-size: medium;
+    text-align: center;
     font-weight: 550 !important;
     background-color: #38387f;
-    margin-top: 1em;
-    margin-bottom: 0.6em;
+    margin-top: 1.4em;
+    margin-bottom: 0.3em;
+    margin-left: 0.8em;
     text-decoration: none;
+    order: 3;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
 }
 
 #filein {
     margin-top: 1em;
     padding: 1em;
     border: 0.1em solid black;
+    order: 0;
 }
 
 main {
