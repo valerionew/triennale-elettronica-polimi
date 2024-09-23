@@ -489,6 +489,15 @@ You can do it down below &#x2b07;&#xfe0f; or open an issue on <a href="https://g
       window.location.hash = "#send-us-directly-your-files-open_file_folder";
     }))
 
+    document.querySelectorAll('a[href="#compress-your-pdf"]').forEach((a) => a.addEventListener("click", (e) => {
+      e.preventDefault();
+      document.documentElement.style.scrollBehavior = "smooth";
+      const y = document.getElementById("compress-your-pdf").offsetTop;
+      const offset = document.querySelector(".sticky-header").offsetHeight;
+      window.scrollTo({top:y-offset-10, behavior:"smooth"});
+      window.location.hash = "#compress-your-pdf";
+    }))
+
     var timeout = null;
     var form = document.getElementById("form");
     var status = document.getElementById("my-form-status");
