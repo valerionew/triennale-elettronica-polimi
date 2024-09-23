@@ -10,8 +10,11 @@
 - Built with [Hugo](https://gohugo.io/) and hosted on [Github Pages](https://pages.github.com/) and [Netlify](https://www.netlify.com/)
 - [Bearblog](https://github.com/janraasch/hugo-bearblog) theme (slightly modified)
 - HTML and Google forms to send questions and files to maintainers (through an [API written in Go](https://github.com/TIT8/go-api)) :email:
-- Dark and light mode :sun_with_face:/:last_quarter_moon_with_face:  
-- Love for electronics :heart:   
+- Dark and light mode :sun_with_face:/:last_quarter_moon_with_face:
+- High quality PDF compression directly in the browser for free [^1]
+- Love for electronics :heart:
+
+[^1]: Thanks to [Laurent Meyer](https://github.com/laurentmmeyer)
 
 # To contribute, please refer to the [wiki](https://github.com/valerionew/triennale-elettronica-polimi/wiki/How-to-add-new-notes)
 
@@ -21,3 +24,5 @@
 # [Report Copyright Violation](https://github.com/valerionew/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
 
 [![Copyright violation](https://img.shields.io/badge/copyright-violation-red?style=flat)](https://github.com/valerionew/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
+
+<br>
