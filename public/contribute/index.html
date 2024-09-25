@@ -73,6 +73,11 @@ Se hai del materiale di cui possiedi i diritti e lo vorresti rendere disponibile
             }
           }, 70);
         }
+        if (window.location.hash) {
+            setTimeout(function () {
+              window.location.href = location.hash;
+            }, 300);
+        }
       });
     } else {
       window.addEventListener('unload', function(){});

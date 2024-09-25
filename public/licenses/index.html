@@ -80,6 +80,11 @@ In general, except otherwise specified, the author’s material and the other ri
             }
           }, 70);
         }
+        if (window.location.hash) {
+            setTimeout(function () {
+              window.location.href = location.hash;
+            }, 300);
+        }
       });
     } else {
       window.addEventListener('unload', function(){});

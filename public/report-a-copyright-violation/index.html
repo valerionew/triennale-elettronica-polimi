@@ -104,6 +104,11 @@ Guided Report Issue on GitHub: If you have a GitHub account, you can report copy
             }
           }, 70);
         }
+        if (window.location.hash) {
+            setTimeout(function () {
+              window.location.href = location.hash;
+            }, 300);
+        }
       });
     } else {
       window.addEventListener('unload', function(){});

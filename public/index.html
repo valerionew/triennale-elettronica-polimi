@@ -81,6 +81,11 @@ Primo anno Analisi 1 Chimica Informatica Geometria e algebra lineare Fisica 1 Ec
             }
           }, 70);
         }
+        if (window.location.hash) {
+            setTimeout(function () {
+              window.location.href = location.hash;
+            }, 300);
+        }
       });
     } else {
       window.addEventListener('unload', function(){});

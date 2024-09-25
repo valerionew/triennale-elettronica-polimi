@@ -97,6 +97,11 @@ You can do it down below ⬇️ or open an issue on Github. ➡️ Here you can 
             }
           }, 70);
         }
+        if (window.location.hash) {
+            setTimeout(function () {
+              window.location.href = location.hash;
+            }, 300);
+        }
       });
     } else {
       window.addEventListener('unload', function(){});
