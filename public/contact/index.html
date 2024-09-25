@@ -97,6 +97,13 @@ You can do it down below ⬇️ or open an issue on Github. ➡️ Here you can 
             }
           }, 70);
         }
+        if (window.location.hash) {
+            setTimeout(function () {
+                var hash = window.location.hash;
+                window.location.hash = "";
+                window.location.hash = hash;
+            }, 300);
+        }
       });
     } else {
       window.addEventListener('unload', function(){});
@@ -486,7 +493,7 @@ You can do it down below &#x2b07;&#xfe0f; or open an issue on <a href="https://g
       const y = document.getElementById("send-us-directly-your-files-open_file_folder").offsetTop;
       const offset = document.querySelector(".sticky-header").offsetHeight;
       window.scrollTo({top:y-offset-10, behavior:"smooth"});
-      window.location.hash = "#send-us-directly-your-files-open_file_folder";
+      history.pushState(null, null, "#send-us-directly-your-files-open_file_folder");
     }))
 
     document.querySelectorAll('a[href="#compress-your-pdf"]').forEach((a) => a.addEventListener("click", (e) => {
@@ -495,7 +502,7 @@ You can do it down below &#x2b07;&#xfe0f; or open an issue on <a href="https://g
       const y = document.getElementById("compress-your-pdf").offsetTop;
       const offset = document.querySelector(".sticky-header").offsetHeight;
       window.scrollTo({top:y-offset-10, behavior:"smooth"});
-      window.location.hash = "#compress-your-pdf";
+      history.pushState(null, null, "#compress-your-pdf");
     }))
 
     var timeout = null;

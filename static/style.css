@@ -180,7 +180,7 @@ input:checked + .slider {
         padding: 0.2em;
     }
     h1[id], h2[id], h3[id], h4[id] {
-        scroll-margin-top: 5.2em !important;
+        scroll-margin-top: 5.3em !important;
     }
     input {
         max-width: 93% !important;
@@ -266,19 +266,20 @@ a {
 }
 
 h1[id], h2[id], h3[id], h4[id] {
-    scroll-margin-top: 3.8em;
+    scroll-margin-top: 3.9em;
 }
 
 _::-webkit-full-page-media, _:future, :root h1[id], h2[id], h3[id], h4[id] { 
     padding-top: 1.5em !important;
     margin-top: -1.5em !important;
-    scroll-snap-margin: 3.9em;
+    scroll-snap-margin: 2.4em;
 }
 
 .sticky-header {
     background-color: var(--body-background-color);
     position: sticky;
-    top: 0;
+    position: -webkit-sticky;
+    top: -0.01px;
     z-index: 100;
     transition: all 0.5s;
     -moz-transition: all 0.5s;

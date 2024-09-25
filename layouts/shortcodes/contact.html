@@ -201,7 +201,7 @@
       const y = document.getElementById("send-us-directly-your-files-open_file_folder").offsetTop;
       const offset = document.querySelector(".sticky-header").offsetHeight;
       window.scrollTo({top:y-offset-10, behavior:"smooth"});
-      window.location.hash = "#send-us-directly-your-files-open_file_folder";
+      history.pushState(null, null, "#send-us-directly-your-files-open_file_folder");
     }))
 
     document.querySelectorAll('a[href="#compress-your-pdf"]').forEach((a) => a.addEventListener("click", (e) => {
@@ -210,7 +210,7 @@
       const y = document.getElementById("compress-your-pdf").offsetTop;
       const offset = document.querySelector(".sticky-header").offsetHeight;
       window.scrollTo({top:y-offset-10, behavior:"smooth"});
-      window.location.hash = "#compress-your-pdf";
+      history.pushState(null, null, "#compress-your-pdf");
     }))
 
     var timeout = null;

@@ -26,6 +26,20 @@
 
         window.onscroll = function () { scrollFunction() };
 
+        var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+        if(isSafari){
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    let href_saf = this.getAttribute('href');
+                    let target = document.querySelector(href_saf);            
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        history.pushState(null, null, href_saf);
+                    }
+                });
+            });
+        }
     })
 
 
@@ -43,7 +57,7 @@
         const offset = document.querySelector(".sticky-header").offsetHeight;
         window.clearTimeout(tim);
         window.scrollTo({top:y-offset-10});
-        window.location.hash = "#table-of-contents";
+        history.pushState(null, null, "#table-of-contents");
         setTimeout(() => {document.querySelector("#goup").blur();}, 600);
     }
 
