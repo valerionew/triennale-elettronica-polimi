@@ -14,7 +14,7 @@
 - High quality PDF compression directly in the browser for free [^1]
 - Love for electronics :heart:
 
-[^1]: Thanks to [Laurent Meyer](https://github.com/laurentmmeyer)
+[^1]: Thanks to [Laurent Meyer](https://github.com/laurentmmeyer/ghostscript-pdf-compress.wasm)
 
 # To contribute, please refer to the [wiki](https://github.com/valerionew/triennale-elettronica-polimi/wiki/How-to-add-new-notes)
 
