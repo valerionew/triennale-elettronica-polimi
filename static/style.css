@@ -20,6 +20,8 @@
     --svg1-color: white;
     --svg2-color: rgb(195, 140, 0);
     --goup-hover-color: rgb(222, 217, 217);
+    --github-color: black;
+    --telegram-color: rgb(73, 135, 172);
 }
 
 [data-dark-mode] {
@@ -44,6 +46,8 @@
     --svg1-color: rgb(16, 18, 154);
     --svg2-color: white;
     --goup-hover-color: rgb(207, 207, 207);
+    --github-color: white;
+    --telegram-color: rgb(78, 183, 228);
 }
 
 html {
@@ -171,9 +175,12 @@ input:checked + .slider {
 
 @media only screen and (max-width: 600px) {
     li {
-        margin-left: -1em;
+        margin-left: -1.3em;
     }
     ul {
+        margin-left: -0.2em;
+    }
+    ol {
         margin-left: -0.2em;
     }
     nav a {
@@ -255,6 +262,14 @@ a {
     /*color: #ff5e6c;*/
 }
 
+a.github_logo {
+    color: var(--github-color) !important;
+}
+
+a.telegram_logo {
+    color: var(--telegram-color) !important;
+}
+
 .title {
     text-decoration: none;
     border: 0;
@@ -281,6 +296,8 @@ _::-webkit-full-page-media, _:future, :root h1[id], h2[id], h3[id], h4[id] {
     position: -webkit-sticky;
     top: -0.01px;
     z-index: 100;
+    margin-left: -0.2em;
+    margin-right: -0.2em;
     transition: all 0.5s;
     -moz-transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -463,6 +480,10 @@ footer {
 ul.blog-posts {
     list-style-type: none;
     padding: unset;
+}
+
+li {
+    margin-top: 0.4em;
 }
 
 ul.blog-posts li {
