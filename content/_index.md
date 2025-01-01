@@ -331,6 +331,7 @@ First year
 *   VHDL snippets for Visual Studio code, lets you spare a lot of time, especially writing test benches - [view online](https://gist.github.com/valerionew/3f3fb06988160b60b82bde3496311a7f)
 *   VHDL Code for the labs (2021, labs may have changed) - [repo](https://github.com/valerionew/desd-labs)
 *   Notes on the theory by _Luca Daidone_ - [Download](4/DESD/DESD-Theory-Daidone.pdf)
+*   Course notes by _Marco La Barbera_ - [Download](4/DESD/DESD_Marco_La_Barbera.pdf)
 
 ### Biochip
 
