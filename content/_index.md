@@ -409,6 +409,7 @@ TAB 1
 ### Quantum Communications
 
 *   Course notes by _Andrea Al Muktash_ - [Download](TAB1/QuantumCommunications/QuantumCommuncations-AlMuktash.pdf)
+*   Course notes by _Riccardo Moleri_ - [Download](TAB1/QuantumCommunications/QuantumCommunications_Riccardo_Moleri-min.pdf)
 
 &nbsp;
 
