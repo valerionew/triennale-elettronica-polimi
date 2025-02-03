@@ -115,6 +115,7 @@ Primo anno
 *   L'arcinoto [Eserciziario di geometria di _Claretta Carrara_](http://science.unitn.it/~carrara/ESERCIZIARIO) - [Mirror](1/GAL/carrara.pdf) {{< asterisk >}}
 *   Estratto dei suggerimenti dell'eserciziario di _Claretta Carrara_ [Download](1/GAL/carraraEstratto.pdf) {{< asterisk >}}
 *   Appunti sulla teoria del primo parziale di _Vito Sciascia_ - [Cartella](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/1/GAL/PrimoParzialeTeoria/)
+*   Appunti sulla teoria del secondo parziale di _Vito Sciascia_ - [Cartella](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/1/GAL/SecondoParzialeTeoria/)
 
 ### Fisica 1
 
