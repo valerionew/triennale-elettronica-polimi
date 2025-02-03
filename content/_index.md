@@ -101,6 +101,8 @@ Primo anno
 *   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Q4hy2Rgb#7iPOP8n_X9mUllrrs1OyyQ) {{< asterisk >}}
 *   Tabella riassuntiva [Orto-Meta-Para orientanti](1/Chimica/OMPBenzene.pdf)
 *   Appunti di _Pietro Giannoccaro_ - [Download](1/Chimica/appuntiGiannoccaro.pdf)
+*   Slide delle esercitazioni del Prof. Secundo Lorenzo - [Download](1/Chimica/SecundoSlideChimica.pdf)
+*   Appunti di Sciascia Vito - [Download](1/Chimica/TEORIA_FINAL.pdf)
 
 ### Informatica
 
