@@ -391,6 +391,7 @@ TAB 1
 
 *   Course notes by _Guido Rolle_ - [Notes](TAB1/HardwareAccelerators/HardwareAccelerators.pdf) - [Markdown source](TAB1/HardwareAccelerators/HWACC.md)
 *   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1NLIfOZ-jwgkg6_cyv0STUiMOF6GvWFJT) {{< asterisk >}}
+*   Course notes by _Alessandro Lazzaroni_ - [Notes](TAB1/HardwareAccelerators/DOHA_Lazzaroni.pdf)
 
 ### Optical Measurements
 
