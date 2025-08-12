@@ -101,6 +101,7 @@ Primo anno
 *   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Q4hy2Rgb#7iPOP8n_X9mUllrrs1OyyQ) {{< asterisk >}}
 *   Tabella riassuntiva [Orto-Meta-Para orientanti](1/Chimica/OMPBenzene.pdf)
 *   Appunti di _Pietro Giannoccaro_ - [Download](1/Chimica/appuntiGiannoccaro.pdf)
+*   Appunti di Vito Sciascia - [Download](1/Chimica/TEORIA_FINAL-min.pdf)
 
 ### Informatica
 
@@ -115,6 +116,7 @@ Primo anno
 *   L'arcinoto [Eserciziario di geometria di _Claretta Carrara_](http://science.unitn.it/~carrara/ESERCIZIARIO) - [Mirror](1/GAL/carrara.pdf) {{< asterisk >}}
 *   Estratto dei suggerimenti dell'eserciziario di _Claretta Carrara_ [Download](1/GAL/carraraEstratto.pdf) {{< asterisk >}}
 *   Appunti sulla teoria del primo parziale di _Vito Sciascia_ - [Cartella](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/1/GAL/PrimoParzialeTeoria/)
+*   Appunti sulla teoria del secondo parziale di _Vito Sciascia_ - [Cartella](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/1/GAL/SecondoParzialeTeoria/)
 
 ### Fisica 1
 
