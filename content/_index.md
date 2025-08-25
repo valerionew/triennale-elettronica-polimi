@@ -315,6 +315,7 @@ First year
 *   Course notes by _Luca Colombo_ - [Download](4/SignalRecovery/SignalRecovery.pdf)
 *   Cheat sheet by _Giacomo Tombolan_ - [Download](4/SignalRecovery/TOMBOLAN_SR_CHEAT_SHEET.pdf)
 *   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1oWAigQAJpLHzZl8WDYJxM7WvihO_sY8T) {{< asterisk >}} - [Mirror](4/SignalRecovery/compressed-SignalRecovery-MattiaAmadori.pdf)
+*   Answers to theoretical questions by _Alessandro Lazzaroni_ - [Download](4/SignalRecovery/SR_theory_Lazzaroni.pdf)
 
 ### RF Circuit Design
 
@@ -332,6 +333,7 @@ First year
 *   VHDL Code for the labs (2021, labs may have changed) - [repo](https://github.com/valerionew/desd-labs)
 *   Notes on the theory by _Luca Daidone_ - [Download](4/DESD/DESD-Theory-Daidone.pdf)
 *   Course notes by _Marco La Barbera_ - [Download](4/DESD/DESD_Marco_La_Barbera.pdf)
+*   VIVADO notes by _Alessandro Lazzaroni_ - [Download](4/DESD/DESD_vivado_Lazzaroni.pdf)
 
 ### Biochip
 
