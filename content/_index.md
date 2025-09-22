@@ -293,6 +293,9 @@ First year
 *   Oral questions complete notes by _Giacomo Tombolan_ - [Download](4/Analog/AnalogCircuitDesign_TOMBOLAN.pdf)   
 *   Course notes by _Michelangelo Burattini_ - [Download](4/Analog/analog_burattini.pdf)
 *   Oral questions notes (2025) by _Sara Spagnoli_ - [Download](4/Analog/Analog_Theory_Spagnoli.pdf)
+*   Course notes (2024-2025 with BJTs program) by _Alessandro Lazzaroni_ - [Download](4/Analog/ACD_Lazzaroni_24_25.pdf)
+*   Course notes (2024-2025 with BJTs program) by _Emanuele Moroni_ - [Download](4/Analog/Teoria_ACD_Moroni_24_25.pdf)
+*   Exercise classes (2024-2025 with BJTs program) by _Emanuele Moroni_ - [Download](4/Analog/Esercitazioni_ACD_Moroni_24-25.pdf)
 
 ### MEMS and Microsensors
 
