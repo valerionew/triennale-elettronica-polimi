@@ -292,6 +292,7 @@ First year
 *   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1EHAdoGCdYNnAqupD2ju8tO2S0vs1d0OL) {{< asterisk >}} - [Mirror (notes)](4/Analog/compressed-AnalogDesign-MattiaAmadori.pdf) - [Mirror (recap)](4/Analog/compressed-AnalogRiassunto-MattiaAmadori.pdf)  
 *   Oral questions complete notes by _Giacomo Tombolan_ - [Download](4/Analog/AnalogCircuitDesign_TOMBOLAN.pdf)   
 *   Course notes by _Michelangelo Burattini_ - [Download](4/Analog/analog_burattini.pdf)
+*   Oral questions notes (2025) by _Sara Spagnoli_ - [Download](4/Analog/Analog_Theory_Spagnoli.pdf)
 
 ### MEMS and Microsensors
 
@@ -413,6 +414,7 @@ TAB 1
 
 *   Course notes by _Andrea Al Muktash_ - [Download](TAB1/QuantumCommunications/QuantumCommuncations-AlMuktash.pdf)
 *   Course notes by _Riccardo Moleri_ - [Download](TAB1/QuantumCommunications/QuantumCommunications_Riccardo_Moleri-min.pdf)
+*   Course notes by _Sara Spagnoli_ - [Download](TAB1/QuantumCommunications/Quantum_Notes_Spagnoli.pdf)
 
 &nbsp;
 
