@@ -277,7 +277,7 @@ Prerequisites
 
 ### TikZ/PGF and CircuitikZ for LaTeX
 
-*   A hands-on manual for plots and circuit schematics in LaTeX by _Giovanni Altieri_ - [Download](4/Prerequisites/TikZ_Altieri.pdf)
+*   A hands-on manual for plots and circuit schematics in LaTeX by _Giovanni Altieri_ - [Download](4/Prerequisites/TikZ_Manual.pdf)
 
 ### Webex links
 
