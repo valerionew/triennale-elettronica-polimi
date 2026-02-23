@@ -42,7 +42,7 @@ _🇬🇧 &nbsp;Compilation of copyright-free or redistributable materials, bene
 - [Master of science (Laurea magistrale) 🇬🇧](#master-of-science-laurea-magistrale-)
   - [Prerequisites](#prerequisites)
     - [Circuit feedback theory](#circuit-feedback-theory)
-    - [TikZ/PGF and CircuitikZ for Latex](#TikZ/PGF-and-CircuitikZ-for-LaTeX)
+    - [TikZ/PGF and CircuitikZ for Latex](#tikzpgf-and-circuitikz-for-latex)
     - [Webex links](#webex-links)
   4. [First year](#first-year)
       - [Analog Circuit Design](#analog-circuit-design)
