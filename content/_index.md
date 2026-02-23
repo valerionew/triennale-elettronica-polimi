@@ -42,6 +42,7 @@ _🇬🇧 &nbsp;Compilation of copyright-free or redistributable materials, bene
 - [Master of science (Laurea magistrale) 🇬🇧](#master-of-science-laurea-magistrale-)
   - [Prerequisites](#prerequisites)
     - [Circuit feedback theory](#circuit-feedback-theory)
+    - [TikZ/PGF and CircuitikZ for Latex](#tikzpgf-and-circuitikz-for-latex)
     - [Webex links](#webex-links)
   4. [First year](#first-year)
       - [Analog Circuit Design](#analog-circuit-design)
@@ -273,6 +274,10 @@ Prerequisites
 ### Circuit feedback theory
 
 *   Notes on feedback in circuits by _Giacomo Tombolan_ - [Download](4/Prerequisites/Feedback.pdf)
+
+### TikZ/PGF and CircuitikZ for LaTeX
+
+*   A hands-on manual for plots and circuit schematics in LaTeX by _Giovanni Altieri_ - [Download](4/Prerequisites/TikZ_Manual.pdf)
 
 ### Webex links
 
