@@ -317,6 +317,7 @@ First year
 *   Course notes by _Francesco Forestieri_ - [Theory](4/ElectronicSystems/ES_notes_theory_Forestieri.pdf) - [Exercises](4/ElectronicSystems/ES_notes_exercise_Forestieri.pdf) - [Summary](4/ElectronicSystems/ES_notes_summaries_Forestieri.pdf) - [Oral questions](4/ElectronicSystems/ES_Possible_Oral_Questions_Forestieri.pdf)
 *   Course notes by _Luca Colombo_ - [Download](4/ElectronicSystems/ElectronicSystems.pdf)
 *   Course notes by _Mattia Amadori_ - [Folder](https://drive.google.com/drive/folders/1RIdzefSzCJRy1k41KNpi7umDvHbOc3Cc) {{< asterisk >}} - [Mirror (folder)](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/4/ElectronicSystems/SlidesAmadori)
+*   Course notes by _Lorenzo Pirovano_ - [Download](4/ElectronicSystems/ES_note_Lorenzo_Pirovano.pdf)
 
 ### Signal Recovery
 
