@@ -95,13 +95,15 @@ Primo anno
 
 *   Formulario di _[Giuseppe Chierchia](https://docs.google.com/viewer?a=v&pid=explorer&chrome=true&srcid=0B4W4yLtAkKPZYjc3ZDdmN2MtMTk0OC00ZTkyLTk1ZDgtOGFhZDg3N2JjYTM5&hl=it)_ - [Mirror](1/AM1/formularioAM1chierchia.pdf) {{< asterisk >}}
 *   Dimostrazioni dei teoremi di _Alessio Serraino_ - [Visita](http://serrainoalessio.github.io/math/teoremi_analisi/index.html)
-*   Appunti sulla teoria del primo parziale di _Vito Sciascia_ - [Cartella](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/1/AM1/PrimoParzialeTeoria/)
+*   Appunti sulla teoria del primo parziale di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org) [Download](1/AM1/PrimoParzialeTeoria.pdf)
+*   Appunti sulla teoria del secondo parziale di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org) [Download](1/AM1/SecondoParzialeTeoria.pdf)
 
 ### Chimica
 
 *   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Q4hy2Rgb#7iPOP8n_X9mUllrrs1OyyQ) {{< asterisk >}}
 *   Tabella riassuntiva [Orto-Meta-Para orientanti](1/Chimica/OMPBenzene.pdf)
 *   Appunti di _Pietro Giannoccaro_ - [Download](1/Chimica/appuntiGiannoccaro.pdf)
+*   Appunti di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org) [Download](1/Chimica/TEORIA_FINAL-min.pdf)
 
 ### Informatica
 
@@ -121,10 +123,12 @@ Primo anno
 
 *   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/QxRm0JCZ#B05MLcw3tU8x4eFMoLGwUA) {{< asterisk >}}
 *   Formulario di [_Giuseppe Chierchia_](https://sites.google.com/view/giuseppechierchia/materiale-tecnico) - [Mirror](1/Fisica1/FormularioFIS1chierchia.pdf) {{< asterisk >}}
+*   Appunti sulla teoria e alcune dimostrazioni di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org) [Download](1/Fisica1/Fisica_1_Teoria.pdf)
 
 ### Economia
 
 *   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/opRGzb4C#6ezLCsyGkJBtRo7L1u8oKQ) {{< asterisk >}}
+*   Appunti  di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org)
 
 &nbsp;
 
@@ -138,6 +142,7 @@ Secondo anno
 *   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/w5hgjDKD#Se9OADU_LmcbxUlFfTzs8Q) {{< asterisk >}}
 *   Formulario di [_Giuseppe Chierchia_](https://sites.google.com/view/giuseppechierchia/materiale-tecnico) - [Mirror](2/AM2/formularioAM2chierchia.pdf) {{< asterisk >}}
 *   [Domande tipiche degli orali](http://www1.mate.polimi.it/~bramanti/corsi/temidesame_analisi2/domande_orali_2019.pdf) - [Mirror](2/AM2/domande_orali_2019.pdf)
+*   Appunti  di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org)
 
 ### Elettromagnetismo ed ottica
 
@@ -146,18 +151,21 @@ Secondo anno
 *   Rifrazione e riflessione dal principio di fermat [da batmath.it](http://www.batmath.it/fisica/fondamenti/rifl_rifr/rifl_rifr.htm) {{< asterisk >}}
 *   Formulario di [_Giuseppe Chierchia_](https://sites.google.com/view/giuseppechierchia/materiale-tecnico) - [Mirror](2/EEO/formularioEEOchierchia.pdf) {{< asterisk >}}
 *   Domande di teoria degli esami - [Link](https://github.com/valerionew/triennale-elettronica-polimi/blob/master/static/2/EEO/domandeTeoria.md)
+*   Appunti  di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org)
 
 ### Elettrotecnica
 
 *   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/Ex42mByZ#wD6G5eFB01aDDTVMqzuKXg) {{< asterisk >}}
 *   Raccolta di temi d'esame a cura di _Dino Ghilardi_ (_CC BY-NC-SA 3.0_) - [Link](https://damore.faculty.polimi.it/download/temiDEsame.pdf) - [Mirror](2/Elettrotecnica/temiDEsame.pdf)
 *   Compendio/formulario di _Pietro Giannoccaro_ - [Download](2/Elettrotecnica/formularioGiannoccaro.pdf)
+*   Appunti  di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org)
 
 ### Fondamenti di automatica
 
 *   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/ZsAAVRgK#zqkxEcOdi1VYIzRtDY2rkw) {{< asterisk >}}
 *   Risposte ad alcune tipiche domande di teoria - [Download](2/FDA/teoria_automatica.pdf)
 *   Appunti di _Giacomo Tombolan_ del corso - Download: [Parte 1](2/FDA/appuntiTombolan/1_TOMBOLAN_AUTOMATICA_CORNO_2018.pdf) - [Parte 2](2/FDA/appuntiTombolan/33_TOMBOLAN_AUTOMATICA_CORNO_2018.pdf) - [Parte 3](2/FDA/appuntiTombolan/61_TOMBOLAN_AUTOMATICA_CORNO_2018.pdf)
+*   Appunti  di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org)
 
 ### Dispositivi elettronici
 
@@ -166,12 +174,14 @@ Secondo anno
 *   Collezione di esercizi svolti (alcuni sbagliati o incompleti, la maggior parte giusti) - [Download](2/DE/HomeworkS.zip)
 *   Formulario di _Alessio Serraino_ - [Download](2/DE/formularioSerraino.pdf)
 *   Riassunti del corso di _Luca Daidone_ - [Download](2/DE/Dispositivi-riassunti.pdf)
+*   Appunti  di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org)
 
 ### Architetture dei calcolatori
 
 *   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/MhhWHT4D#9UOTcMcP_jEpYdLmhsp6bQ) {{< asterisk >}}
 *   Appunti di _Pietro Giannoccaro_ - [Download](2/ArchCalc/ArchitettureDeiCalcolatori-PietroGiannoccaro.pdf)
 *   Brevi appunti manoscritti - [Download](2/ArchCalc/appuntiArchCalc.pdf)
+*   Appunti  di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org)
 
 ### Fondamenti di elettronica
 
@@ -179,6 +189,7 @@ Secondo anno
 *   Appunti di lezioni ed esercitazioni di _Francesco Bossio_ - [Cartella](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/2/FDE/appuntiBossio)
 *   Appunti di _Giacomo Tombolan_ del corso - Download [Parte 1](2/FDE/appuntiTombolan/1_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 2](2/FDE/appuntiTombolan/22_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 3](2/FDE/appuntiTombolan/38_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 4](2/FDE/appuntiTombolan/53_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 5](2/FDE/appuntiTombolan/73_TOMBOLAN_FDE_2018_APPUNTI.pdf)
 *   [Alcune domande degli esami orali](https://github.com/valerionew/triennale-elettronica-polimi/blob/master/static/2/FDE/domandeElettronica.md)
+*   Appunti  di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org)
 
 &nbsp;
 
@@ -195,10 +206,12 @@ Terzo anno
 *   Appunti rapidi di elettronica digitale di _Lorenzo Rossi_ - [Download](3/Digitale/appunti_digitale.pdf) - [Sorgenti LaTeX](https://github.com/valerionew/triennale-elettronica-polimi/blob/master/static/3/Digitale/appunti_digitale.tex)
 *   Esercizi in VHDL [https://github.com/valerionew/elettronica-digitale-notes](https://github.com/valerionew/elettronica-digitale-notes)
 *   Formulario di _Mario Caliò_ - [Download](3/Digitale/formulario_VHDL_Calio.pdf)
+*   Appunti  di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org)
 
 ### Elettronica analogica
 
 *   Materiale del _Prof. Sampietro_: [https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html](https://sampietro.faculty.polimi.it/didattica/ElAnscaricabile.html) - [Mirror](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/static/3/Analogica) {{< asterisk >}}
+*   Appunti  di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org)
 
 ### Fondamenti di segnali
 
@@ -209,6 +222,7 @@ Terzo anno
 *   Formulario _prof. Prati_ - [Link diretto](http://home.deib.polimi.it/prati/PwPoint/formularioSegnali.pdf) - [Mirror](3/Segnali/formularioProfPrati.pdf) {{< asterisk >}}
 *   Formulario del _prof. Barbagallo_ - [Link diretto](https://www.unirc.it/documentazione/materiale_didattico/599_2009_200_5021.pdf) - [Mirror](3/Segnali/formularioBarbagallo.pdf) {{< asterisk >}}
 *   :warning: Appunti di _B. Berasategi_ **in inglese** _(Notes by B. Berasategi **in English**)_ - [Download](3/Segnali/notesBerasategi_eng.pdf) :warning:
+*   Appunti  di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org)
 
 🇮🇹 &nbsp; _Nota su appunti di B. Berasategi_: Non sono riuscito a mettermi in contatto con l'autore per chiedere il permesso di pubblicazione. Per ora l'ho condiviso perché mi sembra un ottimo lavoro e, dal fatto che ha dato ai docenti il permesso di diffonderlo, ho supposto che non ci siano problemi. Per qualsiasi problema, vedere la sezione [Report]({{< ref "report-a-copyright-violation.md" >}}).
 
@@ -233,6 +247,7 @@ Terzo anno
 *   Appunti di _Andrea Bertazzoni_ - [Download](3/CEM/campiBertazzoni.pdf)
 *   Temi d'esame risolti di _Andreja Marinkovic_ - [Download](3/CEM/campiTemiDEsameMarinkovic.pdf)
 *   Appunti di _Andrea Al Muktash_ - [Download](3/CEM/campiAlMuktash.pdf)
+*   Appunti  di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org)
 
 ### Macchine elettriche
 
@@ -245,18 +260,21 @@ Terzo anno
 *   Formulario di _Lorenzo Rossi_ - [Repository](https://github.com/lorossi/formulario-stato-solido) - [Link diretto](https://github.com/lorossi/formulario-stato-solido/raw/master/formulario-elettronica-dello-stato-solido.pdf) - [Mirror](3/ESS/formulario-elettronica-dello-stato-solido.pdf)
 *   Appunti di _Mattia Marinoni_ - [Download](3/ESS/appuntiMarinoni.pdf)
 *   Appunti di _Andrea Al Muktash_ - [Download](3/ESS/elettronica_stato_solidoAlMuktash.pdf)
+*   Appunti  di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org)
 
 ### Optoelettronica
 
 *   Appunti di _Lorenzo Perlo_ - [Cartella](https://mega.nz/folder/4so2WSLT#mz8ZNMKP3FTHZ4VB7UFIhg) {{< asterisk >}}
 *   Formulario di _Lorenzo Rossi_ e raccolta di domande di teoria - [Download](https://github.com/lorossi/formulario-optoelettronica/raw/master/formulario-optoelettronica.pdf) - [Mirror](3/Optoelettronica/formularioRossiOpto.pdf) - [Repository](https://github.com/lorossi/formulario-optoelettronica)
 *   Appunti di _Andrea Al Muktash_ - [Download](3/Optoelettronica/optoelettronicaAlMuktash.pdf)
+*   Appunti  di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org)
 
 ### Elementi di analisi funzionale e trasformate
 
 *   Appunti di _Andrea Bertazzoni_ - [Download](3/Trasformate/appuntiTrasformateBertazzoni.pdf)
 *   Risposte alle domande tipo di teoria di _Andrea Bertazzoni_ - [Download](3/Trasformate/teoriaTrasformateBertazzoni.pdf)
 *   Appunti di _Andrea Al Muktash_ - [Download](3/Trasformate/analisi_funzAlMuktash.pdf)
+*   Appunti  di _Vito Sciascia_ - [Direct Link](https://electronics.zanellahome.org)
 
 &nbsp;
 
